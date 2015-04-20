@@ -1,0 +1,49 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>DSL - undeclared</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 20 Apr 2015 18:37:19 GMT</lastBuildDate><atom:link href="http://localhost:2368/tag/dsl/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Block Journal</title><description>&lt;p&gt;As part of an excercise for DYL: &lt;a href="http://www.stanford.edu/class/me104b/cgi-bin/"&gt;"Designing your Life"&lt;/a&gt;, I'm maintaining a "block journal" to describe when I get blocked during this week, what type of block that is (according to Jim Adam's &lt;a href="http://www.amazon.com/Conceptual-Blockbusting-Guide-Better-Ideas/dp/0738205370"&gt;Conceptal Blockbusting&lt;/a&gt;), and how that block feels:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday (1/16)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At PennApps and we're at a brainstorming block trying to decide what to build. Caught between the tension of procuring a "flashy demo" vs. solving a meaningful problem. As more of a perceptual block, I think the issue here was trying to be mindful of the practical limitations that we had given the time constraints while working to build something substantial over the course of the weekend. I personally felt a little light-headed and lost in the world of possibilities that we were exposed to.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Saturday (1/17)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Still at PennApps, and I'm stuck on figuring out where to begin with the application that we're working together on. This is probably more of an intellectual block, and it feels sort of like an itch that I can't quite scratch. Though we're all talented and not very choosey engineers, it's hard to decide on an idea that we feel would be worthy of working on for 36 hours. Taking some cues from design thinking, it would probably would have been worth the time to spend a good deal of time just brainstorming before the hackathon.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sunday (1/18)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blocked deciding what to write on for my CS181W course. This feels like an intellectual block because though I feel like I can easily learn enough to write and understand the technical details of any bug really. However, it's hard to decide on a problem that would be substantial enough outisde of technical details to talk about other social and cultural impacts of the bug.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Monday (1/19)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blocked on actually doing work...I think this is more of an emotional block. I think a change of scenary might help - I tend to not do a ton of work in my dorm room. The palpable feeling now is more of a tastelessness or grayness that seems to pervade the senses.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday (1/20)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blocked on how to narrow and focus more pointedly in my paper for CS181W - how do I refine and polish a rough draft effectively. The jagged nature of the paper and the inability to cut material makes it hard for good ideas to sieve through and for a cohesive flow to materialize out of the piece of writing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday (1/21)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blocked on deciding whether to drop a class (&lt;a href="http://shermanleung.com/blog/cs193p"&gt;CS193P&lt;/a&gt;). The palpable feeling here is a shakiness or hesitation probably rooted in what Jim Adams would describe as an emotional block. Despite the hesitation, I begrudlingly know in my hearts of hearts that the right thing to do is to make more time for other classes and commitments.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday (1/22)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blocked on deciding exactly how to approach this next research project dealing with some more serious AI and NLP knowledge that I've been previously privy to. It's an intellectual block that sort of makes me feel a little underprepared and underwhelmed to take on the next step in the process. I'm determined to get over the block just by trying to use the open-source tools that the research provides and getting used to the conceptual parts through the practical side of coding something up.&lt;/p&gt;</description><link>http://localhost:2368/block-journal/</link><guid isPermaLink="false">9585f88d-9c7c-462b-b14b-92b08a230bbc</guid><category>DSL</category><dc:creator>Sherman Leung</dc:creator><pubDate>Sat, 17 Jan 2015 13:38:00 GMT</pubDate></item><item><title>Workview</title><description>&lt;p&gt;I've been taking a d.school course called &lt;a href="http://www.stanford.edu/class/me104b/cgi-bin/"&gt;"Designing your Life"&lt;/a&gt; taught by Dave Evans. As part of this course, we were asked to write about our "workview" as a general statement about what is and what it means to us.&lt;/p&gt;
+
+&lt;p&gt;Given that this is a question with some long-lasting implications, I wanted to post it here to give myself a reference to look back on when I actually started working.&lt;/p&gt;
+
+&lt;p&gt;My view of work, specifically the reasons behind working, can be comprised as three interlocking circles:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Supporting one's livelihood and family  &lt;/li&gt;
+&lt;li&gt;Personal passion/interest for the role  &lt;/li&gt;
+&lt;li&gt;Impact on one's community and the world, in general&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="http://www.ndstudies.org/images/3_circle_venn.gif" alt="Reasons for work"&gt;&lt;/p&gt;
+
+&lt;p&gt;The sweetspot of work for me falls somewhere in the intersection of these three circles. I don't believe there's a fomulaic balance that should be ideal. Instead, I think a person that is satisfied with his/her work is meeting a minimum bar for each of these circles.&lt;/p&gt;
+
+&lt;p&gt;A more interesting conversation is perhaps what should be prioritized if these bars cannot be met. To that question, I believe the order should naturally follow the order of the reasons above. &lt;/p&gt;
+
+&lt;p&gt;Furthermore, one's career doesn't stay stagnant over time. I'm a strong proponent of the idea that there's more to life than just one career. If 7 years is a good measure of how long it takes to master something, than I intend on making the most of the opportunities I have to be truly great at something. We have &lt;a href="http://shermanleung.com/cs106a-sum14/tangents/tangent7.html"&gt;lifetimes&lt;/a&gt; to live within the one we're given, and I think we can make the most out of it by allowing one lifetime to pass before starting a brand new one.&lt;/p&gt;
+
+&lt;p&gt;Finally, I wanted to apply some of the &lt;a href="http://shermanleung.com/blog/lessons-from-marketplace/"&gt;teachings&lt;/a&gt; I had this summer from a program called &lt;a href="http://www.marketplacesiliconvalley.org/"&gt;Marketplace SV&lt;/a&gt;. In this program, we delved deep into a Christian perspective of the theology of work. Specifically, how we as humans have been commissioned to do good work on the earth since Genesis. In one of the talks we heard through the program (by Dave Evans himself actually), we explored how faith when applied to work can lead to an open-ended exploration of what exactly our calling is. Instead of chasing after the "correct" calling at each fork in our lives, as Christians, we need only be concerned about seeking the Kingdom of God first. &lt;/p&gt;</description><link>http://localhost:2368/workview/</link><guid isPermaLink="false">ce0698d7-b1bd-4741-8ac5-ca0f67c80cf0</guid><category>DSL</category><dc:creator>Sherman Leung</dc:creator><pubDate>Fri, 16 Jan 2015 13:27:34 GMT</pubDate></item></channel></rss>

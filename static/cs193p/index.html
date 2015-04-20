@@ -1,0 +1,350 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>CS193P</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=b9281c64ce">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="undeclared">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="CS193P">
+    <meta property="og:description" content="1/12/2015: Concepts: Optionals Optionals are just enums Enumerate  Range: a psuedo-representation of Range: struct Range&amp;lt;T&amp;gt; {       var startIndex: T     var endIndex: T } // note an array's range would be Range&amp;lt;Int&amp;gt; Special syntax for range:...">
+    <meta property="og:url" content="http://localhost:2368/cs193p/">
+    <meta property="og:image" content="http://blog.softwaremedia.com/wp-content/uploads/2013/08/apple-devices.png">
+    <meta property="article:published_time" content="2015-01-08T01:28:51.309Z">
+    <meta property="article:modified_time" content="2015-01-15T09:35:40.394Z">
+    <meta property="article:tag" content="tech">
+    <meta property="article:tag" content="notes">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CS193P">
+    <meta name="twitter:description" content="1/12/2015: Concepts: Optionals Optionals are just enums Enumerate  Range: a psuedo-representation of Range: struct Range&amp;lt;T&amp;gt; {       var startIndex: T     var endIndex: T } // note an array's range would be Range&amp;lt;Int&amp;gt; Special syntax for range:...">
+    <meta name="twitter:url" content="http://localhost:2368/cs193p/">
+    <meta name="twitter:image:src" content="http://blog.softwaremedia.com/wp-content/uploads/2013/08/apple-devices.png">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "undeclared",
+    "author": {
+        "@type": "Person",
+        "name": "Sherman Leung",
+        "image": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg",
+        "url": "http://localhost:2368/author/sherman",
+        "sameAs": "http://shermanleung.com"
+    },
+    "headline": "CS193P",
+    "url": "http://localhost:2368/cs193p/",
+    "datePublished": "2015-01-08T01:28:51.309Z",
+    "dateModified": "2015-01-15T09:35:40.394Z",
+    "image": "http://blog.softwaremedia.com/wp-content/uploads/2013/08/apple-devices.png",
+    "keywords": "tech, notes",
+    "description": "1/12/2015: Concepts: Optionals Optionals are just enums Enumerate  Range: a psuedo-representation of Range: struct Range&amp;lt;T&amp;gt; {       var startIndex: T     var endIndex: T } // note an array&#x27;s range would be Range&amp;lt;Int&amp;gt; Special syntax for range:..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.5">
+    <link rel="alternate" type="application/rss+xml" title="undeclared" href="../rss/index.html">
+</head>
+<body class="post-template tag-tech tag-notes">
+
+    
+
+
+<header class="main-header post-head " style="background-image: url(http://blog.softwaremedia.com/wp-content/uploads/2013/08/apple-devices.png)">
+    <nav class="main-nav overlay clearfix">
+        <a class="back-button icon-arrow-left" href="../">Home</a>
+        <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-tech tag-notes">
+
+        <header class="post-header">
+            <h1 class="post-title">CS193P</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-01-07">07 January 2015</time>  on <a href="../tag/tech/">tech</a>, <a href="../tag/notes/">notes</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <h2 id="1122015">1/12/2015:</h2>
+
+<p><strong>Concepts</strong>: Optionals</p>
+
+<ul>
+<li>Optionals are just enums</li>
+<li>Enumerate </li>
+<li>Range: a psuedo-representation of Range:</li>
+</ul>
+
+<pre><code>struct Range&lt;T&gt; {  
+    var startIndex: T
+    var endIndex: T
+} // note an array's range would be Range&lt;Int&gt;
+</code></pre>
+
+<ul>
+<li>Special syntax for range:</li>
+</ul>
+
+<pre><code>    let array = ["a","b","c","d","e"]
+    let subArray1 = array[2...3] // ["c", "d"]
+    let subArray1 = array[2...3] // ["c"]
+    for i in [27...104] { } //range is enumerable
+</code></pre>
+
+<ul>
+<li>NSobject is the base class for all Objective-C classes (what about best practices in Swift?)
+<ul><li>It seems that Swift classes are inherently linked to these NSObject classes.</li></ul></li>
+<li>NSNumber - generic number-holding class</li>
+<li>NSDate - used to find out date and time; be sure to check localization ramifications here...</li>
+<li>NSData - a "bag o' bits" used to save/restore/transmit raw data</li>
+</ul>
+
+<p><strong>Classes, Structures and Enumerations</strong></p>
+
+<ul>
+<li>Similarities: declaration syntaxes, properties and functions, initliazers.</li>
+<li>Only classes have inheritance</li>
+<li>Introspection and casting are classes only</li>
+<li>Structs and Enums are passed by <em>value</em> but Classes are passed by <em>reference</em></li>
+<li>Mark a function that can mutate a struct/enum with the keyword <strong>mutating</strong></li>
+<li>Reference (stored in the heap). Note that you can still use <code>let</code> to mutate class properties with methods</li>
+<li>You can override methods/properties in superclass with keyword <code>override</code></li>
+<li>Both types and instances can have methods/properties:</li>
+</ul>
+
+<pre><code>var d: Double = ...  
+if d.isSignMinus {  
+    d = Double.abs(d)
+}
+</code></pre>
+
+<ul>
+<li>See above:
+<ul><li>here, isSignMinus is an instance property of a Double (you send it to particular Double)</li>
+<li>abs is a type method of a Double (sent to the type itself not a particular Double).</li>
+<li>You have to declare a type method/roerty with a <code>static</code> prefix or with <code>class</code> in a class: <code>static func abs(d: Double) -&gt; Double</code></li></ul></li>
+<li>Paramters to all functions have an internal and external name
+<ul><li>internal name : name of local variable used inside method</li>
+<li>external name is what callers use to call the method</li>
+<li>Use <code>_</code> if no callers should use external name for given parameter</li></ul></li>
+<li>Property Observers: <code>willSet</code> and <code>didSet</code> will be called before and after setting a property with <code>newValue</code> and <code>oldValue</code> as their respective parmaters</li>
+<li><p>Lazy initialization: initialized only when someone acceses it</p>
+
+<ul><li>can be used when there are cyclized dependencies between parent and child classes</li></ul></li>
+<li><p>When is <code>init</code> method needed?</p></li>
+<li>You can set any property's value
+...few asleep for 10 minutes</li>
+<li>Casting works with the <code>as</code> keyword.</li>
+</ul>
+
+<h2 id="1122015">1/12/2015:</h2>
+
+<p>Continuation of Calculator Demo - Assignment #2 will be based on the demo today <br>
+<strong>Concepts</strong>: Operand/operator stack</p>
+
+<ul>
+<li>Conventions: camelcase convention for names of files (e.g. <code>CalculatorBrain.swift</code>)</li>
+<li>We're defining an Op object to refer to an operand or an operator: should it be a class or function or an <strong>enum</strong></li>
+<li>We can create an empty array of objects with: <code>var opStack = Array&lt;Op&gt;()</code>, but the preferred syntax is <code>var opStack = [Op]()</code></li>
+<li>Functions are just types in Swift (no different from strings)</li>
+<li>Creating an enum (used to enumerate different possibilities):
+In swift, we can associate data with any of the cases in this enum  </li>
+</ul>
+
+<pre><code>enum Op {  
+    case Operand(Double)
+    case UnaryOperation(String, Double -&gt; Double)
+    case BinaryOperation(String, (Double, Double) -&gt; Double)
+}
+</code></pre>
+
+<ul>
+<li>An initializer is called by invoking a class with parentheses: (e.g. <code>var knownOps = [String:Op]()</code>).</li>
+<li>We can also intiialize it with the <code>init()</code> method </li>
+<li>Looking up something in a dictionary will always return an optional</li>
+<li>To make variables private to a class, add <code>private</code></li>
+<li>Sometimes you can't return an actual return value, you can make it an optional return value:</li>
+</ul>
+
+<pre><code>func evaluate() -&gt; Double? {
+
+}
+</code></pre>
+
+<ul>
+<li>Swift passes structs by value and clases by references: Arrays, Dictionaries are <strong>structs</strong></li>
+<li>There's an implicit <code>let</code> in from of all structs as parameters (read-only!) so the struct in this case is immutable</li>
+<li>Hacky way of making a mutable copy for use inside a function (see the var that replaces the implicit let in the parameter):</li>
+</ul>
+
+<pre><code>func evaluate(var ops: [Op]) {
+
+}
+</code></pre>
+
+<ul>
+<li>Swift is actually smart enough to not actually copy a struct until a change is made. Swift might even make just a partial copy or just kept track of the actual changes made.</li>
+<li>We use <code>switch</code> to pull associated values out of enums</li>
+<li>Underbars <code>_</code> are used when we don't care about the variable and don't intend on using it</li>
+</ul>
+
+<h2 id="172015">1/7/2015:</h2>
+
+<p>Continuation of Calculator Demo <br>
+<strong>Concepts</strong>: Typed Functions, Arrays, Sets</p>
+
+<p><strong>Review</strong></p>
+
+<ul>
+<li>Optionals are automatically assigned to be nil (not set)</li>
+<li>Note it's not necessary to declare the type of a variable: <code>var operandStack: Array&lt;Double&gt; = Array&lt;Double&gt;()</code> is equivalent to <code>var operandStack = Array&lt;Double&gt;()</code></li>
+<li>Creating arrays are just like:</li>
+<li>Computed properties : you can define properties that are computed and updated anywhere it is used</li>
+<li>Switch statement is much more powerful in Swift. You have to cover every possibility (make sure to include a Default case)</li>
+<li>Closures allow you to define functions as parameters:
+<ul><li><code>performOperation({(op1,op2) in op1 * op2)</code> is equivalent to <code>performOperation {$0 * $1}</code></li></ul></li>
+</ul>
+
+<p><strong>MVC - 3 camps</strong></p>
+
+<ul>
+<li><strong>Model</strong> - what your application (i.e. what is a program?)
+<ul><li>The model is completely UI independent, should never talk to the view</li></ul></li>
+<li><strong>Controller</strong> - how your model is presented to the user
+<ul><li>Controllers can always talk directly to their Model</li>
+<li>Controllers can also talk directly to the view (outlet)</li></ul></li>
+<li><strong>View</strong> - what the user sees
+<ul><li>Comunicates with the contorller through actions</li>
+<li>Sometimes the view needs to be synchronized with the controller (i.e. should I allow the user to scroll? <code>shouldScroll</code> <code>willScroll</code> <code>didScroll</code>
+<ul><li>we solve this with delegations</li>
+<li><em>delegate</em> is set via a protocol ("blind" to class)</li></ul></li>
+<li>controllers provide a data source to the view</li></ul></li>
+</ul>
+
+<h2 id="152015introductiontoswift">1/5/2015: Introduction to Swift</h2>
+
+<p>Introduction to the course and the start of the calculator demo to build basic intuition about programming in Swift <br>
+<strong>Concepts</strong>: Creating a project, Tying/connecting button components to their corresponding methods in the controller, Swift basics, Types in Swift (Optional types)</p>
+
+<p><strong>Logistics:</strong></p>
+
+<ul>
+<li>Each class will feature a Demo</li>
+<li>Enrollment survey deadline is Tuesday</li>
+<li>Paul will likely have a "second start" to the class for the iTunesU taping (2 week delay)</li>
+</ul>
+
+<p><strong>Overview + Prerequisites:</strong></p>
+
+<ul>
+<li>Real life object-oriented programming</li>
+<li>Databases, graphics, multimedia, animation in a real-world application</li>
+<li>Prior coursework assumes object-oriented programming</li>
+</ul>
+
+<p><strong>Four Layers</strong></p>
+
+<ol>
+<li>Core OS: <br>
+<ul><li>UNIX-based system</li>
+<li>Sockets, Kernel, Permissions, near hardware level</li></ul></li>
+<li>Core Services <br>
+<ul><li>Accessing lower level services through object-oriented interfaces</li></ul></li>
+<li>Media (little time spent in this area) <br>
+<ul><li>Capturing, editing media</li>
+<li>Audio mixing, recording</li></ul></li>
+<li>Cocoa Touch (Vast majority of time spent here, 70%+) <br>
+<ul><li>Buttons, sliders, multi-touch</li>
+<li>Build the interactivity with the application here</li></ul></li>
+</ol>
+
+<p><strong>Platform Components:</strong></p>
+
+<ul>
+<li>Xcode 6 is the code editor, compiler, debugger </li>
+<li>Language(s): We'll learn Swift in this class</li>
+<li>Frameworks - core motion, map kit, gyroscope</li>
+<li>Design Strategy - MVC </li>
+</ul>
+
+<p><strong>Demo:</strong></p>
+
+<ul>
+<li>We're building a calculator from scratch</li>
+<li>Topics include:
+<ul><li>Creating a project in Xcode</li>
+<li>Building a UI</li>
+<li>iOS Simulator</li>
+<li>println</li>
+<li>defining a class in Swift</li>
+<li>Connecting method interactions to their components (CTRL + Drag method dots to their corresponding components in the view)</li></ul></li>
+</ul>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="http://localhost:2368/author/sherman/" style="background-image: url(https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg)"><span class="hidden">Sherman Leung's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="http://localhost:2368/author/sherman/">Sherman Leung</a></h4>
+
+                    <p>Student, Teacher, Developer, Designer.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Stanford, CA</span>
+                    <span class="author-link icon-link"><a href="http://shermanleung.com">http://shermanleung.com</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=CS193P&amp;url=http://localhost:2368/cs193p/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/cs193p/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/cs193p/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+
+</main>
+
+
+
+    <footer class="site-footer clearfix">
+         <section class="copyright"><a href="../">undeclared</a> © 2015</section>
+         <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+    </footer>
+
+    <script src="../public/jquery.js?v=b9281c64ce"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=b9281c64ce"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=b9281c64ce"></script>
+
+</body>

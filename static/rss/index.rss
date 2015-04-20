@@ -1,0 +1,382 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>undeclared</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 20 Apr 2015 18:37:17 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>CS 376</title><description>&lt;p&gt;This is a repository of thoughts and responses from the CS 376 readings:&lt;/p&gt;
+
+&lt;h2 id="41914"&gt;4/19/14:&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Exploring and Finding Information&lt;/strong&gt; &lt;a href="http://hcicourses.stanford.edu/cs376/2014/readings/Exploring_and_Finding_Information.pdf"&gt;[link]&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I'm not convinced that shopping websites are the appropriate parallel to make given the author's focus on information + food-foraging parallels. Food as a resource is innately tied with a sense of the community/family a forager feels responsible to and the natural survival instinct; whereas, our shopping interests tend to be more individually tied and scoped within our personal preferences. E-commerce sites are much more with targeting/guiding customers towards specific products rather than the resource-rich wild that engender flight/fight responses. I would've felt like a navigation metaphor - the human ability to wayfind and journey across distant lands - to be a much better metaphor in this sense.&lt;/li&gt;
+&lt;li&gt;Though the study was limited by the technology of its time, two arguments point to why its findings may not apply to today’s interfaces. Visual elements like tabs, fixed “smart-tracking” navbars (i.e. scrollspy), navigation, etc… Secondly, mobile and web interfaces have been benefitting from the advent of Bayesian classifiers, and personalized big data, that improve the relevance of search results and next steps. That being said, text is still the primary medium through which information is conveyed and the study does provide relevant findings in that way.&lt;/li&gt;
+&lt;li&gt;Specifically, the study verified that the information sense curve shows the number of relevant documents decreasing at a slower rate as the user continued to find more relevant documents. Findings that suggested that users scan titles, appreciate relevance, and optimize their search for information, were not well quantified in their review. Additionally, there weren’t particularly practical or well-formed action items that the study seemed to suggest that would help designers and developers assist their users in getting the most value out of their interfaces.&lt;/li&gt;
+&lt;li&gt;I liked how specific the paper outlined the user flow for accomplishing specific tasks. The production rules fit in nicely with the framework that the model took with production memory. I would have appreciated more rigor in the way that the paper described weights and associations between chunks in memory. It would have definitely been interesting to investigate the paper’s discussion of a “spreading activation network” under the lens of a directed graph.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="41414"&gt;4/14/14:&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;inFORM&lt;/strong&gt; &lt;a href="http://tmg-trackr.media.mit.edu:8020/SuperContainer/RawData/Papers/527-inFORM%20Dynamic%20Physical%20Affordances/Published/PDF"&gt;[link]&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This is a fascinating piece of work that almost doubles as an artistic statement. I'm impressed and greatly appreciate the clear efforts of the hardware specialists that made this study possible. I'm also a fan of the technical upper bounds (1.08 N/pin, 0.968 m/s downward speed) that defines a capped, but large space where the researchers could explore interactions. An interface such as this is certainly no small task, and I'm glad the researchers opted to include all the details from back to front that allows readers to really get a clear sense of what they built in addition to why they built it.&lt;/li&gt;
+&lt;li&gt;The interface designed here combine the tactile, visual, and the actual 3D velocity (speed + direction) that the interface produces itself. This brings the number of variables to at least 7 in comparison to the color + x/y dimensions that we use on our phones. These additional variables contribute to an exponential growth of possible interactions. Forget swiping, pincing, and four-finger swipes, there are boundless unexplored forms of tactile affordances in this interface prompts.&lt;/li&gt;
+&lt;li&gt;What if we imagine if this interface was more granular? Let's do away with 900 pins and imagine 9,000,000. The applications for such technology in spaces like architecture, structural biology or even game design. Touch screens would turn into touch cubes that add all sorts of dimensionality to complex spaces that struggle with a 2D representation. Even learning physics from an interface would be incredibly insightful.&lt;/li&gt;
+&lt;li&gt;The one thing that I found this paper lacking in is in the disconnect I felt between the paper's focus on "moving passive objects" and the connections such an interface could make to existing designs through visual means. It's clear that the wow factor of such an interface lies in the motion that it provides to these objects, but I had expected more connection between this work to the current interfaces that exist for now-visual tasks. The paper mentions issues with "jarring" its users with unexpected motion. Instead of trying to make these motions more smooth - why not incorporate the already understood visual affordances that our screens present.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Multi-Touch Systems that I Have Known and Loved&lt;/strong&gt; &lt;a href="http://www.billbuxton.com/multitouchOverview.html"&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I enjoyed the historic commentary that Buxton presents. The timeline provides definition to a framework and a context to understand the context of today's touch systems. Understanding where our interfaces come from definitely gives insights into what has worked before and why we've moved in the particular directions that we have. Though sites like &lt;a href="http://localhost:2368/pttrns.com"&gt;pttn&lt;/a&gt; provide great depictions of our visual interfaces, I would love more discussions of our touch interfaces such as the commentary that Buxton provides.&lt;/li&gt;
+&lt;li&gt;The Bi-Manual input in particular provided an interesting insight into parallelism. I took a brief skim over the paper that Buxton linked to understand how two-handed systems (think gear vs. steering wheels for our cars) can lead to more effective and parallizable interfaces for users. It's definitely understable how much more steep the learning curve is, but I argue that it's this sort of "steepness" that allows the knowledge and skill to stick as a habit. How easy is it to pick up driving again after months of inactivity?&lt;/li&gt;
+&lt;li&gt;I though the conceptual thought excercise present in Touchlight was really interesting. Though the link doesn't seem to be working, the work alludes to an interactive interface with high potential for extensibility. With multiple degrees of freedom in number of users, gestures, and even the visual representation, I would be really interested in seeing what visual and gesture affordances came out of that study and how we might be able to replicate them in the interfaces we have today.&lt;/li&gt;
+&lt;li&gt;I was a fan of the way that Buxton broke down all the variables that go into touch interfaces. It really got me thinking about how extensible our current touch interfaces really are. It's not immediately apparent the variables and points of data that our phone screens can synthesize to form a larger and more complex pictures, but Buxton's claim that "there's more to touch-sensing than contact and position" definitely deserves some deeper thought before designing the interfaces that we interact with on our phones.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tangible Bits&lt;/strong&gt; &lt;a href="http://web.media.mit.edu/~anjchang/ti01/ishii-chi97-tangbits.pdf"&gt;[link]&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This paper relates to a TED talk &lt;a href="https://www.youtube.com/watch?v=QgKCrGvShZs"&gt;video&lt;/a&gt; that I saw a year ago that hacked Wii remotes to produce cheap, low-cost versions of interactive hardware discussed in this study. It prompts the thought of cost and availability - what if we can make technologies in this study as widespread and cost-effective as the Wii remote? Strip away the stigma we have around the remote in the way we hold and use it, and we have a functional input device with sense of space, direction, and speed. If we take these already functioning input devices and flip the mental model on its head to implement more ubitiquous ways to utilize Wii remotes, I would be interested to see how users respond at scale.&lt;/li&gt;
+&lt;li&gt;I like that this study makes much more of a concerted effort to emphasize how it fits within the realm of ubitiquous computing. It's clear what ways features of the AmbientROOM "fade into the background" of ubitiquous computing. Though inconsistencies should be noted (e.g. "sounds of rain could be distracting"), the paper makes consistent observations within the realm of ubitiquos computing. The depths that the researchers go to to find appropriate metaphors to bridge the physical and digital worlds are exactly the channels that provide depth to ubitiquos computing.&lt;/li&gt;
+&lt;li&gt;I wanted to dig deeper on the point that the paper makes on "the ways ambient media can move naturally into the foreground." I find this statement somewhat conflicting to Mark Weiser's affirmation of the "invisible ideal." It's of my opinion that tangible items that prove to be too unfamiliar with the general public's mental models will inevitably cause an unnatural transition from the background to the foreground. Designing ideal bridges between the digital and physical, in my opinion, should keep the information in the passive background and not risk this unnatural transition.&lt;/li&gt;
+&lt;li&gt;Smart devices nowadays make more and more of an effort to blend into the background while constructing an ever more complex profile of the users they track. Given how widespread and inconspicuous these devices are, aren't they fitting into the paradigm of ubitiquos computing. I argue that these devices pose an effective counterargument to this paper's claim that tangible devices leads to a richer experience of the digital world. Devices don't necessarily need to be grasped or touched to provide a rich and even multisensory experience.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id="41214"&gt;4/12/14:&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Activity Sensing in the Wild&lt;/strong&gt; &lt;a href="https://www.cs.umd.edu/~jonf/publications/Consolvo_ActivitySensingInTheWild-AFieldTrialOfUbiFitGarden_CHI2008.pdf"&gt;[link]&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This paper goes a long way to test user interaction in a new frame of mind that I assume the majority of users aren't used to. The paper describes of the commercial products with embedded sensors at the time, and it's clear that the majority of the products were not attempting to bridge the physical and mobile worlds very much at all. Linking all of the phone's infrastructure to the hardware sensors for 12 different prototypes was probably quite time-consuming, but it's clear that the focus of this paper is on the interface and the interactions that  people used to monitor their fitness.&lt;/li&gt;
+&lt;li&gt;That being said, my main contintion of this paper was the lack of generalizability. I was under the impressiona that the sample size was too small and the responses too subjective to yield much insight into other interfaces particularly those without such sensors. It remains important to the focus of parhaps a product development team at car company, but not for research.&lt;/li&gt;
+&lt;li&gt;Another contention with this article involved the heavy use of "manually entered activities." This detail makes it hard to accurately gauge the use of the sensors when activities like cycling and other common physical activities such as sports. When the point of this system essentially reduces to a text-based entry, it's hard to understand the major insights that the interface claims for the sensor-focused interactivity.&lt;/li&gt;
+&lt;li&gt;Within the context of ubiquitous computing, early prototypes of today's wearable devices must have pushed the boundaries of what was possible. It's interesting to see however the main course of these fitness oriented devices turn towards smaller, wearable devices rather than the phone itself. I wonder if today's market would really take to the UbiFit system if it was incorporated into today's smartphone as a standalone device. Would we really react so positively or find it foreign in comparison to the other applications we use our phones for?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;HydroSense:&lt;/strong&gt; &lt;a href="http://www.cs.umd.edu/~jonf/publications/Froehlich_HydroSense-InfrastructureMediatedSinglePointSensingOfWholeHomeWaterActivity_UbiComp2009.pdf"&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This study provides an interesting, early view of the perception of "smarthomes" that today's Google Nest is pushing towards. The important distinction in this paper, however, is its emphasis in "single-point sensing" whereas the smarthomes of today definitely integrate multiple repository of data collection to form a cohesive story. I liked that the study was able to exhibit such accuracy to the true value of the amount of water used.&lt;/li&gt;
+&lt;li&gt;Much of the discussion involved analysis of the types of valve detection that felt irrelevant to the true nature of the paper. In my opinion, I thought the novel contribution to the conversation here was the way a user might react to such information of having these accurate measurements of water usage. I would have liked to see much less focus on the analysis of how the flow and the amount of water was calculated and much more discussion on the implications of such sensors and what directions this work could take in terms of integration into the home.&lt;/li&gt;
+&lt;li&gt;I liked the level of granuality that the paper went into in discussing what the system did not do. The point that the authors made in discussing "partially-open valves" definitely proves relevant to the everyday user (like myself!) Furthermore the discussion of overlapping events arises a common everyday use of the bathroom when several devices are active at one time. This gives a good reflection of what the system is actually able to measure in the typical setting of water usage in a house.&lt;/li&gt;
+&lt;li&gt;I would have liked to see an additional study that extended upon this work to discover effective ways to present the information that &lt;em&gt;Hydrosense&lt;/em&gt; gathers back to the user. Given the Nest interfaces of today, it's clear that an effective smarthome involves a good deal of thought in designing an effective yet elegant interface that literally lives with the user. If we were to take this study one step further and build out ways to actually control water usage remotely - how might that effect our water usage? What implications might that have on our drought?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="4714designcreation"&gt;4/7/14: Design + Creation&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Getting the Right Design and the Design Right&lt;/strong&gt; &lt;a href="http://www.billbuxton.com/rightDesign.pdf"&gt;[link]&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This paper was an interesting, almost psychological study, on the nature of how diversity of perspective affects the perspective itself. I found the conclusions applicable to needfinding and prototyping research and an argument for a re-evaluation of the design-thinking process which seems to be focused on iterating on a single or main development track of a project. I think that the study was well-done in terms of the scope and the methods that were used to assess the hypothesis. It's nice to see paper prototyping as a vehicle to speed not only product development but to hasten research costs.&lt;/li&gt;
+&lt;li&gt;I was personally surprised by the contention to the last hypothesis as I initially agreed with the claim that creativity would be more likely in the scenario with multiple designs. I think that the conclusions that the study came to surrounding making suggestions makes sense, though I am skeptical of whether participants simply felt less primed to suggest chances for fear of being 'too unoriginal' as they're surrounded by multiple renditions of a single design. If we imagine the setting of a discussion setting filled with students of different perspectives, I know from personal experience how I feel better equipped to think of discussion points via synthesis and reimagination of what I've already heard. However, despite being better equipped, there is a higher fear of making an "unsignificant" or "unoriginal" remark based on the diversity of opinions around me.&lt;/li&gt;
+&lt;li&gt;The discussion about choice and decisions reminds me of an interesting point tied to choice paralysis as made popular by Barry Schwartz in "The Paradox of Choice" (and his &lt;a href="http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice?language=en"&gt;TED talk&lt;/a&gt;). I wonder if these findings would hold after extrapolating the experiment to include more choices. I would expect that as the number of choices increases, behavior will be grow to be similar to that of the analysis of a single design. Interestingly enough, design thinking in general seems to push for quantity of ideas over quality - why doesn't this sort of process seem to suffer from choice paralysis?&lt;/li&gt;
+&lt;li&gt;Though this paper focused mainly on designs for user interfaces, I wonder if findings are relevant and applicable to other forms of design in the frameworks of art, musical composition, or even construction blueprints! What if we have experts or amateurs in the subjects take a similar approach to their design efforts? Would findings indicate a similar trend across the severity and variety of critiques? I would expect differences in subject areas like these to not show significant trends given the complexity of the critiques in these design settings.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Webzeitgeist: Design Mining the Web&lt;/strong&gt; &lt;a href="http://hci.stanford.edu/publications/2013/Webzeitgeist/webzeitgeist.pdf"&gt;[link]&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I appreciate this paper's attention to isolate and focus on a specific research question, that of: "What can we learn from mining design from the web?" The insights here seem well abstracted from the noise of the web given the way that models were defined in terms of position, width, even to the granuality of the number of children elements. The definition of "vision" was particularly interesting, given that it focused on the most common color in the element and particularly paid special attention to edge pixels. Unfortunately, the paper didn't discuss major findings related to these more interesting features of "vision" which I feel is an integral part of design.&lt;/li&gt;
+&lt;li&gt;The paper made a solid effort in breaking down the components of "design" into quantifiable and easily measurable qualities. However, I wish it explored more complex relations between different visual elements themselves. Specifically, how does the visual interaction between different visual elements on a webpage enhance or detract from the holistic design value of a page? Naive approaches towards this question might include overlap or dx or dy features in relation to the parent or sibling elements, and allowing standard learning algorithms like SARSA to try to predict important features.&lt;/li&gt;
+&lt;li&gt;I personally enjoyed the amount of technical detail that the paper went into. I can see how others might argue that such attention to technical detail may be superfluous or irrelevant to the exploration of design principles. However, the type of mining that the authors attempted is definitely novel and clearly worthy of extensive discussion alone. In particular, the creation of Design Query Language provided some fascinating insights in how design features can be organized and summarized.&lt;/li&gt;
+&lt;li&gt;I would have also liked to see an analysis of popular pages - and see if correlation and design mining analysis across popular sites with heavy traffic can lead to the prediction of particular design features that foster "well-designed" features. Of course this venture would require a careful investigation in whether a "popular" site is comprable to a "well-designed" one. However, the investigation raises an interesting inquiry into whether good design conventions correlate with statistically signficant design features according to the design mining techniques presented in this paper.&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/cs-376/</link><guid isPermaLink="false">cf4a89be-5d20-4039-be9c-593dc92bac15</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Wed, 08 Apr 2015 06:35:25 GMT</pubDate></item><item><title>BIOMEDIN 206</title><description>&lt;h2 id="informaticsinindustry"&gt;Informatics in Industry&lt;/h2&gt;
+
+&lt;p&gt;A repository of notes from taking a seminar series in the School of Medicine.&lt;/p&gt;
+
+&lt;h3 id="week2googlexbaselinestudy"&gt;Week 2 - Google[x] Baseline study&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vikram Bajaj&lt;/strong&gt; (PhD) - initially classics @UPenn (Undergrad) + MIT (Grad)&lt;/li&gt;
+&lt;li&gt;Faculty at Berkeley and then 2 startups, now at Google[x]&lt;/li&gt;
+&lt;li&gt;Comes from spectroscopy background (NMR)
+&lt;ul&gt;&lt;li&gt;Functional MRI: noninvasive spectroscopic techniques to see structure + dynamic view of function &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Vision evolved from proton gradient as a signaling mechanism (rather than an energy-generating mechnaism)&lt;/li&gt;
+&lt;li&gt;Biomimetic nanoparticle probes for imaging&lt;/li&gt;
+&lt;li&gt;SkinScan: targeting cosmetic dermatology - wounding and the healing skin. 
+&lt;ul&gt;&lt;li&gt;handheld device to detect types of skin filler (the part that heals)  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Chevron startup: Oil well logging - building MRI spectrometers that work from inside out to oil well drills to tell you information about the oil around the drill.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="whatshappeningatgooglex"&gt;&lt;strong&gt;What's happening at Google[x]?&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Intersection of: 
+&lt;ol&gt;&lt;li&gt;Huge Problem&lt;/li&gt;
+&lt;li&gt;Radical Solution&lt;/li&gt;
+&lt;li&gt;Breakthrough Technology&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Not to be too afraid of failure&lt;/li&gt;
+&lt;li&gt;"It's hard to think of making something 10x better" but this is &lt;em&gt;hard&lt;/em&gt; in healthcare&lt;/li&gt;
+&lt;li&gt;Problems:
+&lt;ul&gt;&lt;li&gt;Self-driving cars - leading causes of death. Replacing drivers to make 10x improvement in solving this problem.&lt;/li&gt;
+&lt;li&gt;"Medical Tri-corder" - diagnostics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Baseline Study&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="baselinestudy"&gt;Baseline Study&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disease pathology: traditionally HE Stain (Hematoxylin and eosin stain) but moving towards "molecular markers" and quantative analyses of biological pathways&lt;/li&gt;
+&lt;li&gt;Cancer is not one disease, but hetrogeneous in profile.&lt;/li&gt;
+&lt;li&gt;More data beats better algorithms - we learn from the quality of the data and the parts that we pick out to be significant&lt;/li&gt;
+&lt;li&gt;Limits of big data: 
+&lt;ul&gt;&lt;li&gt;1854 Soho Cholera outbreak. Big data detected the cause of the outbreak. But removing the cause doesn't tell you anything about the disease or lead to any mechanistic insights.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="week1gingeriobehavioralanalyticsforhealthcare"&gt;Week 1 - Ginger.io: behavioral Analytics for Healthcare&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gourab De&lt;/strong&gt; (PhD) - biostatistics + Machine Learning. Expert in Risk &amp;amp; Outcomes modeling&lt;/li&gt;
+&lt;li&gt;Health economics - somone in paying for hospitalization. If you reduce hospitalization, you're saving costs overall&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Idea:&lt;/strong&gt; Making data more granular in the time between visits:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Right now doctors are only getting a glimpse (or a snapchat) of patients from visit to visit. Doctors are at a loss to learn from the time between visits&lt;/li&gt;
+&lt;li&gt;Ginger.io provides: Continuous cycle for engagement, feedback and measurement: passive data, in-app surveys. Analyzing behavior, enable interventions -&gt; measuring outcomes&lt;/li&gt;
+&lt;li&gt;Integrating provided data with patient data from hospitals
+&lt;ul&gt;&lt;li&gt;Virtual silos are used to merge and hold information from the app and the current hospital infrastructure&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cannot integrate with EMR&lt;/strong&gt; (this is a very hard problem from a privacy perspective and who owns the data)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Insights from ginger.io data&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Helped uncover a pattern between stress at home + low mobility.
+&lt;ul&gt;&lt;li&gt;A patient caring for two mentally unstable children improved from higher mobility&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What's next for Sensor Data + Modeling in Healthcare&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Smartphone and wearables have gone mainstream: 58% of US population owns smartphones. 76% of clinicians think health apps would be helpful for patientswith chronic conditions&lt;/li&gt;
+&lt;li&gt;Major players entering space - Apple/HealthKit/ResearchKit etc...&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/biomedin-206/</link><guid isPermaLink="false">54f0015d-c79e-4085-97f3-5637cbb523d3</guid><category>notes</category><dc:creator>Sherman Leung</dc:creator><pubDate>Mon, 06 Apr 2015 19:39:31 GMT</pubDate></item><item><title>Independent Research Proposal</title><description>&lt;p&gt;This is a proposal for 4 units of independent study under Stanford's CS199 system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Motivations&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I've wanted to learn iOS programming for a long time but haven't had the opportunity due to only recently getting a Macbook and not having time last quarter for CS193P. This quarter I was accepted into CodePath's Swift bootcamp to have an accelerated introduction and crash course into iOS and Swift programming. The course expects a 10-12 hour commitment a week that includes live coding in lecture and a substanatial amount of work outside the lectures themselves.&lt;/p&gt;
+
+&lt;p&gt;In addition to iOS programming, I also want to extend my capacities as a full-stack engineer - particularly with advanced web APIs and more complex front-end frameworks. This additional goal is to supplant the earlier part of the quarter where the CodePath course will be redundant to parts of iOS programming I've already become familiar with through tutorials and the first two weeks of CS193P.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Learning Objectives:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;To obtain breadth in using more complicated web APIs and frameworks (namely Twilio and Facebook's Parse + React)  &lt;/li&gt;
+&lt;li&gt;To complete a substantial project in Swift while following CodePath's course at Stanford to do so.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Proposed Schedule for the Quarter&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Week 1 - 2:&lt;/strong&gt; Integrating advanced web APIs with lightweight applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Takeaway:&lt;/em&gt; A text-based application for residents to play Assasins. Twilio API for the texting interface and a Parse database to store the order + status of players in the game. &lt;br&gt;
+&lt;em&gt;Skills:&lt;/em&gt; Twilio API, Facebook Parse database, deploying non-web-based application.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Weeks 3-5:&lt;/strong&gt; Smaller based Swift applications built from CodePath's cirriculum.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Takeaway(s):&lt;/em&gt; Clones of Yelp, Twitter, and Rotten Tomatoes, etc... &lt;br&gt;
+&lt;em&gt;Skills:&lt;/em&gt; Storyboarding, UI elements, navigation elements, networking + application layer, View controllers etc...&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Weeks 6-10:&lt;/strong&gt; Group capstone project as a culmination of the CodePath cirriculum.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Takeaway:&lt;/em&gt; Complex application possibly including: Soundcloud downloading app, Video clipping and looping for GIFs.
+&lt;em&gt;Skills:&lt;/em&gt; Working in a team setting, coordinating to develop elements in parallel, etc...&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Commitments&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I will hold myself to demonstrating some benchmark or progress that I will set the week prior. I will also keep a weekly record detailing the skills learned that week and what I built with what I learned. Benchmarks and progress will be documented simultaneously through a shared Google Document and links to Github repos of the code written that week.&lt;/p&gt;
+
+&lt;p&gt;In return, I ask if we could schedule 15-30 minute meetings every week to check up on progress and for feedback on what's been created so far.&lt;/p&gt;</description><link>http://localhost:2368/independent-research-proposal/</link><guid isPermaLink="false">0b6fe39f-1858-42e2-a17c-f0d094a9bd0a</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Mon, 30 Mar 2015 17:29:36 GMT</pubDate></item><item><title>5 Learnings + Unlearnings</title><description>&lt;p&gt;We were charged with writing 5 "learnings and unlearnings" from our experiences in the course. I wanted to share my takeaways from the class and summarize them here.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Reframing&lt;/strong&gt;: This was probably one of the most valuable tools I took away from the course. I've found a lot of value in being able to look at things from a different angle.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Information Interview&lt;/strong&gt;: As a life skill, I personally think that this has started some of the most effective and valuable conversations that I've had recently. Getting in touch with people through information interviewing doesn't only grow my network of people I can reach out to get an insider's perspective and people I can reach out to in the future related to the careers and opportunities I'm interested in.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Odyssey Plan&lt;/strong&gt;: Being able to compile and consolidate my gut feelings and my dreams for the future was a great thought excercise to take something in my head for all this time and put it out into something concrete.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Opportunities vs. Offers&lt;/strong&gt;: This was probably the most insightful unlearning that I took away from the course - to treat and frame job inquiries not as offers but as opportunities for a two-sided conversation to learn more about the company, the space, the team, and not just about the potential job offer at hand. More often than not, I've found this to be the most productive way in framing my search for a part-time position next quarter, to invest myself in learning about a more complete perspective of an opportunity rather than the perhaps more narrow view of an offer.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workview vs. Worldview&lt;/strong&gt;: I found tremendous value in articulating my worldview and my workview which I hope to continue revisiting as I progress in life. Trying to succintly decide what means so much to me reminds me of the college application process and that period of introspection. A lot of value comes out of taking a brief step back to see things from a wider angle and this was definitely one of those times.&lt;/li&gt;
+&lt;/ol&gt;</description><link>http://localhost:2368/5-learnings-unlearnings/</link><guid isPermaLink="false">698f56bf-5ce7-4404-a2f5-3c34c019d504</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Thu, 19 Mar 2015 08:02:13 GMT</pubDate></item><item><title>Internet Vigilantism</title><description>&lt;p&gt;There's a new term on the rise that describes the sort of vigilantism in the online world: &lt;br&gt;
+&lt;strong&gt;digilantism&lt;/strong&gt; - the act of crowdsourcing efforts via the internet towards the goal of rectifying an injustice deemed morally wrong by an online vigilante group.&lt;/p&gt;
+
+&lt;p&gt;Brought to the forefront of national attention by the Bostom Marathon Bombings, the topic has resurfaced again due to China's &lt;a href="http://www.bbc.com/news/magazine-25913472"&gt;flesh-searching engine&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href="http://explorecourses.stanford.edu/search?view=catalog&amp;amp;filter-coursestatus-Active=on&amp;amp;q=%E2%98%85+CS181W"&gt;CS181W&lt;/a&gt;, this was the topic of our final project + presentation, a case study that combines perspectives from ethics and policy to better understand the ambigious space of internet vigilantism.&lt;/p&gt;
+
+&lt;p&gt;Check out our final project website + presentation &lt;a href="http://shermanleung.com/cs181w"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><link>http://localhost:2368/internet-vigilantism/</link><guid isPermaLink="false">b1edfc68-1375-4be8-a0fa-9f35d0039275</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Tue, 17 Mar 2015 20:19:22 GMT</pubDate></item><item><title>Learning Swift + React</title><description>&lt;p&gt;With my free time that I've had this past week, I've taken the opportunity to learn two new things: &lt;br&gt;
+1. Swift + iOS with CodePath's videos. &lt;br&gt;
+2. Learning React with &lt;a href="http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/"&gt;this tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Check out what I've been up to with &lt;a href="https://github.com/skleung/CodePath-0"&gt;iOS&lt;/a&gt; and &lt;a href="https://github.com/skleung/learning-react"&gt;React&lt;/a&gt;.&lt;/p&gt;</description><link>http://localhost:2368/learning/</link><guid isPermaLink="false">7e4ee656-b382-4914-a6bf-c01f2a83c23b</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Tue, 17 Mar 2015 09:22:27 GMT</pubDate></item><item><title>Statement of Purpose</title><description>&lt;p&gt;My reasons for continuing my studies at Stanford through a coterminal Computer Science degree can be summarized into one overarching mission statement, two main learning objectives, applied towards three main goals.&lt;/p&gt;
+
+&lt;h3 id="missionstatement"&gt;Mission Statement&lt;/h3&gt;
+
+&lt;p&gt;To apply insights from data and design towards high-impact problems in fields like education and healthcare.&lt;/p&gt;
+
+&lt;h3 id="learningobjectives"&gt;Learning Objectives&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Data Science:&lt;/strong&gt; To learn how to process and make meaning of large datasets.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interface Design:&lt;/strong&gt; To learn how to design and build effective and user-friendly mobile and web interfaces.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id="datascience"&gt;Data Science&lt;/h4&gt;
+
+&lt;p&gt;From oncogenomic trials to deeply connected social graphs, our world today is being rapidly transformed by data-driven insights. My work with the Visual Genome Project under the direction of Dr. Fei-Fei Li and Dr. Michael Bernstein has shown me the power of data-driven insights. Working closely with PhD student Ranjay Krishna, we made efforts to build and curate a knowledge base for visual learning. Last quarter, we took data generated by the crowd and began applying machine learning techniques to generate relationships between objects, adjectives, and the pictures that hold them. My work has inspired me to take further steps in the field of data science and better understand the essence of learning from large data sets. Towards this direction, I want to take:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CS 124 - To understand how deeper understanding and interesting data points can be drawn from text&lt;/li&gt;
+&lt;li&gt;CS 246 - To scale more effective approaches to large datasets&lt;/li&gt;
+&lt;li&gt;CS 229 - To recognize patterns and build insights from data itself&lt;/li&gt;
+&lt;li&gt;CS 262 - To apply computational approaches to genomic data&lt;/li&gt;
+&lt;li&gt;CS 145 - To learn how data is stored and organized in modern systems today&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="interfacedesign"&gt;Interface Design&lt;/h4&gt;
+
+&lt;p&gt;In a modern world where interfaces race to catch up to dizzying increases of use cases, design has become paramount in the worlds of web and mobile. Industry and personal experiences have given me direct lessons in building web interfaces - learning by doing. &lt;/p&gt;
+
+&lt;p&gt;From CS147, I learned what it means to design intuitive interfaces with the user in mind. In CS142, I learned how to implement those interfaces and design fuller and more substantive applications. In CS 210A, I've learned tremendously from the hands-on experience of learning from and designing for the end user.&lt;/p&gt;
+
+&lt;p&gt;I hope to continue an education in design through the courses:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CS 247 - To apply human-centered design to build interactive interfaces.&lt;/li&gt;
+&lt;li&gt;BIOE 273 - To prototype and design mobile-focused applications towards Mobile Health.&lt;/li&gt;
+&lt;li&gt;CS 193P - To learn how to effectively program iOS applications for the mobile user.&lt;/li&gt;
+&lt;li&gt;CS 144 - To learn how the internet is structured and how modern interfaces use it effectively to connect machines and people.&lt;/li&gt;
+&lt;li&gt;CS 376 - To apply teachings towards substantive projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="goalsapplications"&gt;Goals + Applications&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Education&lt;/strong&gt;:I wholeheartedly subscribe to the concept of a growth mindset and believe in fostering it as a student and a teacher. My experiences as a CS106 Section Leader, a CS42 Course Assistant, and a CS1C Course Instructor, has allowed me to discover amazing ideas and build an appreciation for knowledge and curiosity that drives my own learning. &lt;br&gt;
+As a master's student, I hope to continue my love of teaching and collaborating with students to discover and explore our intellectual boundaries. I've had the great fortune of receiving support and mentorship from many great teachers so far in my career, and I hope to reciprocate that exchange as a master's student. &lt;br&gt;
+I'm currently exploring an independent project to build a better knowledge map for learning. We're working closely with Chemistry professors as a starting point but hope to scale and generalize to other subjects over the course of next quarter. I'll also be joining forces with Khan Academy as a Summer 2015 Intern to continue building tools to foster learning and the growth mindset.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Healthcare&lt;/strong&gt;: I strongly believe that healthcare needs more attention and that resources, talent, and interest is being diverted from a field where the barrier for entry is high and prove too challenging for many. With &lt;a href="http://healthpluspl.us/"&gt;health++&lt;/a&gt;, I’m building a forum at the intersection of different perspectives to equip students to more fully explore healthcare and better understand it as a space for innovation.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Making&lt;/strong&gt;: I consider "learning by doing" as one of the primary avenues that I've taken to reinforce and further my understanding from classes. In this vein, I've worked closely with groups like &lt;a href="http://bases.stanford.edu/"&gt;BASES&lt;/a&gt; and &lt;a href="http://treehacks.com/"&gt;TreeHacks&lt;/a&gt; here on campus to provide opportunities to learn and build on campus. I've thoroughly enjoyed project-based opportunities to tailor my Stanford experience within a bias towards action. And I hope to continue experiences that I've enjoyed in CS 147 and CS 210 to extend my education into applications and projects.&lt;/li&gt;
+&lt;/ol&gt;</description><link>http://localhost:2368/sop/</link><guid isPermaLink="false">bfc2fc1d-7d85-41e8-91d1-57a0208eceba</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Wed, 04 Mar 2015 11:12:38 GMT</pubDate></item><item><title>Choices</title><description>&lt;p&gt;Doors. &lt;br&gt;
+Pathways to walk through &lt;br&gt;
+convey a new place where I choose &lt;br&gt;
+To learn. &lt;br&gt;
+and push intellectual boundaries &lt;br&gt;
+or wonder if it's my destiny &lt;br&gt;
+To take time off. &lt;br&gt;
+Where the allure of the valley &lt;br&gt;
+may possibly draw me &lt;br&gt;
+To wonder. &lt;br&gt;
+how I know what God's will is &lt;br&gt;
+not to be passive but active &lt;br&gt;
+To trust. &lt;br&gt;
+that no door is the true way &lt;br&gt;
+and that my faith in the future say &lt;br&gt;
+To choose. &lt;br&gt;
+into the Kingdom &lt;br&gt;
+and stop running away from &lt;br&gt;
+Choices.&lt;/p&gt;</description><link>http://localhost:2368/choices/</link><guid isPermaLink="false">2494c52b-4943-49ee-9ce0-54270b2a6b8d</guid><category>DYL</category><dc:creator>Sherman Leung</dc:creator><pubDate>Fri, 27 Feb 2015 20:56:30 GMT</pubDate></item><item><title>Flow Excercise</title><description>&lt;p&gt;I've written a &lt;a href="http://shermanleung.com/cs106a-sum14/tangents/tangent3.html"&gt;tangent&lt;/a&gt; to the topic of flow before, but this week's excercise in DYL focuses on analyzing a flow experience and trying to recall and describe what that was like:&lt;/p&gt;
+
+&lt;p&gt;First, just to list different flow experiences that I can recall:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First two assignments in CS106L as a freshman in spring quarter. &lt;/li&gt;
+&lt;li&gt;Completing CS42 assignments (particularly Piazza + Yelp)&lt;/li&gt;
+&lt;li&gt;Several interview experiences this year - one in particular featuring implementing a trie structure to build a Lexicon.&lt;/li&gt;
+&lt;li&gt;Improvising on several occasions to a beat/chord pattern  &lt;/li&gt;
+&lt;li&gt;Emailing? in a way has sort of a flow component to me when different parts of my life and different circumstances force me to come up with varying answers with a diverse range of tones, complexity, and care.  &lt;/li&gt;
+&lt;li&gt;Summer hackathon experience with fellow interns creating &lt;a href="http://localhost:2368/get-matched.herokuapp.com"&gt;this project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the purposes of this exercise I'm going to choose the last experience because of its depth and more variant storyline.&lt;/p&gt;
+
+&lt;p&gt;Coming into this internal hackathon, I had some experience with prior hackathons but this was honestly my first real experience where I had enough background in the language + skillset to contribute in a substantial way to the project. Two particular characteristics of the experience presented itself as challenges to overcome during the experience: &lt;br&gt;
+1. The open-endedness nature in deciding what to build. &lt;br&gt;
+2. The unique combination of technical and non-technical demands that I had not taken on before as a developer or in a team setting.&lt;/p&gt;
+
+&lt;p&gt;In response to these challenges, I believe that my skills were in direct proportion as I learned to adapt myself to the occasion. There were enough interesting technical challenges throughout the project that kept the project interesting - building modules for searching and matching different objects, and the use of unknown APIs made for a lot of learning and design opportunities. Tasking out and responding dynamically to the team demands also helped me grow in my more non-technical skills to improve effective communication and efficient tasking of new items.&lt;/p&gt;
+
+&lt;p&gt;I remember being particularly in the zone implementing some of the APIs we used to grab pictures off of the web to supplement existing photos in our database. Learning collaboratively with my teammates allowed me to absorb a wealth of information about web applications in general and helped sharpen my attitude towards learning the relevant things necessary for building a product.&lt;/p&gt;
+
+&lt;p&gt;Project pivots were also a crucial part of the experience as we had come into the project with an idea of what we wanted to build but not come to a consensus on what features to extend and how exactly to design the application. I would say that a lot of early discussion and care into the design of the application pre-empted a lot of potential complexities later by streamlining the process and making sure the team was in alignment towards a common vision and goal.&lt;/p&gt;</description><link>http://localhost:2368/flow-excercise/</link><guid isPermaLink="false">2434f4e2-44a4-4edd-a8a1-5eae1d485e76</guid><category>DYL</category><dc:creator>Sherman Leung</dc:creator><pubDate>Fri, 06 Feb 2015 10:17:24 GMT</pubDate></item><item><title>Worldview</title><description>&lt;p&gt;We were asked this week to consider our personal worldviews as a part of Dave Evans + Bill Burnett's Designing Your Life course. &lt;/p&gt;
+
+&lt;p&gt;As a Christian, a lot of my decisions and perspectives are rooted in my faith and how it manifests itself in my life. Discovering what that means and how to do it is very much a process of discernment and co-creation with God to discover what His will is. My perspective on what's good, righteous, and just is based on my interpretation of who God is. &lt;/p&gt;
+
+&lt;p&gt;Separate (but also tied to in a sense) from my faith, I believe that belief in anything shouldn't just a cognitive conciousness but an intentional and full-bodied manifestation into who you are no matter what you believe, and I try to reflect that view in my own life to the best of my ability.&lt;/p&gt;</description><link>http://localhost:2368/worldview/</link><guid isPermaLink="false">54ad8f47-13c4-48ad-ab21-f648bead2db2</guid><category>DYL</category><dc:creator>Sherman Leung</dc:creator><pubDate>Fri, 06 Feb 2015 09:54:33 GMT</pubDate></item><item><title>Why KA?</title><description>&lt;p&gt;Since starting the long and arduous search for Summer 2015 opportunities back in September of last year, I've made the decision to go to to &lt;a href="http://khanacademy.org/"&gt;Khan Academy&lt;/a&gt; (KA) this summer. &lt;/p&gt;
+
+&lt;p&gt;This post isn't so much an announcement as it is a relevation of things I've learned about myself, KA, and the interview process as a result of the introspective experience. So I just wanted to take this chance to highlight a few reasons why I felt compelled to join KA.&lt;/p&gt;
+
+&lt;h3 id="1nonexplodingofferdeadline"&gt;1. Non-exploding Offer Deadline&lt;/h3&gt;
+
+&lt;p&gt;This was huge. The fact that Khan Academy allowed me an indefinite amount of time to make my decision put a lot of pressure off my back and speaks to the attitude that Khan Academy has about towards its candidates. The philosophy here works great for KA too - there's no "if only" "should've" "would've" doubts in the candidates mind when they join. They're getting candidates who have truly decided its in their best interest to join the company, and it speaks wonders in my opinion to the quality to the motivations and convictions of the people who join.&lt;/p&gt;
+
+&lt;p&gt;(How to combat the exploding offer if you have one: &lt;a href="http://www.joelonsoftware.com/items/2008/11/26.html"&gt;link&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id="2interviewprocess"&gt;2. Interview process&lt;/h3&gt;
+
+&lt;p&gt;For any other company, I probably would not have been a fan of the multiple sequential interviews that Khan Academy puts you through in the process. It leads to a longer and more stressful process by raising the potential risk for each interview given that each interview paves the way to the next. &lt;/p&gt;
+
+&lt;p&gt;Given this setup, I think Khan Academy makes this work by training interviewers who facilitate each interview more as a conversation rather than an assessment. In my last interview I really appreciated the fact that my interviewer took the time to formulate some interesting and really thought-provoking questions specific to my experience. It sparked a conversation that was worlds different from the standard pitch I kept giving to other companies about side-projects and my classes. &lt;/p&gt;
+
+&lt;p&gt;In the end, the effort that a company puts into its interviews goes a long way to influence the interviewee's perspective of the company no matter how much they want to work there, and I think this is one aspect of interviewing in which KA really set itself apart.&lt;/p&gt;
+
+&lt;h3 id="3transparency"&gt;3. Transparency&lt;/h3&gt;
+
+&lt;p&gt;It was actually blog posts from KA interns and engineers that I started reading last summer that was part of the inspiration of this very blog. I love the fact that I can follow what interns do and what the company is working on, and wanted to provide myself the same capacity to reflect on my own story in the future.&lt;/p&gt;
+
+&lt;p&gt;It's incredible to see how KA is able to weave a compelling story through its engineers and interns. This facet makes the company just that much more personable and relatable to prospective interns when we can get a clear picture of what it would really look like to work there.&lt;/p&gt;
+
+&lt;h3 id="4dedicationtomentorship"&gt;4. Dedication to Mentorship&lt;/h3&gt;
+
+&lt;p&gt;This was the main criteria that I was really looking for this coming summer. The question I rooted my summer search was:  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"How well can the team mentor and support me in my learning and development as an engineer and as a person?"&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Talking to previous interns and reading some of Ben's &lt;a href="http://bjk5.com/post/45981136553/the-absolute-minimum-every-khan-academy-developer"&gt;blog&lt;/a&gt; &lt;a href="http://bjk5.com/post/23266999170/how-intern-mentorship-works-at-khan-academy"&gt;posts&lt;/a&gt; really convinced me that KA was dedicated and invested in growing and mentoring us students. It's what kept me on the hook as other offer deadlines expired and what helped me ultimately make my decision.&lt;/p&gt;
+
+&lt;p&gt;In the end, I was struck by KA's dedication to its interns. My interactions with everyone there repeatedly confirmed that KA's first priority in taking me on as an intern was helping me &lt;em&gt;learn&lt;/em&gt;. If the resources and the attention that KA invests in its interns are any indication, I can't think of a better company that embodies their own mission when taking on interns.&lt;/p&gt;</description><link>http://localhost:2368/why-ka/</link><guid isPermaLink="false">8407394b-e7c9-4137-96e8-2e4aea42fdac</guid><category>tech</category><category>internship</category><category>ka</category><dc:creator>Sherman Leung</dc:creator><pubDate>Thu, 29 Jan 2015 02:25:15 GMT</pubDate></item><item><title>Scarcity and IP</title><description>&lt;p&gt;A response to &lt;a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2413974"&gt;"IP in a World Without Scarcity"&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;Mark Lemley defends the necessity of protecting Intellectual Property (IP) by arguing that maintaining the scarcity of new ideas is what pushes innovation forward according to economic principles. Given the state of the world now, where ideas, people, and more open and interconnected than ever, this argument of scarcity begins to fall apart.&lt;/p&gt;
+
+&lt;p&gt;I argue that in today's day and age, more people are working on more ideas than ever before. This can't be anything but conducive to increasing the value and variety of IP. Whereas Lemley argues that the advent of "cost-reducing technologies" that distribute such ideas and IP is detrimental to the scarcity that drives our economy, I claim that the availability and accessibility of these more powerful tools have given us stronger propensity to a greater variety and depth of ideas.&lt;/p&gt;
+
+&lt;p&gt;A utilitarian would disagree with Lemley's argument. If the argument for the overall diversity and impact of these ideas is decreasing when scarcity is enforced, then a utilitarian would agree with the claim that the overall utility of the population has decreased. Given that the best policy is to produce more and higher-impact ideas, we need not be concerned with scarcity but how technology can accelerate the executation and propagaion of great ideas. As iterative and dynamic race, we need more ideas to filter and sieve out better ideas. As a sharp sword sharpens another, a technological era can only improve the quality and quantity of ideas by acting as a catalyst to this naturally human process.&lt;/p&gt;</description><link>http://localhost:2368/scarcity-and-ip/</link><guid isPermaLink="false">d110b316-81ea-4f49-a508-b4b0b545662d</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Wed, 28 Jan 2015 08:27:58 GMT</pubDate></item><item><title>What is design?</title><description>&lt;p&gt;A classmate of mine recently asked about using my &lt;a href="http://shermanleung.com/"&gt;personal portfolio&lt;/a&gt; as a template to build his own portfolio. He asked me an interesting question: "How can I get better at design?" which prompts the thought - &lt;em&gt;What is &lt;strong&gt;design&lt;/strong&gt; really?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;To me, I see design as the intersection of practicality, beauty, and interaction. The aethesthic beauty of a well-designed product or web-page should be conducive to its praticality and the way a user might interact with the page or product.&lt;/p&gt;
+
+&lt;p&gt;Conversely, the way in which a user interacts with a product can be beautiful and aethestically pleasing to watch in its own way. Through both of these qualities, the frequency and overall utility of the product with regards to the user is increased.&lt;/p&gt;
+
+&lt;p&gt;In regards to designing a web page, I tend to take inspiration from products I use often where the design leads my interactions to be positive and reoccuring experiences. At the time the Windows 8 theme on my family's laptop was a common experience that I went through daily. It became the basis of my design for the portfolio with the color pallete inspired by Google's flat pastel hues.&lt;/p&gt;</description><link>http://localhost:2368/what-is-design/</link><guid isPermaLink="false">52f8c5b7-0a80-48f2-b927-c4b45b3db5c7</guid><category>design</category><dc:creator>Sherman Leung</dc:creator><pubDate>Tue, 27 Jan 2015 00:05:29 GMT</pubDate></item><item><title>Soundcloud Scraping</title><description>&lt;p&gt;After learning about cURL requests from a &lt;a href="http://callbackjs.me/"&gt;javascript course&lt;/a&gt; I took last year, I wanted to automate some track scraping with a bash script so I could listen to some SoundCloud music on my flight.&lt;/p&gt;
+
+&lt;p&gt;The script is up &lt;a href="https://github.com/skleung/soundcloud-scraper"&gt;here&lt;/a&gt;, but unfortunately my 20 minute complimentary Wi-Fi at Chicago O'hare was up before I could use it...hopefully it helps someone else out!&lt;/p&gt;
+
+&lt;p&gt;There's definitely a better SoundCloud scraper out there, but this one works out of the box with a personal &lt;code&gt;API_CLIENT_KEY&lt;/code&gt; until I run out of downloads with my personal key.&lt;/p&gt;</description><link>http://localhost:2368/soundcloud-scrapig/</link><guid isPermaLink="false">c9e7d1f1-5725-485e-95df-4904ed7eeaf8</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Tue, 20 Jan 2015 01:34:12 GMT</pubDate></item><item><title>Block Journal</title><description>&lt;p&gt;As part of an excercise for DYL: &lt;a href="http://www.stanford.edu/class/me104b/cgi-bin/"&gt;"Designing your Life"&lt;/a&gt;, I'm maintaining a "block journal" to describe when I get blocked during this week, what type of block that is (according to Jim Adam's &lt;a href="http://www.amazon.com/Conceptual-Blockbusting-Guide-Better-Ideas/dp/0738205370"&gt;Conceptal Blockbusting&lt;/a&gt;), and how that block feels:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday (1/16)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At PennApps and we're at a brainstorming block trying to decide what to build. Caught between the tension of procuring a "flashy demo" vs. solving a meaningful problem. As more of a perceptual block, I think the issue here was trying to be mindful of the practical limitations that we had given the time constraints while working to build something substantial over the course of the weekend. I personally felt a little light-headed and lost in the world of possibilities that we were exposed to.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Saturday (1/17)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Still at PennApps, and I'm stuck on figuring out where to begin with the application that we're working together on. This is probably more of an intellectual block, and it feels sort of like an itch that I can't quite scratch. Though we're all talented and not very choosey engineers, it's hard to decide on an idea that we feel would be worthy of working on for 36 hours. Taking some cues from design thinking, it would probably would have been worth the time to spend a good deal of time just brainstorming before the hackathon.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sunday (1/18)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blocked deciding what to write on for my CS181W course. This feels like an intellectual block because though I feel like I can easily learn enough to write and understand the technical details of any bug really. However, it's hard to decide on a problem that would be substantial enough outisde of technical details to talk about other social and cultural impacts of the bug.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Monday (1/19)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blocked on actually doing work...I think this is more of an emotional block. I think a change of scenary might help - I tend to not do a ton of work in my dorm room. The palpable feeling now is more of a tastelessness or grayness that seems to pervade the senses.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tuesday (1/20)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blocked on how to narrow and focus more pointedly in my paper for CS181W - how do I refine and polish a rough draft effectively. The jagged nature of the paper and the inability to cut material makes it hard for good ideas to sieve through and for a cohesive flow to materialize out of the piece of writing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wednesday (1/21)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blocked on deciding whether to drop a class (&lt;a href="http://shermanleung.com/blog/cs193p"&gt;CS193P&lt;/a&gt;). The palpable feeling here is a shakiness or hesitation probably rooted in what Jim Adams would describe as an emotional block. Despite the hesitation, I begrudlingly know in my hearts of hearts that the right thing to do is to make more time for other classes and commitments.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thursday (1/22)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Blocked on deciding exactly how to approach this next research project dealing with some more serious AI and NLP knowledge that I've been previously privy to. It's an intellectual block that sort of makes me feel a little underprepared and underwhelmed to take on the next step in the process. I'm determined to get over the block just by trying to use the open-source tools that the research provides and getting used to the conceptual parts through the practical side of coding something up.&lt;/p&gt;</description><link>http://localhost:2368/block-journal/</link><guid isPermaLink="false">9585f88d-9c7c-462b-b14b-92b08a230bbc</guid><category>DSL</category><dc:creator>Sherman Leung</dc:creator><pubDate>Sat, 17 Jan 2015 13:38:00 GMT</pubDate></item></channel></rss>

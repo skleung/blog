@@ -1,0 +1,387 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>tech - undeclared</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 20 Apr 2015 18:37:19 GMT</lastBuildDate><atom:link href="http://localhost:2368/tag/tech/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Why KA?</title><description>&lt;p&gt;Since starting the long and arduous search for Summer 2015 opportunities back in September of last year, I've made the decision to go to to &lt;a href="http://khanacademy.org/"&gt;Khan Academy&lt;/a&gt; (KA) this summer. &lt;/p&gt;
+
+&lt;p&gt;This post isn't so much an announcement as it is a relevation of things I've learned about myself, KA, and the interview process as a result of the introspective experience. So I just wanted to take this chance to highlight a few reasons why I felt compelled to join KA.&lt;/p&gt;
+
+&lt;h3 id="1nonexplodingofferdeadline"&gt;1. Non-exploding Offer Deadline&lt;/h3&gt;
+
+&lt;p&gt;This was huge. The fact that Khan Academy allowed me an indefinite amount of time to make my decision put a lot of pressure off my back and speaks to the attitude that Khan Academy has about towards its candidates. The philosophy here works great for KA too - there's no "if only" "should've" "would've" doubts in the candidates mind when they join. They're getting candidates who have truly decided its in their best interest to join the company, and it speaks wonders in my opinion to the quality to the motivations and convictions of the people who join.&lt;/p&gt;
+
+&lt;p&gt;(How to combat the exploding offer if you have one: &lt;a href="http://www.joelonsoftware.com/items/2008/11/26.html"&gt;link&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id="2interviewprocess"&gt;2. Interview process&lt;/h3&gt;
+
+&lt;p&gt;For any other company, I probably would not have been a fan of the multiple sequential interviews that Khan Academy puts you through in the process. It leads to a longer and more stressful process by raising the potential risk for each interview given that each interview paves the way to the next. &lt;/p&gt;
+
+&lt;p&gt;Given this setup, I think Khan Academy makes this work by training interviewers who facilitate each interview more as a conversation rather than an assessment. In my last interview I really appreciated the fact that my interviewer took the time to formulate some interesting and really thought-provoking questions specific to my experience. It sparked a conversation that was worlds different from the standard pitch I kept giving to other companies about side-projects and my classes. &lt;/p&gt;
+
+&lt;p&gt;In the end, the effort that a company puts into its interviews goes a long way to influence the interviewee's perspective of the company no matter how much they want to work there, and I think this is one aspect of interviewing in which KA really set itself apart.&lt;/p&gt;
+
+&lt;h3 id="3transparency"&gt;3. Transparency&lt;/h3&gt;
+
+&lt;p&gt;It was actually blog posts from KA interns and engineers that I started reading last summer that was part of the inspiration of this very blog. I love the fact that I can follow what interns do and what the company is working on, and wanted to provide myself the same capacity to reflect on my own story in the future.&lt;/p&gt;
+
+&lt;p&gt;It's incredible to see how KA is able to weave a compelling story through its engineers and interns. This facet makes the company just that much more personable and relatable to prospective interns when we can get a clear picture of what it would really look like to work there.&lt;/p&gt;
+
+&lt;h3 id="4dedicationtomentorship"&gt;4. Dedication to Mentorship&lt;/h3&gt;
+
+&lt;p&gt;This was the main criteria that I was really looking for this coming summer. The question I rooted my summer search was:  &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;"How well can the team mentor and support me in my learning and development as an engineer and as a person?"&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Talking to previous interns and reading some of Ben's &lt;a href="http://bjk5.com/post/45981136553/the-absolute-minimum-every-khan-academy-developer"&gt;blog&lt;/a&gt; &lt;a href="http://bjk5.com/post/23266999170/how-intern-mentorship-works-at-khan-academy"&gt;posts&lt;/a&gt; really convinced me that KA was dedicated and invested in growing and mentoring us students. It's what kept me on the hook as other offer deadlines expired and what helped me ultimately make my decision.&lt;/p&gt;
+
+&lt;p&gt;In the end, I was struck by KA's dedication to its interns. My interactions with everyone there repeatedly confirmed that KA's first priority in taking me on as an intern was helping me &lt;em&gt;learn&lt;/em&gt;. If the resources and the attention that KA invests in its interns are any indication, I can't think of a better company that embodies their own mission when taking on interns.&lt;/p&gt;</description><link>http://localhost:2368/why-ka/</link><guid isPermaLink="false">8407394b-e7c9-4137-96e8-2e4aea42fdac</guid><category>tech</category><category>internship</category><category>ka</category><dc:creator>Sherman Leung</dc:creator><pubDate>Thu, 29 Jan 2015 02:25:15 GMT</pubDate></item><item><title>Open Source Notes</title><description>&lt;p&gt;I've decided to open source my notes on this Ghost blog this quarter. Two reasons why I've come to this decision rather than the &lt;a href="http://evernote.com/"&gt;Evernote&lt;/a&gt; setup that I used to use in past quarters: &lt;br&gt;
+1. &lt;strong&gt;Markdown support&lt;/strong&gt;: Ever since discovering &lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown&lt;/a&gt;, integrating code into notes has been a breeze. &lt;br&gt;
+2. &lt;strong&gt;Easy Deployment&lt;/strong&gt;: One-line deployment makes it dead simple to export these notes online after publishing it to my local application: &lt;br&gt;
+ &lt;code&gt;buster generate &amp;amp;&amp;amp; buster deploy&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;One downside is that Ghost doesn't to have centralize markdown files from posts into a single location. This makes it harder to convert the markdown files into an exportable format. &lt;/p&gt;
+
+&lt;p&gt;For Winter 2015, I'll be posting regularly for the following classes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://shermanleung.com/blog/cs108"&gt;CS108&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://shermanleung.com/blog/cs193p"&gt;CS193p&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://shermanleung.com/blog/cs181w"&gt;CS181w&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/open-source-notes-project/</link><guid isPermaLink="false">dd328084-a5e3-4f32-b86f-954888d487b3</guid><category>tech</category><dc:creator>Sherman Leung</dc:creator><pubDate>Wed, 14 Jan 2015 03:23:34 GMT</pubDate></item><item><title>CS108</title><description>&lt;h2 id="2122015"&gt;2/12/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Java Servlets&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use New Dynamic Web Project&lt;/li&gt;
+&lt;li&gt;Create new servlets to &lt;/li&gt;
+&lt;li&gt;Listener is designed to do setup (i.e. initializing the sessions)&lt;/li&gt;
+&lt;li&gt;Session attributes act like hashMaps&lt;/li&gt;
+&lt;li&gt;You can creat &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="232015"&gt;2/3/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Threading&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;start&lt;/code&gt; vs. &lt;code&gt;run&lt;/code&gt;:
+&lt;ul&gt;&lt;li&gt;&lt;code&gt;start&lt;/code&gt; will actually fork off a new quesiton but &lt;code&gt;run&lt;/code&gt; will keep the run method of the child thread running on the main thread itself  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+* 
+&lt;/ul&gt;
+
+&lt;h2 id="1292015"&gt;1/29/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Databases&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We'll be using MySQL Monitor to interact directly with MySQL&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Key characteristics of a database:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Persistent Storage&lt;/li&gt;
+&lt;li&gt;Application Access (applications can acces the data)&lt;/li&gt;
+&lt;li&gt;Transaction management (this is not supported by a file system): Database rolls back if either end of the transaction fails&lt;/li&gt;
+&lt;li&gt;Efficient Searching (not necessarily supported by traditional file system)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To access the database you need:&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;username&lt;/li&gt;
+&lt;li&gt;password&lt;/li&gt;
+&lt;li&gt;database server &lt;/li&gt;
+&lt;li&gt;database name&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Java Database Connectivity (JDBC): built-in java library that works with SQL database.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="1272015"&gt;1/27/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Anonymous Functions, Lambda Functions&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can sort with an anonymous lamda function, you don't need to create the entire comparable class - just need to create that one function:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;Collections.sort(ingredients, (x, y) -&amp;gt; (return(x.getGrams()-y.getGrams()));  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that this anonymous function has the same context as the surrounding  program in JRE 8 (JRE 9 apparently has the concept of closure)&lt;/p&gt;
+
+&lt;h2 id="1222015"&gt;1/22/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Java Swing&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;java.awt&lt;/code&gt; abstract window types&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;JFrame theFrame = new JFrame("Swing Example");  
+theFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(this way the entire application is still running even when you close a window)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can set the "look and feel" of an application&lt;/li&gt;
+&lt;li&gt;Use ActionListeners to catch changes to buttons (like a JS callback)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="182015"&gt;1/8/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Autoboxing, Templating, Generic Types, JUnit &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remember you can't create collections of primitive types in Java, (i.e. you have to use Integer objects instead of ints)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Autoboxing&lt;/strong&gt;: We can autobox wrapper objects like Integers: &lt;code&gt;myIntList.add(5)&lt;/code&gt; is equivalent to &lt;code&gt;myIntList.add(new Integer(5))&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Autounboxing&lt;/strong&gt;: &lt;code&gt;int x = myIntList.get(0)&lt;/code&gt; Though this list is made of &lt;code&gt;Integer&lt;/code&gt; objects, Java will auto-unbox the int value for you
+&lt;ul&gt;&lt;li&gt;You do need to be explicit to unbox in this case:
+&lt;code&gt;a.get(0).intValue() == b.get(0).intValue()&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Generic Types&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can use generic type parameters to template objects in Java:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;public class Pair&amp;lt;T&amp;gt; {  
+    private T a;
+    private T b;
+}
+...
+Pair&amp;lt;Integer&amp;gt; iPair = new Pair&amp;lt;Integer&amp;gt;(1,2);  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Beware! You cannot instantiate new generic types inside a class that uses a type parameter. This is because Java doesn't know what type it is at run-time (due to backwards-compability in the internal implementation of types because only the compiler knows about the type)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;JUnit Testing Frameworks&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;test stub - sample item returned that can be used to test a program (i.e. a single word returned by the hangman initialization function)&lt;/li&gt;
+&lt;li&gt;test harnesses - stands in as a potential user of the program you're writing&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/cs108/</link><guid isPermaLink="false">0090ba6d-359a-4bc1-9efc-5a47d6e547d1</guid><category>tech</category><category>notes</category><dc:creator>Sherman Leung</dc:creator><pubDate>Wed, 14 Jan 2015 00:16:22 GMT</pubDate></item><item><title>CS193P</title><description>&lt;h2 id="1122015"&gt;1/12/2015:&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Optionals&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Optionals are just enums&lt;/li&gt;
+&lt;li&gt;Enumerate &lt;/li&gt;
+&lt;li&gt;Range: a psuedo-representation of Range:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;struct Range&amp;lt;T&amp;gt; {  
+    var startIndex: T
+    var endIndex: T
+} // note an array's range would be Range&amp;lt;Int&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Special syntax for range:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    let array = ["a","b","c","d","e"]
+    let subArray1 = array[2...3] // ["c", "d"]
+    let subArray1 = array[2...3] // ["c"]
+    for i in [27...104] { } //range is enumerable
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;NSobject is the base class for all Objective-C classes (what about best practices in Swift?)
+&lt;ul&gt;&lt;li&gt;It seems that Swift classes are inherently linked to these NSObject classes.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;NSNumber - generic number-holding class&lt;/li&gt;
+&lt;li&gt;NSDate - used to find out date and time; be sure to check localization ramifications here...&lt;/li&gt;
+&lt;li&gt;NSData - a "bag o' bits" used to save/restore/transmit raw data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Classes, Structures and Enumerations&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Similarities: declaration syntaxes, properties and functions, initliazers.&lt;/li&gt;
+&lt;li&gt;Only classes have inheritance&lt;/li&gt;
+&lt;li&gt;Introspection and casting are classes only&lt;/li&gt;
+&lt;li&gt;Structs and Enums are passed by &lt;em&gt;value&lt;/em&gt; but Classes are passed by &lt;em&gt;reference&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mark a function that can mutate a struct/enum with the keyword &lt;strong&gt;mutating&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Reference (stored in the heap). Note that you can still use &lt;code&gt;let&lt;/code&gt; to mutate class properties with methods&lt;/li&gt;
+&lt;li&gt;You can override methods/properties in superclass with keyword &lt;code&gt;override&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Both types and instances can have methods/properties:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;var d: Double = ...  
+if d.isSignMinus {  
+    d = Double.abs(d)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See above:
+&lt;ul&gt;&lt;li&gt;here, isSignMinus is an instance property of a Double (you send it to particular Double)&lt;/li&gt;
+&lt;li&gt;abs is a type method of a Double (sent to the type itself not a particular Double).&lt;/li&gt;
+&lt;li&gt;You have to declare a type method/roerty with a &lt;code&gt;static&lt;/code&gt; prefix or with &lt;code&gt;class&lt;/code&gt; in a class: &lt;code&gt;static func abs(d: Double) -&amp;gt; Double&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Paramters to all functions have an internal and external name
+&lt;ul&gt;&lt;li&gt;internal name : name of local variable used inside method&lt;/li&gt;
+&lt;li&gt;external name is what callers use to call the method&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;_&lt;/code&gt; if no callers should use external name for given parameter&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Property Observers: &lt;code&gt;willSet&lt;/code&gt; and &lt;code&gt;didSet&lt;/code&gt; will be called before and after setting a property with &lt;code&gt;newValue&lt;/code&gt; and &lt;code&gt;oldValue&lt;/code&gt; as their respective parmaters&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lazy initialization: initialized only when someone acceses it&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;can be used when there are cyclized dependencies between parent and child classes&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When is &lt;code&gt;init&lt;/code&gt; method needed?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;You can set any property's value
+...few asleep for 10 minutes&lt;/li&gt;
+&lt;li&gt;Casting works with the &lt;code&gt;as&lt;/code&gt; keyword.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="1122015"&gt;1/12/2015:&lt;/h2&gt;
+
+&lt;p&gt;Continuation of Calculator Demo - Assignment #2 will be based on the demo today &lt;br&gt;
+&lt;strong&gt;Concepts&lt;/strong&gt;: Operand/operator stack&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Conventions: camelcase convention for names of files (e.g. &lt;code&gt;CalculatorBrain.swift&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;We're defining an Op object to refer to an operand or an operator: should it be a class or function or an &lt;strong&gt;enum&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;We can create an empty array of objects with: &lt;code&gt;var opStack = Array&amp;lt;Op&amp;gt;()&lt;/code&gt;, but the preferred syntax is &lt;code&gt;var opStack = [Op]()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Functions are just types in Swift (no different from strings)&lt;/li&gt;
+&lt;li&gt;Creating an enum (used to enumerate different possibilities):
+In swift, we can associate data with any of the cases in this enum  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;enum Op {  
+    case Operand(Double)
+    case UnaryOperation(String, Double -&amp;gt; Double)
+    case BinaryOperation(String, (Double, Double) -&amp;gt; Double)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An initializer is called by invoking a class with parentheses: (e.g. &lt;code&gt;var knownOps = [String:Op]()&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;We can also intiialize it with the &lt;code&gt;init()&lt;/code&gt; method &lt;/li&gt;
+&lt;li&gt;Looking up something in a dictionary will always return an optional&lt;/li&gt;
+&lt;li&gt;To make variables private to a class, add &lt;code&gt;private&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Sometimes you can't return an actual return value, you can make it an optional return value:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;func evaluate() -&amp;gt; Double? {
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Swift passes structs by value and clases by references: Arrays, Dictionaries are &lt;strong&gt;structs&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;There's an implicit &lt;code&gt;let&lt;/code&gt; in from of all structs as parameters (read-only!) so the struct in this case is immutable&lt;/li&gt;
+&lt;li&gt;Hacky way of making a mutable copy for use inside a function (see the var that replaces the implicit let in the parameter):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;func evaluate(var ops: [Op]) {
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Swift is actually smart enough to not actually copy a struct until a change is made. Swift might even make just a partial copy or just kept track of the actual changes made.&lt;/li&gt;
+&lt;li&gt;We use &lt;code&gt;switch&lt;/code&gt; to pull associated values out of enums&lt;/li&gt;
+&lt;li&gt;Underbars &lt;code&gt;_&lt;/code&gt; are used when we don't care about the variable and don't intend on using it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="172015"&gt;1/7/2015:&lt;/h2&gt;
+
+&lt;p&gt;Continuation of Calculator Demo &lt;br&gt;
+&lt;strong&gt;Concepts&lt;/strong&gt;: Typed Functions, Arrays, Sets&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Optionals are automatically assigned to be nil (not set)&lt;/li&gt;
+&lt;li&gt;Note it's not necessary to declare the type of a variable: &lt;code&gt;var operandStack: Array&amp;lt;Double&amp;gt; = Array&amp;lt;Double&amp;gt;()&lt;/code&gt; is equivalent to &lt;code&gt;var operandStack = Array&amp;lt;Double&amp;gt;()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Creating arrays are just like:&lt;/li&gt;
+&lt;li&gt;Computed properties : you can define properties that are computed and updated anywhere it is used&lt;/li&gt;
+&lt;li&gt;Switch statement is much more powerful in Swift. You have to cover every possibility (make sure to include a Default case)&lt;/li&gt;
+&lt;li&gt;Closures allow you to define functions as parameters:
+&lt;ul&gt;&lt;li&gt;&lt;code&gt;performOperation({(op1,op2) in op1 * op2)&lt;/code&gt; is equivalent to &lt;code&gt;performOperation {$0 * $1}&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;MVC - 3 camps&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Model&lt;/strong&gt; - what your application (i.e. what is a program?)
+&lt;ul&gt;&lt;li&gt;The model is completely UI independent, should never talk to the view&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controller&lt;/strong&gt; - how your model is presented to the user
+&lt;ul&gt;&lt;li&gt;Controllers can always talk directly to their Model&lt;/li&gt;
+&lt;li&gt;Controllers can also talk directly to the view (outlet)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;View&lt;/strong&gt; - what the user sees
+&lt;ul&gt;&lt;li&gt;Comunicates with the contorller through actions&lt;/li&gt;
+&lt;li&gt;Sometimes the view needs to be synchronized with the controller (i.e. should I allow the user to scroll? &lt;code&gt;shouldScroll&lt;/code&gt; &lt;code&gt;willScroll&lt;/code&gt; &lt;code&gt;didScroll&lt;/code&gt;
+&lt;ul&gt;&lt;li&gt;we solve this with delegations&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;delegate&lt;/em&gt; is set via a protocol ("blind" to class)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;controllers provide a data source to the view&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="152015introductiontoswift"&gt;1/5/2015: Introduction to Swift&lt;/h2&gt;
+
+&lt;p&gt;Introduction to the course and the start of the calculator demo to build basic intuition about programming in Swift &lt;br&gt;
+&lt;strong&gt;Concepts&lt;/strong&gt;: Creating a project, Tying/connecting button components to their corresponding methods in the controller, Swift basics, Types in Swift (Optional types)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Logistics:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Each class will feature a Demo&lt;/li&gt;
+&lt;li&gt;Enrollment survey deadline is Tuesday&lt;/li&gt;
+&lt;li&gt;Paul will likely have a "second start" to the class for the iTunesU taping (2 week delay)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Overview + Prerequisites:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Real life object-oriented programming&lt;/li&gt;
+&lt;li&gt;Databases, graphics, multimedia, animation in a real-world application&lt;/li&gt;
+&lt;li&gt;Prior coursework assumes object-oriented programming&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Four Layers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Core OS: &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;UNIX-based system&lt;/li&gt;
+&lt;li&gt;Sockets, Kernel, Permissions, near hardware level&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Core Services &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Accessing lower level services through object-oriented interfaces&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Media (little time spent in this area) &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Capturing, editing media&lt;/li&gt;
+&lt;li&gt;Audio mixing, recording&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Cocoa Touch (Vast majority of time spent here, 70%+) &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Buttons, sliders, multi-touch&lt;/li&gt;
+&lt;li&gt;Build the interactivity with the application here&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Platform Components:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Xcode 6 is the code editor, compiler, debugger &lt;/li&gt;
+&lt;li&gt;Language(s): We'll learn Swift in this class&lt;/li&gt;
+&lt;li&gt;Frameworks - core motion, map kit, gyroscope&lt;/li&gt;
+&lt;li&gt;Design Strategy - MVC &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Demo:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We're building a calculator from scratch&lt;/li&gt;
+&lt;li&gt;Topics include:
+&lt;ul&gt;&lt;li&gt;Creating a project in Xcode&lt;/li&gt;
+&lt;li&gt;Building a UI&lt;/li&gt;
+&lt;li&gt;iOS Simulator&lt;/li&gt;
+&lt;li&gt;println&lt;/li&gt;
+&lt;li&gt;defining a class in Swift&lt;/li&gt;
+&lt;li&gt;Connecting method interactions to their components (CTRL + Drag method dots to their corresponding components in the view)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/cs193p/</link><guid isPermaLink="false">280f8601-190d-4d5a-8200-f8216a70979c</guid><category>tech</category><category>notes</category><dc:creator>Sherman Leung</dc:creator><pubDate>Thu, 08 Jan 2015 01:28:51 GMT</pubDate></item><item><title>Why Ghost?</title><description>&lt;p&gt;There's a variety of reasons I chose Ghost as my blogging platform of choice, but I'll focus on the few pros that distinguished the platforms I considered.&lt;/p&gt;
+
+&lt;h3 id="publishersfirst"&gt;Publishers First&lt;/h3&gt;
+
+&lt;p&gt;Ghost has made its mission to prioritize publishing. This means removing the resistance for organizing, creating, and publishing new posts. Though platforms like &lt;a href="https://wordpress.com/"&gt;WordPress&lt;/a&gt; do a lot of that heavy-lifting, Ghost wins out by allowing publishers to have complete ownership of the publshing process from back to front.&lt;/p&gt;
+
+&lt;p&gt;As a completely stand-alone application, Ghost allows developers to completely own the process with an independent backend that one can run remotely or live online on the web. Few platforms offer that independence without growing to become too bloated.&lt;/p&gt;
+
+&lt;h3 id="lightweight"&gt;Lightweight&lt;/h3&gt;
+
+&lt;p&gt;On that note, Ghost was written to be fast, streamlined web application. Based on blazing-fast javascript, Ghost runs on &lt;a href="http://nodejs.org/"&gt;node.js&lt;/a&gt; rather than php, the traditional scripting language that most blogging platforms use. Rather than trying to absorb the featuers of a full-fledged content management system, Ghost was designed to be dedicated to just publishing which removes a lot of the unnecessary dead weight.&lt;/p&gt;
+
+&lt;p&gt;Though nothing will probably beat out the minimalistic &lt;a href="http://dropplets.com/"&gt;dropplets&lt;/a&gt;, an impressive flat-file, no-database, blogging system. Ghost seems to offer the right amount of weight in customization and ease-of-use that gives it enough muscle to be a true lightweight.&lt;/p&gt;
+
+&lt;h3 id="readability"&gt;Readability&lt;/h3&gt;
+
+&lt;p&gt;Few platforms have been as impressive as the clean, sleek layout that &lt;a href="http://svbtle.com/"&gt;svbtle&lt;/a&gt; and &lt;a href="https://medium.com/@sk_leung"&gt;medium&lt;/a&gt; have, but the themes to choose from the official ghost marketplace have grown substantially in the past year that Ghost has been out. Started by the Deputy of WordPress's Head of UI &lt;a href="http://john.onolan.org/ghost/"&gt;himself&lt;/a&gt;, Ghost was seeded and founded on good design. Over time, it's attracted more and more skilled designers to build some impressive replicas of &lt;a href="https://github.com/starburst1977/readium"&gt;medium&lt;/a&gt; and &lt;a href="http://shrkey.com/the-shrkey-ghost-theme-is-now-available/"&gt;svbtle&lt;/a&gt; themselves.&lt;/p&gt;</description><link>http://localhost:2368/why-ghost/</link><guid isPermaLink="false">bcd3fbe3-baa5-4fcc-a0ac-f5351c2b5c56</guid><category>tech</category><dc:creator>Sherman Leung</dc:creator><pubDate>Sun, 04 Jan 2015 02:23:16 GMT</pubDate></item></channel></rss>

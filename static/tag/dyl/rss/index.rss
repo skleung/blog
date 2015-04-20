@@ -1,0 +1,46 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>DYL - undeclared</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 20 Apr 2015 18:37:18 GMT</lastBuildDate><atom:link href="http://localhost:2368/tag/dyl/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Choices</title><description>&lt;p&gt;Doors. &lt;br&gt;
+Pathways to walk through &lt;br&gt;
+convey a new place where I choose &lt;br&gt;
+To learn. &lt;br&gt;
+and push intellectual boundaries &lt;br&gt;
+or wonder if it's my destiny &lt;br&gt;
+To take time off. &lt;br&gt;
+Where the allure of the valley &lt;br&gt;
+may possibly draw me &lt;br&gt;
+To wonder. &lt;br&gt;
+how I know what God's will is &lt;br&gt;
+not to be passive but active &lt;br&gt;
+To trust. &lt;br&gt;
+that no door is the true way &lt;br&gt;
+and that my faith in the future say &lt;br&gt;
+To choose. &lt;br&gt;
+into the Kingdom &lt;br&gt;
+and stop running away from &lt;br&gt;
+Choices.&lt;/p&gt;</description><link>http://localhost:2368/choices/</link><guid isPermaLink="false">2494c52b-4943-49ee-9ce0-54270b2a6b8d</guid><category>DYL</category><dc:creator>Sherman Leung</dc:creator><pubDate>Fri, 27 Feb 2015 20:56:30 GMT</pubDate></item><item><title>Flow Excercise</title><description>&lt;p&gt;I've written a &lt;a href="http://shermanleung.com/cs106a-sum14/tangents/tangent3.html"&gt;tangent&lt;/a&gt; to the topic of flow before, but this week's excercise in DYL focuses on analyzing a flow experience and trying to recall and describe what that was like:&lt;/p&gt;
+
+&lt;p&gt;First, just to list different flow experiences that I can recall:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First two assignments in CS106L as a freshman in spring quarter. &lt;/li&gt;
+&lt;li&gt;Completing CS42 assignments (particularly Piazza + Yelp)&lt;/li&gt;
+&lt;li&gt;Several interview experiences this year - one in particular featuring implementing a trie structure to build a Lexicon.&lt;/li&gt;
+&lt;li&gt;Improvising on several occasions to a beat/chord pattern  &lt;/li&gt;
+&lt;li&gt;Emailing? in a way has sort of a flow component to me when different parts of my life and different circumstances force me to come up with varying answers with a diverse range of tones, complexity, and care.  &lt;/li&gt;
+&lt;li&gt;Summer hackathon experience with fellow interns creating &lt;a href="http://localhost:2368/get-matched.herokuapp.com"&gt;this project&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the purposes of this exercise I'm going to choose the last experience because of its depth and more variant storyline.&lt;/p&gt;
+
+&lt;p&gt;Coming into this internal hackathon, I had some experience with prior hackathons but this was honestly my first real experience where I had enough background in the language + skillset to contribute in a substantial way to the project. Two particular characteristics of the experience presented itself as challenges to overcome during the experience: &lt;br&gt;
+1. The open-endedness nature in deciding what to build. &lt;br&gt;
+2. The unique combination of technical and non-technical demands that I had not taken on before as a developer or in a team setting.&lt;/p&gt;
+
+&lt;p&gt;In response to these challenges, I believe that my skills were in direct proportion as I learned to adapt myself to the occasion. There were enough interesting technical challenges throughout the project that kept the project interesting - building modules for searching and matching different objects, and the use of unknown APIs made for a lot of learning and design opportunities. Tasking out and responding dynamically to the team demands also helped me grow in my more non-technical skills to improve effective communication and efficient tasking of new items.&lt;/p&gt;
+
+&lt;p&gt;I remember being particularly in the zone implementing some of the APIs we used to grab pictures off of the web to supplement existing photos in our database. Learning collaboratively with my teammates allowed me to absorb a wealth of information about web applications in general and helped sharpen my attitude towards learning the relevant things necessary for building a product.&lt;/p&gt;
+
+&lt;p&gt;Project pivots were also a crucial part of the experience as we had come into the project with an idea of what we wanted to build but not come to a consensus on what features to extend and how exactly to design the application. I would say that a lot of early discussion and care into the design of the application pre-empted a lot of potential complexities later by streamlining the process and making sure the team was in alignment towards a common vision and goal.&lt;/p&gt;</description><link>http://localhost:2368/flow-excercise/</link><guid isPermaLink="false">2434f4e2-44a4-4edd-a8a1-5eae1d485e76</guid><category>DYL</category><dc:creator>Sherman Leung</dc:creator><pubDate>Fri, 06 Feb 2015 10:17:24 GMT</pubDate></item><item><title>Worldview</title><description>&lt;p&gt;We were asked this week to consider our personal worldviews as a part of Dave Evans + Bill Burnett's Designing Your Life course. &lt;/p&gt;
+
+&lt;p&gt;As a Christian, a lot of my decisions and perspectives are rooted in my faith and how it manifests itself in my life. Discovering what that means and how to do it is very much a process of discernment and co-creation with God to discover what His will is. My perspective on what's good, righteous, and just is based on my interpretation of who God is. &lt;/p&gt;
+
+&lt;p&gt;Separate (but also tied to in a sense) from my faith, I believe that belief in anything shouldn't just a cognitive conciousness but an intentional and full-bodied manifestation into who you are no matter what you believe, and I try to reflect that view in my own life to the best of my ability.&lt;/p&gt;</description><link>http://localhost:2368/worldview/</link><guid isPermaLink="false">54ad8f47-13c4-48ad-ab21-f648bead2db2</guid><category>DYL</category><dc:creator>Sherman Leung</dc:creator><pubDate>Fri, 06 Feb 2015 09:54:33 GMT</pubDate></item></channel></rss>

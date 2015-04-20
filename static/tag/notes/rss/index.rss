@@ -1,0 +1,1474 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>notes - undeclared</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Mon, 20 Apr 2015 18:37:18 GMT</lastBuildDate><atom:link href="http://localhost:2368/tag/notes/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>BIOMEDIN 206</title><description>&lt;h2 id="informaticsinindustry"&gt;Informatics in Industry&lt;/h2&gt;
+
+&lt;p&gt;A repository of notes from taking a seminar series in the School of Medicine.&lt;/p&gt;
+
+&lt;h3 id="week2googlexbaselinestudy"&gt;Week 2 - Google[x] Baseline study&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vikram Bajaj&lt;/strong&gt; (PhD) - initially classics @UPenn (Undergrad) + MIT (Grad)&lt;/li&gt;
+&lt;li&gt;Faculty at Berkeley and then 2 startups, now at Google[x]&lt;/li&gt;
+&lt;li&gt;Comes from spectroscopy background (NMR)
+&lt;ul&gt;&lt;li&gt;Functional MRI: noninvasive spectroscopic techniques to see structure + dynamic view of function &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Vision evolved from proton gradient as a signaling mechanism (rather than an energy-generating mechnaism)&lt;/li&gt;
+&lt;li&gt;Biomimetic nanoparticle probes for imaging&lt;/li&gt;
+&lt;li&gt;SkinScan: targeting cosmetic dermatology - wounding and the healing skin. 
+&lt;ul&gt;&lt;li&gt;handheld device to detect types of skin filler (the part that heals)  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Chevron startup: Oil well logging - building MRI spectrometers that work from inside out to oil well drills to tell you information about the oil around the drill.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="whatshappeningatgooglex"&gt;&lt;strong&gt;What's happening at Google[x]?&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Intersection of: 
+&lt;ol&gt;&lt;li&gt;Huge Problem&lt;/li&gt;
+&lt;li&gt;Radical Solution&lt;/li&gt;
+&lt;li&gt;Breakthrough Technology&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Not to be too afraid of failure&lt;/li&gt;
+&lt;li&gt;"It's hard to think of making something 10x better" but this is &lt;em&gt;hard&lt;/em&gt; in healthcare&lt;/li&gt;
+&lt;li&gt;Problems:
+&lt;ul&gt;&lt;li&gt;Self-driving cars - leading causes of death. Replacing drivers to make 10x improvement in solving this problem.&lt;/li&gt;
+&lt;li&gt;"Medical Tri-corder" - diagnostics&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Baseline Study&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="baselinestudy"&gt;Baseline Study&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disease pathology: traditionally HE Stain (Hematoxylin and eosin stain) but moving towards "molecular markers" and quantative analyses of biological pathways&lt;/li&gt;
+&lt;li&gt;Cancer is not one disease, but hetrogeneous in profile.&lt;/li&gt;
+&lt;li&gt;More data beats better algorithms - we learn from the quality of the data and the parts that we pick out to be significant&lt;/li&gt;
+&lt;li&gt;Limits of big data: 
+&lt;ul&gt;&lt;li&gt;1854 Soho Cholera outbreak. Big data detected the cause of the outbreak. But removing the cause doesn't tell you anything about the disease or lead to any mechanistic insights.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="week1gingeriobehavioralanalyticsforhealthcare"&gt;Week 1 - Ginger.io: behavioral Analytics for Healthcare&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gourab De&lt;/strong&gt; (PhD) - biostatistics + Machine Learning. Expert in Risk &amp;amp; Outcomes modeling&lt;/li&gt;
+&lt;li&gt;Health economics - somone in paying for hospitalization. If you reduce hospitalization, you're saving costs overall&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Idea:&lt;/strong&gt; Making data more granular in the time between visits:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Right now doctors are only getting a glimpse (or a snapchat) of patients from visit to visit. Doctors are at a loss to learn from the time between visits&lt;/li&gt;
+&lt;li&gt;Ginger.io provides: Continuous cycle for engagement, feedback and measurement: passive data, in-app surveys. Analyzing behavior, enable interventions -&gt; measuring outcomes&lt;/li&gt;
+&lt;li&gt;Integrating provided data with patient data from hospitals
+&lt;ul&gt;&lt;li&gt;Virtual silos are used to merge and hold information from the app and the current hospital infrastructure&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cannot integrate with EMR&lt;/strong&gt; (this is a very hard problem from a privacy perspective and who owns the data)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Insights from ginger.io data&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Helped uncover a pattern between stress at home + low mobility.
+&lt;ul&gt;&lt;li&gt;A patient caring for two mentally unstable children improved from higher mobility&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What's next for Sensor Data + Modeling in Healthcare&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Smartphone and wearables have gone mainstream: 58% of US population owns smartphones. 76% of clinicians think health apps would be helpful for patientswith chronic conditions&lt;/li&gt;
+&lt;li&gt;Major players entering space - Apple/HealthKit/ResearchKit etc...&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/biomedin-206/</link><guid isPermaLink="false">54f0015d-c79e-4085-97f3-5637cbb523d3</guid><category>notes</category><dc:creator>Sherman Leung</dc:creator><pubDate>Mon, 06 Apr 2015 19:39:31 GMT</pubDate></item><item><title>CS108</title><description>&lt;h2 id="2122015"&gt;2/12/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Java Servlets&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use New Dynamic Web Project&lt;/li&gt;
+&lt;li&gt;Create new servlets to &lt;/li&gt;
+&lt;li&gt;Listener is designed to do setup (i.e. initializing the sessions)&lt;/li&gt;
+&lt;li&gt;Session attributes act like hashMaps&lt;/li&gt;
+&lt;li&gt;You can creat &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="232015"&gt;2/3/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Threading&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;start&lt;/code&gt; vs. &lt;code&gt;run&lt;/code&gt;:
+&lt;ul&gt;&lt;li&gt;&lt;code&gt;start&lt;/code&gt; will actually fork off a new quesiton but &lt;code&gt;run&lt;/code&gt; will keep the run method of the child thread running on the main thread itself  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+* 
+&lt;/ul&gt;
+
+&lt;h2 id="1292015"&gt;1/29/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Databases&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We'll be using MySQL Monitor to interact directly with MySQL&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Key characteristics of a database:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Persistent Storage&lt;/li&gt;
+&lt;li&gt;Application Access (applications can acces the data)&lt;/li&gt;
+&lt;li&gt;Transaction management (this is not supported by a file system): Database rolls back if either end of the transaction fails&lt;/li&gt;
+&lt;li&gt;Efficient Searching (not necessarily supported by traditional file system)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To access the database you need:&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;username&lt;/li&gt;
+&lt;li&gt;password&lt;/li&gt;
+&lt;li&gt;database server &lt;/li&gt;
+&lt;li&gt;database name&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Java Database Connectivity (JDBC): built-in java library that works with SQL database.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="1272015"&gt;1/27/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Anonymous Functions, Lambda Functions&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can sort with an anonymous lamda function, you don't need to create the entire comparable class - just need to create that one function:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;Collections.sort(ingredients, (x, y) -&amp;gt; (return(x.getGrams()-y.getGrams()));  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that this anonymous function has the same context as the surrounding  program in JRE 8 (JRE 9 apparently has the concept of closure)&lt;/p&gt;
+
+&lt;h2 id="1222015"&gt;1/22/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Java Swing&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;java.awt&lt;/code&gt; abstract window types&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;JFrame theFrame = new JFrame("Swing Example");  
+theFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;(this way the entire application is still running even when you close a window)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can set the "look and feel" of an application&lt;/li&gt;
+&lt;li&gt;Use ActionListeners to catch changes to buttons (like a JS callback)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="182015"&gt;1/8/2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Autoboxing, Templating, Generic Types, JUnit &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remember you can't create collections of primitive types in Java, (i.e. you have to use Integer objects instead of ints)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Autoboxing&lt;/strong&gt;: We can autobox wrapper objects like Integers: &lt;code&gt;myIntList.add(5)&lt;/code&gt; is equivalent to &lt;code&gt;myIntList.add(new Integer(5))&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Autounboxing&lt;/strong&gt;: &lt;code&gt;int x = myIntList.get(0)&lt;/code&gt; Though this list is made of &lt;code&gt;Integer&lt;/code&gt; objects, Java will auto-unbox the int value for you
+&lt;ul&gt;&lt;li&gt;You do need to be explicit to unbox in this case:
+&lt;code&gt;a.get(0).intValue() == b.get(0).intValue()&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Generic Types&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can use generic type parameters to template objects in Java:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;public class Pair&amp;lt;T&amp;gt; {  
+    private T a;
+    private T b;
+}
+...
+Pair&amp;lt;Integer&amp;gt; iPair = new Pair&amp;lt;Integer&amp;gt;(1,2);  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Beware! You cannot instantiate new generic types inside a class that uses a type parameter. This is because Java doesn't know what type it is at run-time (due to backwards-compability in the internal implementation of types because only the compiler knows about the type)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;JUnit Testing Frameworks&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;test stub - sample item returned that can be used to test a program (i.e. a single word returned by the hangman initialization function)&lt;/li&gt;
+&lt;li&gt;test harnesses - stands in as a potential user of the program you're writing&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/cs108/</link><guid isPermaLink="false">0090ba6d-359a-4bc1-9efc-5a47d6e547d1</guid><category>tech</category><category>notes</category><dc:creator>Sherman Leung</dc:creator><pubDate>Wed, 14 Jan 2015 00:16:22 GMT</pubDate></item><item><title>CS193P</title><description>&lt;h2 id="1122015"&gt;1/12/2015:&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concepts&lt;/strong&gt;: Optionals&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Optionals are just enums&lt;/li&gt;
+&lt;li&gt;Enumerate &lt;/li&gt;
+&lt;li&gt;Range: a psuedo-representation of Range:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;struct Range&amp;lt;T&amp;gt; {  
+    var startIndex: T
+    var endIndex: T
+} // note an array's range would be Range&amp;lt;Int&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Special syntax for range:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;    let array = ["a","b","c","d","e"]
+    let subArray1 = array[2...3] // ["c", "d"]
+    let subArray1 = array[2...3] // ["c"]
+    for i in [27...104] { } //range is enumerable
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;NSobject is the base class for all Objective-C classes (what about best practices in Swift?)
+&lt;ul&gt;&lt;li&gt;It seems that Swift classes are inherently linked to these NSObject classes.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;NSNumber - generic number-holding class&lt;/li&gt;
+&lt;li&gt;NSDate - used to find out date and time; be sure to check localization ramifications here...&lt;/li&gt;
+&lt;li&gt;NSData - a "bag o' bits" used to save/restore/transmit raw data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Classes, Structures and Enumerations&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Similarities: declaration syntaxes, properties and functions, initliazers.&lt;/li&gt;
+&lt;li&gt;Only classes have inheritance&lt;/li&gt;
+&lt;li&gt;Introspection and casting are classes only&lt;/li&gt;
+&lt;li&gt;Structs and Enums are passed by &lt;em&gt;value&lt;/em&gt; but Classes are passed by &lt;em&gt;reference&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mark a function that can mutate a struct/enum with the keyword &lt;strong&gt;mutating&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Reference (stored in the heap). Note that you can still use &lt;code&gt;let&lt;/code&gt; to mutate class properties with methods&lt;/li&gt;
+&lt;li&gt;You can override methods/properties in superclass with keyword &lt;code&gt;override&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Both types and instances can have methods/properties:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;var d: Double = ...  
+if d.isSignMinus {  
+    d = Double.abs(d)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See above:
+&lt;ul&gt;&lt;li&gt;here, isSignMinus is an instance property of a Double (you send it to particular Double)&lt;/li&gt;
+&lt;li&gt;abs is a type method of a Double (sent to the type itself not a particular Double).&lt;/li&gt;
+&lt;li&gt;You have to declare a type method/roerty with a &lt;code&gt;static&lt;/code&gt; prefix or with &lt;code&gt;class&lt;/code&gt; in a class: &lt;code&gt;static func abs(d: Double) -&amp;gt; Double&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Paramters to all functions have an internal and external name
+&lt;ul&gt;&lt;li&gt;internal name : name of local variable used inside method&lt;/li&gt;
+&lt;li&gt;external name is what callers use to call the method&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;_&lt;/code&gt; if no callers should use external name for given parameter&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Property Observers: &lt;code&gt;willSet&lt;/code&gt; and &lt;code&gt;didSet&lt;/code&gt; will be called before and after setting a property with &lt;code&gt;newValue&lt;/code&gt; and &lt;code&gt;oldValue&lt;/code&gt; as their respective parmaters&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lazy initialization: initialized only when someone acceses it&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;can be used when there are cyclized dependencies between parent and child classes&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When is &lt;code&gt;init&lt;/code&gt; method needed?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;You can set any property's value
+...few asleep for 10 minutes&lt;/li&gt;
+&lt;li&gt;Casting works with the &lt;code&gt;as&lt;/code&gt; keyword.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="1122015"&gt;1/12/2015:&lt;/h2&gt;
+
+&lt;p&gt;Continuation of Calculator Demo - Assignment #2 will be based on the demo today &lt;br&gt;
+&lt;strong&gt;Concepts&lt;/strong&gt;: Operand/operator stack&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Conventions: camelcase convention for names of files (e.g. &lt;code&gt;CalculatorBrain.swift&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;We're defining an Op object to refer to an operand or an operator: should it be a class or function or an &lt;strong&gt;enum&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;We can create an empty array of objects with: &lt;code&gt;var opStack = Array&amp;lt;Op&amp;gt;()&lt;/code&gt;, but the preferred syntax is &lt;code&gt;var opStack = [Op]()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Functions are just types in Swift (no different from strings)&lt;/li&gt;
+&lt;li&gt;Creating an enum (used to enumerate different possibilities):
+In swift, we can associate data with any of the cases in this enum  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;enum Op {  
+    case Operand(Double)
+    case UnaryOperation(String, Double -&amp;gt; Double)
+    case BinaryOperation(String, (Double, Double) -&amp;gt; Double)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An initializer is called by invoking a class with parentheses: (e.g. &lt;code&gt;var knownOps = [String:Op]()&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;We can also intiialize it with the &lt;code&gt;init()&lt;/code&gt; method &lt;/li&gt;
+&lt;li&gt;Looking up something in a dictionary will always return an optional&lt;/li&gt;
+&lt;li&gt;To make variables private to a class, add &lt;code&gt;private&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Sometimes you can't return an actual return value, you can make it an optional return value:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;func evaluate() -&amp;gt; Double? {
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Swift passes structs by value and clases by references: Arrays, Dictionaries are &lt;strong&gt;structs&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;There's an implicit &lt;code&gt;let&lt;/code&gt; in from of all structs as parameters (read-only!) so the struct in this case is immutable&lt;/li&gt;
+&lt;li&gt;Hacky way of making a mutable copy for use inside a function (see the var that replaces the implicit let in the parameter):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;func evaluate(var ops: [Op]) {
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Swift is actually smart enough to not actually copy a struct until a change is made. Swift might even make just a partial copy or just kept track of the actual changes made.&lt;/li&gt;
+&lt;li&gt;We use &lt;code&gt;switch&lt;/code&gt; to pull associated values out of enums&lt;/li&gt;
+&lt;li&gt;Underbars &lt;code&gt;_&lt;/code&gt; are used when we don't care about the variable and don't intend on using it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="172015"&gt;1/7/2015:&lt;/h2&gt;
+
+&lt;p&gt;Continuation of Calculator Demo &lt;br&gt;
+&lt;strong&gt;Concepts&lt;/strong&gt;: Typed Functions, Arrays, Sets&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Review&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Optionals are automatically assigned to be nil (not set)&lt;/li&gt;
+&lt;li&gt;Note it's not necessary to declare the type of a variable: &lt;code&gt;var operandStack: Array&amp;lt;Double&amp;gt; = Array&amp;lt;Double&amp;gt;()&lt;/code&gt; is equivalent to &lt;code&gt;var operandStack = Array&amp;lt;Double&amp;gt;()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Creating arrays are just like:&lt;/li&gt;
+&lt;li&gt;Computed properties : you can define properties that are computed and updated anywhere it is used&lt;/li&gt;
+&lt;li&gt;Switch statement is much more powerful in Swift. You have to cover every possibility (make sure to include a Default case)&lt;/li&gt;
+&lt;li&gt;Closures allow you to define functions as parameters:
+&lt;ul&gt;&lt;li&gt;&lt;code&gt;performOperation({(op1,op2) in op1 * op2)&lt;/code&gt; is equivalent to &lt;code&gt;performOperation {$0 * $1}&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;MVC - 3 camps&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Model&lt;/strong&gt; - what your application (i.e. what is a program?)
+&lt;ul&gt;&lt;li&gt;The model is completely UI independent, should never talk to the view&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controller&lt;/strong&gt; - how your model is presented to the user
+&lt;ul&gt;&lt;li&gt;Controllers can always talk directly to their Model&lt;/li&gt;
+&lt;li&gt;Controllers can also talk directly to the view (outlet)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;View&lt;/strong&gt; - what the user sees
+&lt;ul&gt;&lt;li&gt;Comunicates with the contorller through actions&lt;/li&gt;
+&lt;li&gt;Sometimes the view needs to be synchronized with the controller (i.e. should I allow the user to scroll? &lt;code&gt;shouldScroll&lt;/code&gt; &lt;code&gt;willScroll&lt;/code&gt; &lt;code&gt;didScroll&lt;/code&gt;
+&lt;ul&gt;&lt;li&gt;we solve this with delegations&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;delegate&lt;/em&gt; is set via a protocol ("blind" to class)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;controllers provide a data source to the view&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="152015introductiontoswift"&gt;1/5/2015: Introduction to Swift&lt;/h2&gt;
+
+&lt;p&gt;Introduction to the course and the start of the calculator demo to build basic intuition about programming in Swift &lt;br&gt;
+&lt;strong&gt;Concepts&lt;/strong&gt;: Creating a project, Tying/connecting button components to their corresponding methods in the controller, Swift basics, Types in Swift (Optional types)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Logistics:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Each class will feature a Demo&lt;/li&gt;
+&lt;li&gt;Enrollment survey deadline is Tuesday&lt;/li&gt;
+&lt;li&gt;Paul will likely have a "second start" to the class for the iTunesU taping (2 week delay)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Overview + Prerequisites:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Real life object-oriented programming&lt;/li&gt;
+&lt;li&gt;Databases, graphics, multimedia, animation in a real-world application&lt;/li&gt;
+&lt;li&gt;Prior coursework assumes object-oriented programming&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Four Layers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Core OS: &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;UNIX-based system&lt;/li&gt;
+&lt;li&gt;Sockets, Kernel, Permissions, near hardware level&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Core Services &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Accessing lower level services through object-oriented interfaces&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Media (little time spent in this area) &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Capturing, editing media&lt;/li&gt;
+&lt;li&gt;Audio mixing, recording&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Cocoa Touch (Vast majority of time spent here, 70%+) &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Buttons, sliders, multi-touch&lt;/li&gt;
+&lt;li&gt;Build the interactivity with the application here&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Platform Components:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Xcode 6 is the code editor, compiler, debugger &lt;/li&gt;
+&lt;li&gt;Language(s): We'll learn Swift in this class&lt;/li&gt;
+&lt;li&gt;Frameworks - core motion, map kit, gyroscope&lt;/li&gt;
+&lt;li&gt;Design Strategy - MVC &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Demo:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We're building a calculator from scratch&lt;/li&gt;
+&lt;li&gt;Topics include:
+&lt;ul&gt;&lt;li&gt;Creating a project in Xcode&lt;/li&gt;
+&lt;li&gt;Building a UI&lt;/li&gt;
+&lt;li&gt;iOS Simulator&lt;/li&gt;
+&lt;li&gt;println&lt;/li&gt;
+&lt;li&gt;defining a class in Swift&lt;/li&gt;
+&lt;li&gt;Connecting method interactions to their components (CTRL + Drag method dots to their corresponding components in the view)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/cs193p/</link><guid isPermaLink="false">280f8601-190d-4d5a-8200-f8216a70979c</guid><category>tech</category><category>notes</category><dc:creator>Sherman Leung</dc:creator><pubDate>Thu, 08 Jan 2015 01:28:51 GMT</pubDate></item><item><title>CS181W</title><description>&lt;p&gt;This blog post will be updated two times a week for course notes in CS181W lecture.  &lt;/p&gt;
+
+&lt;h2 id="342015hacktivism"&gt;3/4/2015 - Hacktivism&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Three Approaches
+&lt;ol&gt;&lt;li&gt;Try to change the law within the system&lt;/li&gt;
+&lt;li&gt;Break the law and accept the penalties&lt;/li&gt;
+&lt;li&gt;Break the law and avoid the penalties&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Aaron Schwartz - wrote a python script to open source JSTOR articles arguing that information should be free and not restricted to universities who pay exoribant fees&lt;/li&gt;
+&lt;li&gt;Computer Fraud and Abuse Act (1986):&lt;/li&gt;
+&lt;li&gt;"Terms of Service" in these applications often included fine print that many people didn't read&lt;/li&gt;
+&lt;li&gt;Socretes - argues that if you break a law, you have to accept the penalties so that when the law is changed, people will accept the social contract and abide by that new law&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Three examples of the approaches above: &lt;br&gt;
+&lt;strong&gt;WikiLeaks:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Julian Assange - broke the law and not facing consequences&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Posted confidential information through WikiLeaks that exposed a lot of friendly foreign agents that were helping the US. &lt;/li&gt;
+&lt;li&gt;currently holed up in Ecaudorian embassy in Sweden&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Snowden:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Released information about PRISM contradictory to what Congress publicly stated. Currently in Russia, where he has stated that he will return to the States and abide by the penalities after the policies surrounding his circumstance changes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Anonymous:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Group of people based out of 4chan, an anonymous forum. Where they took it upon themselves to break the law without facing the consequences.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SOPA Blackout&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A shining example of trying to change the law within the system. Aaron Schwartz before he died rallied a lot of the world's most popular websites in support of retracting the online piracy act that was achieved with a 100-person swing.&lt;/p&gt;
+
+&lt;h2 id="322015"&gt;3/2/2015 -&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Annotated Bibliography was due today @2:15pm. The next deadline is for the presentation in class&lt;/li&gt;
+&lt;li&gt;Sign up for final presentations *see announcement on courseware&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tech in the News&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Unionization of Bus Drivers - FB is negotiating with them&lt;/li&gt;
+&lt;li&gt;Net Netruality&lt;/li&gt;
+&lt;li&gt;Obamas Stanford Visit&lt;/li&gt;
+&lt;li&gt;Computing for good
+&lt;ul&gt;&lt;li&gt;Site designed for first responders in preparing for dealing with natural disasters&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Megan Smith former VP of Tech at Google is now Nation's CTO&lt;/li&gt;
+&lt;li&gt;Michelle Lee, Google's former patnet chief has been approved by the Senate Judiciary Committee to head the USPTO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Digital Divide:
+&lt;ul&gt;&lt;li&gt;Women percentage for CS graduates decreased from 13.8% to 11.7% &lt;/li&gt;
+&lt;li&gt;We're at 33% declared, 27% graduating class (Stanford is on the rise...)&lt;/li&gt;
+&lt;li&gt;Minority CS Graduation: 2010-2011 rates indicate that African-Americans and Hispanics are less than 4%&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Unlocking the Clubhouse (15 years ago) a study on why women were less than 1/10 in CS grad&lt;/li&gt;
+&lt;li&gt;Why Diversity is Important?
+&lt;ul&gt;&lt;li&gt;We need to focus on the problem of access a an important ethical principle&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;What makes CS different?&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Experience in computer use prior to college differs markedly with gender, cultural, and socioeconomic differences&lt;/li&gt;
+&lt;li&gt;Flexibility of software allows computers to reflect their cultural environments more strongly than other technologies&lt;/li&gt;
+&lt;li&gt;Differences in individual productivity are more pronounced &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cooper: Increasing diversity in South America for the tech industry.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="2252015"&gt;2/25/2015 -&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Krister is the guest lecturer today&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Video:&lt;/strong&gt; describing how drones are able to act as surveillance machines to prevent crime &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Privacy vs. Safety (Government)&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;How do we know whether the Government is actually providing us Safety?&lt;/li&gt;
+&lt;li&gt;Thomas Hobbes - &lt;em&gt;State of Nature&lt;/em&gt; 
+&lt;ul&gt;&lt;li&gt;Imagine a society without any government at all&lt;/li&gt;
+&lt;li&gt;Life is solitary, brutish, and chaotic with everyone on edge&lt;/li&gt;
+&lt;li&gt;Proposed voluntary gathering under a soverign - gaurentees some degree of safety&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Privacy vs. (some service) Novelty (Business)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Video:&lt;/strong&gt; Proposes that cyberwarfare may be the new battleground for the new century. NSA works to listen for trouble&lt;/li&gt;
+&lt;li&gt;Locksian society&lt;/li&gt;
+&lt;li&gt;Right to privacy not an explicit right in the Constitution
+&lt;ul&gt;&lt;li&gt;only implicitly implied had set precedent in 1960s&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Critiques of Privacy and Security in the context of Government&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Concerned that people who are "soverign" are themselves human - can they be trusted with this type of power?  &lt;/li&gt;
+&lt;li&gt;CEO of Sun Microsystems: "You don't have any privacy anyways get over it!" Because of technology, it's not possible to exist on a private spectrum anymore  &lt;/li&gt;
+&lt;li&gt;"If we aren't doing anything wrong, what purpose do you have in surveying us?" (counter: how do we know that you're not doing wrong unless we're surveying you?)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Critiques of Privacy and Business&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Video:&lt;/strong&gt; Watched a paradody video that imagines when Facebook was working with NSA to curate data and store
+&lt;strong&gt;Video:&lt;/strong&gt; Watched another video satirizing what would happen if Google just shut down&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How much do we actually have a choice in keeping our data private? &lt;/li&gt;
+&lt;li&gt;80% of us go with the default according to an organ donorship study (opt-in vs. opt-out for organ donorship) so isn't it important what the default for our privacy settings are?&lt;/li&gt;
+&lt;li&gt;Is the internet a public utility? &lt;/li&gt;
+&lt;li&gt;Terms and Services at these tech companies by default allow a broader scope than it actually needs/uses&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="2232015"&gt;2/23/2015 -&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sign up for a group project topic by 7pm tonight!&lt;/li&gt;
+&lt;li&gt;Final Draft of paper is due today&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tech in the News&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lenovo and Adware
+&lt;ul&gt;&lt;li&gt;Lenovo preinstalled Superfish adware that gave root access to the device&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Ellen Pao
+&lt;ul&gt;&lt;li&gt;Brought a suit vs. KPCB &lt;/li&gt;
+&lt;li&gt;Absence of women in upper levels at VC firms&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pornography and the Communications Decency Act
+&lt;ul&gt;&lt;li&gt;many have names that delierately seek attract the unwary visistor (whitehouse.com)&lt;/li&gt;
+&lt;li&gt;1995 - 83.5% of pictures were ponographic&lt;/li&gt;
+&lt;li&gt;1996 - Comunnications Decency Act: "protections against harassment, obscenity and indecency to minors"&lt;/li&gt;
+&lt;li&gt;But how do you define &lt;em&gt;indecent&lt;/em&gt;?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Video:&lt;/strong&gt; Hate on the internet
+&lt;ul&gt;&lt;li&gt;Amazon sells anti-semetic literature like the Turner Diarie&lt;/li&gt;
+&lt;li&gt;Lone Wolf mentality protects the few that act on the ideas of others and turn it into violent acts&lt;/li&gt;
+&lt;li&gt;should we allow the expression of these discriminating and hateful ideas?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="2112015coderush"&gt;2/11/2015 - Code Rush&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Free Screening of Imitation Game +1's welcome!
+&lt;ul&gt;&lt;li&gt;registration will go out later this week. Screening will be at a nearby theater within walking distance&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Read the Circle by Dave Eggers (a recent dystopian iew of working in SV)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tech in the News&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DARPA making headway on finding the dark web - the Silk Road 3.0's&lt;/li&gt;
+&lt;li&gt;Cybersecurity policy: the White House is creating a new office for analyzing and sharing cyberthread information across &lt;em&gt;federal&lt;/em&gt; government. Cyber Thread Intelligence and Integration Center&lt;/li&gt;
+&lt;li&gt;Qualcomm 975M fine for violating Chinese anti-competition view&lt;/li&gt;
+&lt;li&gt;Women in Tech: Facebook-LinkedIn initiative to get more women in tech
+&lt;ul&gt;&lt;li&gt;Lea Coligado was quoted in ABC News&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Government requests for data
+&lt;ul&gt;&lt;li&gt;Article focuses on the requests that Twitter has received for data about its users&lt;/li&gt;
+&lt;li&gt;top requesting countries (Turkey, Russia, Germany)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Samsung's privacy concerns: they were very clear in their privacy statement that they were sending it all back to their server
+&lt;ul&gt;&lt;li&gt;Samsung turns on a recorder that is supposed to improve voice recognition&lt;/li&gt;
+&lt;li&gt;but this is super creeepy...&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Alternate view of SV: The Internet is not the Answer (Andrew Keen)
+&lt;ul&gt;&lt;li&gt;mean to Silicon Valley companies&lt;/li&gt;
+&lt;li&gt;criticizes the "winner take all" mentality amongst companies&lt;/li&gt;
+&lt;li&gt;argues monopolistic behavior is very negative&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Code Rush&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We watched the story of Netscape's journey in the valley. Their decision to give Mozilla and their web client for free, and their acquisition by AOL.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Question&lt;/strong&gt;:
+&lt;ul&gt;&lt;li&gt;Is there a Silicon Valley culture&lt;/li&gt;
+&lt;li&gt;How would you characerize working in SV?&lt;/li&gt;
+&lt;li&gt;What about the SV culture do you like?&lt;/li&gt;
+&lt;li&gt;What about the SV culture don't you like?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="292015monopolies"&gt;2/9/2015 - Monopolies&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sign up for TCP appointments if you're in CS181W&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tech in the News&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Attracting women to IT careers - the media potrarys IT as a very unattractive field for women.&lt;/li&gt;
+&lt;li&gt;Smarter cars and privacy erosions
+&lt;ul&gt;&lt;li&gt;Senator Markey brings up privacy and security risks with automated cars &lt;/li&gt;
+&lt;li&gt;Significant value of the data stored in cars - where you're going etc... &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Future of AI: David Buchanen (IBM Watson researcher)
+&lt;ul&gt;&lt;li&gt;requirement for robots to develop consciousness before they can rise up and destroy us (too hard of a problem)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Crowdsourcing cybersecurity
+&lt;ul&gt;&lt;li&gt;hiring vetted hackers to &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Next decade in tech
+&lt;ul&gt;&lt;li&gt;internet of things, micropersonalization, clean energy&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Anthem attack - data breach that affected 80 million people by stealing SSN numbers and so forth
+&lt;ul&gt;&lt;li&gt;One argument for publishing everyone's SSN number so that stealing is disincentived&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;"Dark Web" after Ulbricht
+&lt;ul&gt;&lt;li&gt;Insterestng 4th amendment conundrum: how to argue for unlawful search and seizure without admitting ownership illegal servers&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Why discuss monopolies?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monopoly granted either to an individual or to a trading company has the same ffect as a secret in trade or manufacturees. Monopolists keep the market understocked by never supplying the effectual demand
+&lt;ul&gt;&lt;li&gt;side note: government subsidized monopolies exist in the transportation systems (BART) and seem to be better received&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Gilded Age&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;American Civil War and end of 19th century marked by industralizatio &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Early history&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1870- America begins undustrial innovation&lt;/li&gt;
+&lt;li&gt;Sherman AntiTrust Act&lt;/li&gt;
+&lt;li&gt;Microsoft's acquisition of Intui blocked by the government&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Alleged Anticompetitive Practices&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tying &lt;/li&gt;
+&lt;li&gt;Bundlings&lt;/li&gt;
+&lt;li&gt;"vaporware" announcements - get people excited about something that might not even get developed (Big company has market share and is trying to minimize the proclivity of other people buying a smaller product)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Issues raised in the finding of fact&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Microsoft tried to combat the rise of cloud-based java applets by developing incompatible browsers and partnering with Intel to avoid development of cross-compatible platforms&lt;/li&gt;
+&lt;li&gt;Judge proposes several remedies in breaking up Microsoft's attempt to hold a monopoly &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Timeline EU vs. Microsoft&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1993 - Novell Corporation files a complaint with EU charging Microsoft with anticompetitive practices&lt;/li&gt;
+&lt;li&gt;1994 - Microsoft negotiates a settlement by revising licensing&lt;/li&gt;
+&lt;li&gt;Sun Microsystems and RealNetworks rfile a new complaint&lt;/li&gt;
+&lt;li&gt;2003 - EU orders Microsoft to offer Windows wihtout Media Player fining $690m
+...Microsoft appeals and tries to drag feet&lt;/li&gt;
+&lt;li&gt;2008 - imposes new fine on Microsoft and fined 1.25billion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Is Google a Monopoly?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Steve Ballmer argues that Microsoft is the only company left trying to compete with Google Search&lt;/li&gt;
+&lt;li&gt;Google vs. FTC - decided Google is not a monopoly&lt;/li&gt;
+&lt;li&gt;In EU, Google under investigation for anti-competitive practices
+&lt;ul&gt;&lt;li&gt;has over 90% of the market share in Europe&lt;/li&gt;
+&lt;li&gt;has Google been burying search results from people who refuse to pay fines?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="242015cybertrustanddatabreach"&gt;2/4/2015 - Cyber Trust and Data Breach&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Debates this week! &lt;/li&gt;
+&lt;li&gt;Cooper apologizes for the boring content this week for reading&lt;/li&gt;
+&lt;li&gt;Policy Paper: We're going to have to address possible alternatives and what the limitations would be. Make a proposal, justify, suggest alternatives, and argue why our proposal is the best.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tech in the News:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Computing Ethics and the News:
+&lt;ul&gt;&lt;li&gt;If you live in lower income areas, you are less likely to have CS classes&lt;/li&gt;
+&lt;li&gt;Equity issues will be addressed later in the news&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Net Netruality issue
+&lt;ul&gt;&lt;li&gt;What does it mean to regulate the Internet as a utility?&lt;/li&gt;
+&lt;li&gt;(but we don't want to do title IIs because you can get charged a fee for regulation)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Project Maelstrom
+&lt;ul&gt;&lt;li&gt;Hosting websites "in the crowd" rather than in the cloud&lt;/li&gt;
+&lt;li&gt;Intended to protect against DDOS attacks  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Adware on smart phones (&lt;a href="http://www.bbc.com/news/technology-31129797"&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Hackers (caught because &lt;a href="http://www.bbc.com/news/technology-31129817"&gt;boasting&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Checking for backdoors
+&lt;ul&gt;&lt;li&gt;Details the steps you have to take to validity of digital signatures (takes an extreme amount of effort)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Trust&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is Trust?
+&lt;ul&gt;&lt;li&gt;Belief in the reliability of someone/something doing what it is assumed to do&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Cyber trust
+&lt;ul&gt;&lt;li&gt;NSF Cyber Trust program promotes society where trust enables technologies to support needs without violating confidence or exacerbating public risks&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Data breach
+&lt;ul&gt;&lt;li&gt;Violating trust by giving access to data that isn't intended  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Privacy
+&lt;ul&gt;&lt;li&gt;"a home is your castle" the English right to have privacy for what you own&lt;/li&gt;
+&lt;li&gt;not as well defined as identity theft&lt;/li&gt;
+&lt;li&gt;"the right to be left alone" or "the right to stay out of the public view"&lt;/li&gt;
+&lt;li&gt;from an information perpsective - you control your own information.&lt;/li&gt;
+&lt;li&gt;Privacy refers to records held by third parties (e.g. doctor has health information about me, etc...) &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;History&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1966 - Freedom of Information Act&lt;/li&gt;
+&lt;li&gt;1974 - Privacy Act: you've got to keep personally identifiable information private&lt;/li&gt;
+&lt;li&gt;1974 - FERPA: protection of records held by school&lt;/li&gt;
+&lt;li&gt;1996 - HIPAA: medical records held by a hospital&lt;/li&gt;
+&lt;li&gt;1998 - Idenity Theft and Assumption Deterrence Act&lt;/li&gt;
+&lt;li&gt;2001 - USA Patriot Act, expanded government roles to allow wiretapping, email history if you're sympathetic to terroists&lt;/li&gt;
+&lt;li&gt;2003 - CAN-SPAM Act, attempted to have rules regarding email&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;State data breach disclosure laws&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ways to limit data breach
+&lt;ul&gt;&lt;li&gt;Restrict Access&lt;/li&gt;
+&lt;li&gt;Log access to it&lt;/li&gt;
+&lt;li&gt;Inform people who have data, can have data breached&lt;/li&gt;
+&lt;li&gt;what is the level of encryption of the data itself - what would be adquate protection for the data?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;When do we start caring whether we got breached?
+&lt;ul&gt;&lt;li&gt;when we know it's possible to get breached but not probable?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dark&lt;/strong&gt; argues state notification isn't admissable
+&lt;ul&gt;&lt;li&gt;US statuatory laws present 45 different ways of encrypting? risk? (sorry didn't catch this point) &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Policy analysis - alternate configs
+&lt;ul&gt;&lt;li&gt;variaitons of existing laws using incremental approaches to fine-tune laws&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Policy Analysis - collective choice
+&lt;ul&gt;&lt;li&gt;using market forces to limit data breach&lt;/li&gt;
+&lt;li&gt;the market would force companies to protect data better when companies lose trust and value when their data is breached&lt;/li&gt;
+&lt;li&gt;problem: will individuals punish companies that allow data to be breached? Or will individuals view companies as victims (e.g. Samsung)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Are the assumptions about information regulation reasonable?
+&lt;ul&gt;&lt;li&gt;Do customers value data security &lt;em&gt;over convenience&lt;/em&gt;? (It's not possible for organizations to do anything about if data is breached - will an university just shut down if all of its students' information is breached?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Dark doesn't make recommendations, but analyzes the existing situation effectively and explains the limitations of possible solution directions is quite strong.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="222015virusestrojanhorses"&gt;2/2/2015 - Viruses, Trojan Horses&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Debates this week! Make sure to prepare with your partner. Cooper says he might drop in a few debates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tech in the News:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;China + VPNs
+&lt;ul&gt;&lt;li&gt;China is clamping down on the use of VPNs to access the internet (aka Stanford's VPN)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Privacy and the Internet:
+&lt;ul&gt;&lt;li&gt;MIT showed in a proof of concept, new techniques for de-anonymizing data from internet&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Privacy + Internet (Google)
+&lt;ul&gt;&lt;li&gt;Google may become clearer about how it uses its users' data (making it more transparent about how data is being used)&lt;/li&gt;
+&lt;li&gt;in response to EU negotiations&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Useful news for paper 2?
+&lt;ul&gt;&lt;li&gt;Testimony from several high ranking individuals&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Lack of equity of STEM jobs&lt;/li&gt;
+&lt;li&gt;Hacking on behalf of the Syrian government
+&lt;ul&gt;&lt;li&gt;women hackers (embedding malware in pictures) &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Cyber-espionage
+&lt;ul&gt;&lt;li&gt;US companies protesting Chinese requirement that foreign companies supply the government with access to source code&lt;/li&gt;
+&lt;li&gt;Last year: US claims Chinese officials of cyber-espionage&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Dan Shefet asked for the right to be forgotten
+&lt;ul&gt;&lt;li&gt;Asked Google to take down information about him, and Google only did so on French servers, not other countries&lt;/li&gt;
+&lt;li&gt;Brings up an interesting question of whether the EU has the right to enforce this ruling outside the EU  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Uber and Privacy
+&lt;ul&gt;&lt;li&gt;Negative converage about Uber employee who had accessed the ride history of a journalist who had written about Uber&lt;/li&gt;
+&lt;li&gt;Uber claims to develop new privacy practices&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What is Hacking?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Note positive connotations&lt;/li&gt;
+&lt;li&gt;A perosn who enjoys learning details of compute rsystems and how to stretch their coapabilities&lt;/li&gt;
+&lt;li&gt;A person who programs enthusiasticaly&lt;/li&gt;
+&lt;li&gt;A person good at programming quickly&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Unfortunately&lt;/em&gt;, press has ruined the term "hacking"&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;History of Hacking&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1971: "freaking" was whistling a "Captain Crunch" toy to spoof a long-distance calls&lt;/li&gt;
+&lt;li&gt;1982: John Shoch and Jon Hupp thought of using worm programs to go into computers at night when people aren't using them for distributed computing on complex problems&lt;/li&gt;
+&lt;li&gt;1983: &lt;em&gt;WarGames&lt;/em&gt; this movie depicts a character tha gains access to the military's nuclear command system&lt;/li&gt;
+&lt;li&gt;1984: A group of Milwaukee teenagers (414's) begins a series of break-ins.&lt;/li&gt;
+&lt;li&gt;1986: First PC virus released (at a conference)&lt;/li&gt;
+&lt;li&gt;1987: "Captain Midnight" 
+&lt;ul&gt;&lt;li&gt;People used to mooch off of HBO's signal by buying some parts from RadioShack and listening to a frequency.&lt;/li&gt;
+&lt;li&gt;"Captain Midnight" shows up on the frequency and refuses to let HBO scramble the signal&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;1990: quite recent that there's nothing wrong with hacking.&lt;/li&gt;
+&lt;li&gt;Now: CERT Incident Report lists 100,000's of hacks a day&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Viruses&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a program that inserts itself into one or more files and then performs some action (action can be null)&lt;/li&gt;
+&lt;li&gt;Types: Macro, polymorphic, latent, etc...&lt;/li&gt;
+&lt;li&gt;Worms
+&lt;ul&gt;&lt;li&gt;Distinction from viruses able to replicate and run on their own&lt;/li&gt;
+&lt;li&gt;Most famous: Robert Morris Jr.'s worm&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Internet Worm: &lt;code&gt;debug&lt;/code&gt; option in Unix &lt;code&gt;sendmail&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Other Attacks&lt;/strong&gt;
+* FingerD Attack if the user enters a namestirng that overflows the buffer, when the function returns - it jumps into the code written as part of its name. executing the worm's instructions.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Trojan Horse - putting up a fake front to steal data from your victim&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Ken Thompson says you can't protect against Trojan Horse backdoor attacks unless you do everything yourself&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Zero-day attacks: Built-in vulnerability that people aren't aware of. Black market offers money in exchange of vulnerabilities.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;DDos Attacks&lt;/li&gt;
+&lt;li&gt;Logic bombs: a progrma that violates a security policy when an external event occurs
+&lt;ul&gt;&lt;li&gt;disgrunted employee leaves a 'bomb' in a program that can only disabled with a code&lt;/li&gt;
+&lt;li&gt;reveals identity...&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Spyware/adware - just reports back what victim is doing&lt;/li&gt;
+&lt;li&gt;Social engineering - popularized by Kevin Mitnick 
+&lt;ul&gt;&lt;li&gt;exploiting human links&lt;/li&gt;
+&lt;li&gt;pretexting (making a story)&lt;/li&gt;
+&lt;li&gt;phishing (send you a website that looks legit but steals)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Is Hacking Good?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;can lead to awareness of a system's vulnerabilities and allows for defenses to be prepared (pentesting - penetration testing)&lt;/li&gt;
+&lt;li&gt;can lead to availability of information - e.g. social proection&lt;/li&gt;
+&lt;li&gt;GNU manifesto &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;information wants to be free&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Is Hacking Bad?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can explain vulnerabilities without breaking into it&lt;/li&gt;
+&lt;li&gt;If all info is free, there's no privacy&lt;/li&gt;
+&lt;li&gt;Complete government transparency isn't always good&lt;/li&gt;
+&lt;li&gt;Social protection leads agencies to increased security&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Random people to now&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Guy Steele "The Great Quux"
+&lt;ul&gt;&lt;li&gt;wrote language specs for Java and built Emacs&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Marvin Minsky - Turing Award winner, one of the fathers of AI (at MIT) with John MacCarthy&lt;/li&gt;
+&lt;li&gt;Ken Thompson - developed Unix also co-invented &lt;code&gt;Go&lt;/code&gt; @Google.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="1282015philosophicalethics"&gt;1/28/2015 - Philosophical Ethics&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Find a debate partner before next week. Make sure both sides have comparable debate experience.&lt;/li&gt;
+&lt;li&gt;No section next week (or response papers) you just have to prepare and show up for the debate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tech in the News:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Privacy and Internet-connected devices&lt;/li&gt;
+&lt;li&gt;Restricting Internet speech in France
+&lt;ul&gt;&lt;li&gt;Hollande asking tech firms to be held "complicit" if they allow hate speech&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What is IP?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is physical property?
+&lt;ul&gt;&lt;li&gt;something tangible. something you can own and&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;But ideas aren't tangible - something about the value of the idea is associated with the idea of sharing it with others&lt;/li&gt;
+&lt;li&gt;IP can be replicated or replicated&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;From a utilitarian perspective&lt;/em&gt;: If we create a "right" to IP, we should protect it based on our dedication to maintaining the value of IP for everyone.&lt;/li&gt;
+&lt;li&gt;Act-based vs. rule-based utilitarians:
+&lt;ul&gt;&lt;li&gt;What if we have IP that can be detrimental to everyone? Should we protect it? &lt;/li&gt;
+&lt;li&gt;Sometimes it depends on the IP itself&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;John Locke&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Foundations of intellectual property protection in the US&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Constitutional Basis&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Invetors the exclusive Right to their discoveries&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Technology and social conventions both affect conventions&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Tension: Technology has made it easier to &lt;em&gt;replicate&lt;/em&gt; and &lt;em&gt;dissiminate&lt;/em&gt; information&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Copyright Law&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Awarded to an author for a work that is: original, non-functional, and fixed in a tangible medium&lt;/li&gt;
+&lt;li&gt;Right to Fair Use: Given that I can buy software, what's stopping me from reverse-engineering it?&lt;/li&gt;
+&lt;li&gt;You can't buy software, you &lt;strong&gt;license&lt;/strong&gt; it. &lt;/li&gt;
+&lt;li&gt;When you"I agree to the Terms and Conditions" you are promising to not dissemble and disseminate the technology.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Patents&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Created by the Statute of Monopolies in 1624&lt;/li&gt;
+&lt;li&gt;Design, utility, and plant patents exist&lt;/li&gt;
+&lt;li&gt;the terms are "useful" "novel" and "nonobvious"&lt;/li&gt;
+&lt;li&gt;Copyright doesn't cover "derivative works"&lt;/li&gt;
+&lt;li&gt;requires "disclosure", though people tend to obfuscate exactly what they're trying to disclose&lt;/li&gt;
+&lt;li&gt;current protection is for 20 years&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Trademarks&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Foundation is in common law against unfair competition&lt;/li&gt;
+&lt;li&gt;Word, name, phrase, or symbol. (typically referring to a service)&lt;/li&gt;
+&lt;li&gt;Protection continues as along as product is sold (becuase people assocate the name with the product)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Trade Secrets&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Protections established in state law&lt;/li&gt;
+&lt;li&gt;Most states now subscribe to the Uniform Trade Secrets Act&lt;/li&gt;
+&lt;li&gt;Protection continues as long as secret is maintained&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Protecting mere ideas&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Buchwald vs. Paramounte Pictures - a successful victory to reclaim mere ideas as intellectual property&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Software Patent Cases&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Gottschalk v. Benson (1972): Found that software is an idea and not patentable  &lt;/li&gt;
+&lt;li&gt;Diamond v. Diehr (1981): Established patentability of software in certain cases. &lt;strong&gt;Not&lt;/strong&gt; algorithms, because these are ideas which are part of nature  &lt;/li&gt;
+&lt;li&gt;In re Iwashi (1992): Only a special subset of algorithms are patentable&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;... [sorry, please see the lecture slides for more detials)
+8. Mayo v. Prometheus (2012): Reaffirm the laws of nature exception for patents. This was a natural process, different humans need drugs at different rates.&lt;/p&gt;
+
+&lt;h2 id="1262015philosophicalethics"&gt;1/26/2015 - Philosophical Ethics&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cooper suggests coming to class on Wednesday because we're talking about IP which is the topic of our debate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tech in the News:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Net Netruality: Cooper says this would be an appropriate topic for the policy paper and the final project&lt;/li&gt;
+&lt;li&gt;Privacy and the cloud - how do we best secure the cloud?&lt;/li&gt;
+&lt;li&gt;Verizon's mobile "super-cookies"
+&lt;ul&gt;&lt;li&gt;Jonathan Meyer's &lt;a href="http://webpolicy.org/2015/01/14/turnverizon-zombie-cookie/"&gt;blog post&lt;/a&gt; regarding zombie cookies&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Encryption standards revision - NIST made changes in the standards surrounding encrption post-Snowden. See &lt;a href="http://csrc.nist.gov/publications/drafts/nistir-7977/nistir_7977_second_draft.pdf"&gt;draft&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;NWA offered some "very good" random keys that a lot of people used in their encryption protocols&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Comcast + Time Warner - powerful merger between comcast and time warner, would potentially be a monopoly on the internet providers industry
+&lt;ul&gt;&lt;li&gt;Comcast executives &lt;a href="http://www.theverge.com/2015/1/26/7878239/comcast-twc-fcc-merger-letters-politicians-ghostwritten"&gt;ghost wrote&lt;/a&gt; some "community support" letters&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Software bug on cybercrime allowing hackers to "&lt;a href="http://www.bbc.com/news/technology-30948123"&gt;ransom&lt;/a&gt;" files&lt;/li&gt;
+&lt;li&gt;Free speech and the Internet
+&lt;ul&gt;&lt;li&gt;Globally: FB blocks offensive article &lt;a href="http://www.bbc.com/news/technology-30982556"&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Barrett Brown posting a link to hacked data could have been in jail for &gt; 100 yearrs. &lt;a href="http://www.bbc.com/news/technology-30943886"&gt;link&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Tragedy of the Commons: &lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;see Cooper's sheep grazing depiction - made famous from Hardin's argument against the 1960s USSR arms race)&lt;/li&gt;
+&lt;li&gt;classic example: overfishing&lt;/li&gt;
+&lt;li&gt;actually from 1652: Gerard Winstanley and the Diggers &lt;/li&gt;
+&lt;li&gt;Why related to computing? Here are some related examples
+&lt;ol&gt;&lt;li&gt;Internet speeds and throughput&lt;/li&gt;
+&lt;li&gt;Virtual stores vs. brick-and-mortar stores&lt;/li&gt;
+&lt;li&gt;Personal Privacy &lt;/li&gt;
+&lt;li&gt;Open-Source software - everybody wants to use them but nobody wants to supply + maintain them&lt;/li&gt;
+&lt;li&gt;Labor (Google - there's nowhere to move up, but are you intellectually challenged? stealing talent where talented labor is the commons)&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Prisoner's Dilemma&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;repeated simulations point out that the best policy is to actually testify against your partner&lt;/li&gt;
+&lt;li&gt;Example: with Cable - if you have an agreement with other companies to hike up prices, everybody gains exactly                                                                       &lt;/li&gt;
+&lt;li&gt;Anti-trust: Four VCs battle for foursqur=are&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Offshoring&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Globalization + offsoring is slated to increase, but it will continue to be a problem as tech companies try to do more with less people.&lt;/li&gt;
+&lt;li&gt;Customer support is running into a similar problem, with the additional complication of requiring english as a language&lt;/li&gt;
+&lt;li&gt;Developed countries need to adopt policies to foster inovation. To educate and attract the best IT talent, US grad schools still wins.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Economic Realities related to software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Economies of Scale: you can sell products for less dependent on the amount of people using it&lt;/li&gt;
+&lt;li&gt;Network effect: value of product grows in direct proportion to number of users&lt;/li&gt;
+&lt;li&gt;Customer lock-in: cost of changing software systems is huge&lt;/li&gt;
+&lt;li&gt;Low distribution: you just download it (essentially free to duplicate - development costs are distributed across a larger base, so big players have a huge advantage)&lt;/li&gt;
+&lt;li&gt;The most productive programmers are in high demand, but short supply&lt;/li&gt;
+&lt;li&gt;High-cost effectiveness: software can still be effective even with bugs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Thoughts on Philosophy of economics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Globalization may cause overall decrease in happiness if some people are overworked for more utility&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="1212015philosophicalethics"&gt;1/21/2015 - Philosophical Ethics&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CS181W students must have an appointment with a TCP writing tutorial. Hard copies should have been turned into class for the TCP tutors if you made an appointment with a writing tutor.&lt;/li&gt;
+&lt;li&gt;Women in CS dinner coming up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Accessibility -&lt;/li&gt;
+&lt;li&gt;Technology as religion? Cooper encourages us to read this one if nothing else. &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Net Neutrality:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TedCook: "Net netruality as the obamacare of the internet"&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Google and Anti-trust in the EU &lt;a href="http://bits.blogs.nytimes.com/2015/01/20/european-official-urges-google-to-offer-greater-concessions-in-antitrust-inquiry/?_r=0"&gt;link&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Google is a company not a person, are governments responsible to protect their "rights"? &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Privacy &lt;a href="http://www.bbc.com/news/technology-30921804"&gt;link&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;A women was arrested and her phone was confiscated with pictures aken to build a FB page to catch others...&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Interesting point from in class: your fingerprint is not protected by the 5th amendment, but your password is!&lt;/li&gt;
+&lt;li&gt;Arrest of DoctorChu &lt;a href="https://www.google.com/webhp?sourceid=chrome-instant&amp;amp;ion=1&amp;amp;espv=2&amp;amp;ie=UTF-8#safe=off&amp;amp;q=bbc%2030913709"&gt;link&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;"Silk Road 2.0 came up in Nov. 2013 and shut down in Nov. 2014 generating approximately $8m per month"&lt;/li&gt;
+&lt;li&gt;too profitable for someone not to pick it up again (silk road 3.0?)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Continued Islamic cyber attacks &lt;a href="http://www.bbc.com/news/technology-30850702"&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Why Computer ethics vs. applied ethics vs. engineering ethics?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Walter Maner&lt;/strong&gt;: Computer ethics is an academic field in is own right. Cooper is unconvinced that this is a strong argument that CS181W should exist
+&lt;ul&gt;&lt;li&gt;unique ethical issues that would not have existed if computer technology had not been invented.&lt;/li&gt;
+&lt;li&gt;Proposes that the problem of a field overflowing (Y2K bug, the Unix timestamp problem of 2038) is unique to technology&lt;/li&gt;
+&lt;li&gt;Uniquely cheap, uniquely cloned (ripping or burning music), &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Deborah Johnson&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Computers pose new versions of standard moral problems and moral dilemmas, exacerabating the old problems and forcing us to apply ordinary moral norms in uncharted realms&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;&lt;li&gt;We just have new problems with computers built upon existing problems&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Moor - The invisibility factor (computers are inherently invisible to the task they perform)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="1142015philosophicalethics"&gt;1/14/2015 - Philosophical Ethics&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CS181W students must sign up online (see courseware announcement) to go over a first draft &lt;strong&gt;before&lt;/strong&gt; turning in the first assignment&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CISAC (see announcement in slides) is offering a luncheon - this is an honors program that you can apply your work in CS181W to&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Philosophical Timeline&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Classical Foundations by Aristotle by &lt;em&gt;Nicomachean Ethics&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Virtuous, Kindness, Honesty, Respect, Integrity (attributes we want people to have)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3 different philosophical approaches:&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Virtue (Aristotle, Confucius)  &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Deontological (Kant, many religions)  &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Consequentialist (utilitarianism)  &lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;one consequence to meet: minimizing the gap between the rich and the poor&lt;/li&gt;
+&lt;li&gt;heathens and dolers&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Classical ethics (aristotle)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Based on virtue&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Deontological Theories (Kant)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Actions are intrinsically right or wrong (do not depend on the conseuqence&lt;/li&gt;
+&lt;li&gt;Telos: Goal or end.&lt;/li&gt;
+&lt;li&gt;The rightness or wrongness of an action depends&lt;/li&gt;
+&lt;li&gt;Deon comes from &lt;em&gt;duty&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Religions come from this belief - introduces rules of behavior&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kant's Categorial Imerpative&lt;/strong&gt;: Don't treat people as a means to an end.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Consequentialist theories (Mill's Utilitarianism)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;Actions are right as long as they maximize happiness&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is the greatest good to the greatest number of people which is the measure of right and wrong&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Bentham: &lt;code&gt;utils = hedons - dolors&lt;/code&gt; can measure utility&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Mill: abandoned mathematical structure but used utilitarianism as a decision making tool.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2 id="aretherehumanrightstoconsiderinthistensionbetweenrightsandutilityegterrorismvsnsacivilrightsmovement"&gt;- Are there human rights to consider in this tension between rights and utility? (e.g. terrorism vs. NSA, Civil Rights Movement)&lt;/h2&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ethical relativism&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;There are no absolutes. Everyone has there own context.&lt;/li&gt;
+&lt;li&gt;Not well received in the philosophical community&lt;/li&gt;
+&lt;li&gt;As counterexamples: Genocide, Slavery, etc...&lt;/li&gt;
+&lt;li&gt;You would have to accept these things as long as one person accepted one of the above&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ethical analysis (scientific perspective)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;Carl Snow defines a divide between "fuzzies" and "techies"&lt;/li&gt;
+&lt;li&gt;Karl Popper: Science proceeds by falsifcation&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fun &lt;a href="http://www.smbc-comics.com/comics/20120403.gif"&gt;comic&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;News&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;NYT op-ed: Interesting  &lt;/li&gt;
+&lt;li&gt;Privacy and K-12 school: (Cooper said it'd be a fantastic final project) &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;With such data-driven solutions to propel education in public schools&lt;/li&gt;
+&lt;li&gt;Can data-driven education entrench existing inequalities? &lt;/li&gt;
+&lt;li&gt;My personal counterargument: focusing on using data to improve open-source education (aka Khan Academy)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Android security patches (&lt;a href="http://www.bbc.com/news/technology-30795253"&gt;link&lt;/a&gt;)  &lt;/li&gt;
+&lt;li&gt;Obama and Data Breach: &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Customers should be notified within 30 days of a breach&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;What your computer knows about you: &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Should we talk about regulating software's ability to construct a personal profile based on likes?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="1122015reliabilityandrisk"&gt;1/12/2015 - Reliability and Risk&lt;/h2&gt;
+
+&lt;p&gt;**Announcements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make sure you sign up for section by tonight.&lt;/li&gt;
+&lt;li&gt;Section Leaders will send out welcome emails by tomorrow and you should email the teaching staff if you didn't get one&lt;/li&gt;
+&lt;li&gt;Assignment 1 is out! Check &lt;a href="https://courseware.stanford.edu/pg/assignments/view/384287/assignment-1-specification"&gt;courseware link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Homework&lt;/strong&gt;: Write a 5–7 page article describing a historical software failure other than the ones discussed in the class. See details on last slide of the powerpoint. &lt;a href="http://www.csl.sri.com/users/neumann/illustrative.html"&gt;Source&lt;/a&gt; for ideas&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Weekly Responses due tomorrow&lt;/strong&gt;: Found on courseware site (under handouts)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Computing Ethics in the News&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dangers of future advances in AI (Elon Musk's &lt;a href="http://futureoflife.org/static/data/documents/research_priorities.pdf"&gt;concerns&lt;/a&gt; about AI)
+&lt;ul&gt;&lt;li&gt;Lot of AI researchers are considered about the state of ethics in AI&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;FBI and privacy: 
+&lt;ul&gt;&lt;li&gt;After 2008, FISA court rules changes&lt;/li&gt;
+&lt;li&gt;The FBI redacted an entire report of the Snowden incident regarding their involvmement with PRISM&lt;/li&gt;
+&lt;li&gt;NY Times requested a non-redacted version through FOIA (freedom online information act)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Tech and the SF housing crisis
+&lt;ul&gt;&lt;li&gt;EPA housing costs have doubled in the past two decades&lt;/li&gt;
+&lt;li&gt;SF's tech gentrification is not only changing SF but also Oakland&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Security and the IoT (Internet of Things):
+&lt;ul&gt;&lt;li&gt;Privacy and security was not involved in this conersation about this new interconnectivity between devices through the IoT&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;23andMe
+&lt;ul&gt;&lt;li&gt;A genetic testing company that has run into legal issues because they're selling personal genomic data to companies like Genentech for large sums of money&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Automated Online Shopping Bot
+&lt;ul&gt;&lt;li&gt;Claims that it's all for the intent of an art show&lt;/li&gt;
+&lt;li&gt;Responsibility: with bot programs, who's responsible? &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Intel and diversity
+&lt;ul&gt;&lt;li&gt;Allocating $300M of budget to increase diversity&lt;/li&gt;
+&lt;li&gt;What are going to do with that budget allocation?&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Nature of Software Failures&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Normal Accidents by Charles Perrow
+&lt;ul&gt;&lt;li&gt;Doesn't focus specifically on programming, but raises issues critical to understanding why complex systems fail&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Coupling and Interaction Level
+&lt;ul&gt;&lt;li&gt;If we plot coupling vs. the number of interactions, the worst problem is to have tightly coupled systems (where one change is important enough to change a lot of elements downstream of it) that a ton of people have to interact with.&lt;/li&gt;
+&lt;li&gt;The worst ones to be is to be like a nuclear plant where tightly coupled problems are also problems that many people interact with&lt;/li&gt;
+&lt;li&gt;Software is definitely up there in the top right &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Critical Observations about Software&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Exceeding complexity makes software intrinsically difficult and not likely to change&lt;/li&gt;
+&lt;li&gt;Individual software developers differe remarkdably: short supply and difficulties in identify good engineers.&lt;/li&gt;
+&lt;li&gt;Direction of computing is not controlled solely by technological innovation. Economic, social, and political factors all play a role.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Discovering Debugging&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grace Murray Hopper - found an actual bug in vaccum tubes during her time at Harvard&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Maurice Wilkes - developed EDSAC and the concept of microprocessing. Won the second ever Turing Award for his work to store programs internally into a computer (before, we had punchcards to detail what steps in JCL, job control language, the computer should take).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As soon as we started programming, we found to
+  our surprise that it wasn’t as easy to get programs
+  right as we had thought. Debugging had to be
+  discovered. I can remember the exact instant when
+  I realized that a large part of my life from then on
+  was going to be spent in finding mistakes in my
+  own programs.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Christopher Strachey - Father of domain theory&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Although programming techniques have improved immensely
+  since the early days, the process of finding and correcting errors &lt;br&gt;
+  in programming known graphically—if inelegantly—as &lt;br&gt;
+  debugging still remains a most difficult, confused and &lt;br&gt;
+  unsatisfactory operation. . . . Although we are happy to pay lipservice to the adage that to err is human, most of us like to make a small private reservation about our own performance on special occasions when we really try. It is somewhat deflating to be shown publicly and incontrovertibly by a machine that even &lt;br&gt;
+  when we do try, we in fact make just as many mistakes as other &lt;br&gt;
+  people. If your pride cannot recover from this blow, you will &lt;br&gt;
+  never make a programm&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;David L Parnas (important programmer after Fred Brooks)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;People familiar with both software engineering and older
+  engineering disciplines observe that the state of the art in &lt;br&gt;
+  software is significantly behind that in other areas of engineering. When most engineering products have been completed, tested, and sold, it is reasonable to expect that the product design is correct and that it will work reliably. With software products, it is usual to find that the software has major “bugs” and does not work reliably for some users.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Gerald Weinberg (40 years ago):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Although one does not find errors by a detailed search of each line, word, or character, the ability to get down to details is essential in the end. Thus, for debugging, an almost complementary set of mental powers is needed. No wonder good debuggers are so rare!&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Software Complexities - No Silver Bullet&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Essential Difficulties: Complexity of software systems, people don't know what they want, invisibility of software&lt;/li&gt;
+&lt;li&gt;Accidental Difficulties: difficulties that attenuate its production but are not inherent to software itself&lt;/li&gt;
+&lt;li&gt;Accidental Difficulties: things like &lt;/li&gt;
+&lt;li&gt;Mythical Man Month - how much code a man canIn write in a month&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Brook's Law: &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Adding manpower to a late software project makes it later&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Intel's "Parallel Gamble" they're trying to add more microprocessor to a chip, but nobody programms effectively in parallel.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Economics and software development&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Low distribution costs: essentially free to duplicate and distribute. Big players can have a distinct advantage.&lt;/li&gt;
+&lt;li&gt;Network Externalities: value increases with number of people using that software&lt;/li&gt;
+&lt;li&gt;Shortage of highly skilled labor: most productive programmers are in high demand but low supply&lt;/li&gt;
+&lt;li&gt;High cost-effectiveness: remarkably useful even if bugs exist&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Case Studies&lt;/strong&gt;
+In preparation of writing about bugs, let's look at two famous bugs:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Therac-25&lt;/em&gt;: a machine produced by Atomic Energy Commission Limited (AECL) of Canada for radiation-therapy: &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;3 people died from radiation overdose...&lt;/li&gt;
+&lt;li&gt;A request for hardware safety locks  &lt;/li&gt;
+&lt;li&gt;Error message discovered: &lt;code&gt;Malfunction 54&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Absence of process to report software incidents&lt;/li&gt;
+&lt;li&gt;Overconfidence in the software and the removal of hardware interlocks made software vulnerable...&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lessons learned:&lt;/strong&gt; documentation shouldn't be afterthought, software quality + standards needed, designs should be simple, software should be subjected to extensive testing&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Ariane 4&lt;/em&gt; Floating point number was converted to a value too big to be held by a 16 bit integer. The computer shut off, and the error logs paralyzed even the backup computer as well which was catastrophic for the engine. &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Lesons Learned:&lt;/strong&gt; Handling of catastrophic failures should be better, Better software reviews&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="172015informationsecurity"&gt;1/7/2015 - Information Security&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Announcements + Administrivia&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What's the difference between CS181 and CS181W?
+&lt;ul&gt;&lt;li&gt;Virtually no difference &lt;/li&gt;
+&lt;li&gt;CS181W requires a rewrite of your drafts. &lt;/li&gt;
+&lt;li&gt;CS181W also requires an extra half-hour session meeting with a Writing Tutor &lt;/li&gt;
+&lt;li&gt;Cannot switch courses after week 3&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Announcement: Phil Levis (Stanford professor) is giving a seminar on information security and the Internet of Things
+&lt;ul&gt;&lt;li&gt;Monday from 11am-12noon in Gates 415&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Section signups released today after class&lt;/li&gt;
+&lt;li&gt;RFIDs were recorded after class as well&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;WIRED article&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Top information security threats we will face in 2015&lt;/li&gt;
+&lt;li&gt;Fun fact: Congress didn't even know about NSA until 1970s&lt;/li&gt;
+&lt;li&gt;National-State attacks:
+&lt;ul&gt;&lt;li&gt;NSA + GCHQ  (Britian) attacked a Belgium telecomunications company&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Stuxnet"&gt;Stuxnet&lt;/a&gt;: virus that attacked national centrifuges&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Extortion:
+&lt;ul&gt;&lt;li&gt;Sony hacked with the threat of releasing sensitive information about personal/private lives of actors&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Data Destruction&lt;/li&gt;
+&lt;li&gt;Bank Card Breaches&lt;/li&gt;
+&lt;li&gt;Third-Party Breaches&lt;/li&gt;
+&lt;li&gt;Critical Infrastructure
+&lt;ul&gt;&lt;li&gt;Opening all the bridges in New York from China&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Why is information security important?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cooper argues employees are the most important asset to a company, but &lt;strong&gt;data&lt;/strong&gt; comes second&lt;/li&gt;
+&lt;li&gt;Intellectual property has enormous value to a company &lt;/li&gt;
+&lt;li&gt;We need remote access to information these days: advances in networking means that data is more accessible than ever&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Legal definition of "information security"&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Protecting information and information systems from unauturhozied access in order to provide:
+&lt;ol&gt;&lt;li&gt;Integrity: fraud, tampering (i.e. &lt;a href="http://en.wikipedia.org/wiki/Chicago_Tylenol_murders"&gt;Chicago Tylenol murders&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Confidentiality: &lt;/li&gt;
+&lt;li&gt;Availability&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Information Security, Computer Security, Cybersecurity, Information Assurance are all used interchangeably by US Departments&lt;/li&gt;
+&lt;li&gt;Authentication - is the sender/receiver allowed to send or receive data?&lt;/li&gt;
+&lt;li&gt;Non-repudiation - sender/receiver cannot deny sending or receiving the data&lt;/li&gt;
+&lt;li&gt;Examples of violating:
+&lt;ul&gt;&lt;li&gt;Availability - DDOS attacks&lt;/li&gt;
+&lt;li&gt;Integrity - changing database values (hacking)&lt;/li&gt;
+&lt;li&gt;Non-repudiation - &lt;a href="http://en.wikipedia.org/wiki/Man-in-the-middle_attack"&gt;man-in-the-middle&lt;/a&gt; attacks&lt;/li&gt;
+&lt;li&gt;Confidentiality - WikiLeaks &lt;/li&gt;
+&lt;li&gt;Authentication - Phishing attacks&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Additional terms&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cryptography - most common way to ensure confidentiality. Even if stolen, still retains its confidentiality&lt;/li&gt;
+&lt;li&gt;Vulnerability - a hole or weakness in the system. Vulnerabilities can be exploited.&lt;/li&gt;
+&lt;li&gt;Threat - danger that can exploit the vulnerability to do harm
+&lt;ol&gt;&lt;li&gt;Disclosure - unauthorized access to information&lt;/li&gt;
+&lt;li&gt;Deception - acceptance of false data&lt;/li&gt;
+&lt;li&gt;Disruption - tampering with availability, taking control of a system&lt;/li&gt;
+&lt;li&gt;Usurptation - &lt;a href="http://en.wikipedia.org/wiki/Firesheep"&gt;Firesheep&lt;/a&gt; allowed people to usurp identity by intercepting traffic and stealing session information &lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Risk - likelihood that something bad is going to happen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Aims of Security&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Prevention - prevent attackers from violating security policy&lt;/li&gt;
+&lt;li&gt;Detection - detect attackers' violation of security policy&lt;/li&gt;
+&lt;li&gt;Recovery - stop attack, asess, and repair damage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Levels of Information Security&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Application (most common)&lt;/li&gt;
+&lt;li&gt;Operating System&lt;/li&gt;
+&lt;li&gt;The network&lt;/li&gt;
+&lt;li&gt;Data management system&lt;/li&gt;
+&lt;li&gt;Physical protection of devices&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;How to implement information security?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Confidentiality - ACL (access control lists) to access files&lt;/li&gt;
+&lt;li&gt;Integrity - check for semantic integrity to ensure inputs are reasonable. See &lt;a href="http://en.wikipedia.org/wiki/Ariane_5"&gt;Ariane 5 accident&lt;/a&gt; which didn't check for reasonable rocket thrust values&lt;/li&gt;
+&lt;li&gt;Non-repudiation - usually verified through logs&lt;/li&gt;
+&lt;li&gt;User Authentication - two-step authentication: two mechanisms to validate identity&lt;/li&gt;
+&lt;li&gt;Information authentication - signature mechanisms&lt;/li&gt;
+&lt;li&gt;Intrusion detection&lt;/li&gt;
+&lt;li&gt;Security Policy, mechanism (enforce policies), and assurance (knowing that policy + mechanism are being followed)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Management and Legal Issues&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Is it cost-effective to prevent (usually more expensive) or recover&lt;/li&gt;
+&lt;li&gt;Models determine damage projected and how we should protect this information&lt;/li&gt;
+&lt;li&gt;Laws and Customs - are desired security measures illegal or culturally acceptable?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Human Factor Issues&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The weakest link happens to be human - social engineering to get passwords&lt;/li&gt;
+&lt;li&gt;Outsiders tailgating into Google, Palantir&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Thought Questions for Today&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;What's the relationship between computing and information security? Which is a subset of which?  &lt;/li&gt;
+&lt;li&gt;Should information security ethics need to be viewed as a separate field than computing ethics?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="152015introductionsyllabus"&gt;1/5/2015 - Introduction + Syllabus&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Logistics:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://courseware.stanford.edu/"&gt;Courseware website&lt;/a&gt; - Login and choose CS 181 to view the relevant materials&lt;/li&gt;
+&lt;li&gt;Don't forget the section participation is 20% of the overall grade&lt;/li&gt;
+&lt;li&gt;Attending lecture in full will offer 2% extra credit &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Brief History of CS181:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Why do we talk about ethics in Computer Science?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Robert Taylor Morris Jr.
+&lt;ul&gt;&lt;li&gt;Shut down 25% of the internet with a worm&lt;/li&gt;
+&lt;li&gt;Led CS departments to be more proactive about educating students about ethics&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Terry Winograd's Address about this course
+&lt;ul&gt;&lt;li&gt;Described why he created this course (CS181)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Three Views of Computer Ethics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The Angel-Devil Depiction &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;There's an absolute good and bad&lt;/li&gt;
+&lt;li&gt;Some part of you wants to do the bad&lt;/li&gt;
+&lt;li&gt;You need to exert moral strength to overcome this impulse and do what is right.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Morality Computer &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;There's a way to sum up all of the relevant factors &lt;/li&gt;
+&lt;li&gt;You can quantify good and bad - there's a set of morale rules that determine the goodness and badness&lt;/li&gt;
+&lt;li&gt;Assume that you'll do the right thing if it's decided as so&lt;/li&gt;
+&lt;li&gt;Problems: 
+&lt;ul&gt;&lt;li&gt;The algorithm is subjective - humanity doesn't agree on the grounds for moral reasoning&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Troupe of Jugglers &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;Balancing motivations to make spur-of-the moment decisions that other people depend on&lt;/li&gt;
+&lt;li&gt;Social context of the activity defines the impact that your decisions have on other people&lt;/li&gt;
+&lt;li&gt;Accepted ways of juggling change over time &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;What Makes Computing Difficult&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The discipline of software engineering has not had centuries in which to mature
+&lt;ul&gt;&lt;li&gt;Software Engineering first used as a term in 1968&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Computing is used to solve hard problems&lt;/li&gt;
+&lt;li&gt;Software has high "system complexity"&lt;/li&gt;
+&lt;li&gt;Economics gravitate towards flawed systems
+&lt;ul&gt;&lt;li&gt;Ability of getting huge market share (GOOG, MFST) means that people don't really care about the bugs&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Bugs are ubiquitous and inevitable&lt;/li&gt;
+&lt;li&gt;Inherently chaotic - small changes initially generate massive changes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Thought Questions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;What public-policy issues involving computing do you feel to prove important over the next few decades?&lt;/li&gt;
+&lt;/ol&gt;</description><link>http://localhost:2368/cs181w/</link><guid isPermaLink="false">e8bdd689-556f-42bd-9889-38ea8b953eb0</guid><category>notes</category><dc:creator>Sherman Leung</dc:creator><pubDate>Wed, 07 Jan 2015 23:34:09 GMT</pubDate></item></channel></rss>

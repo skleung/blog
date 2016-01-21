@@ -1,0 +1,278 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>CS108</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=6c279c2a38">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="undeclared">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="CS108">
+    <meta property="og:description" content="2/12/2015 Concepts: Java Servlets Use New Dynamic Web Project Create new servlets to  Listener is designed to do setup (i.e. initializing the sessions) Session attributes act like hashMaps You can creat  2/3/2015 Concepts: Threading start...">
+    <meta property="og:url" content="http://localhost:2368/cs108/">
+    <meta property="og:image" content="http://img.covry.com/covers/cv/java.jpg">
+    <meta property="article:published_time" content="2015-01-14T00:16:22.022Z">
+    <meta property="article:modified_time" content="2015-02-13T10:16:29.750Z">
+    <meta property="article:tag" content="tech">
+    <meta property="article:tag" content="notes">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CS108">
+    <meta name="twitter:description" content="2/12/2015 Concepts: Java Servlets Use New Dynamic Web Project Create new servlets to  Listener is designed to do setup (i.e. initializing the sessions) Session attributes act like hashMaps You can creat  2/3/2015 Concepts: Threading start...">
+    <meta name="twitter:url" content="http://localhost:2368/cs108/">
+    <meta name="twitter:image:src" content="http://img.covry.com/covers/cv/java.jpg">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "undeclared",
+    "author": {
+        "@type": "Person",
+        "name": "Sherman Leung",
+        "image": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg",
+        "url": "http://localhost:2368/author/sherman",
+        "sameAs": "http://shermanleung.com",
+        "description": "Student, Teacher, Developer, Designer."
+    },
+    "headline": "CS108",
+    "url": "http://localhost:2368/cs108/",
+    "datePublished": "2015-01-14T00:16:22.022Z",
+    "dateModified": "2015-02-13T10:16:29.750Z",
+    "image": "http://img.covry.com/covers/cv/java.jpg",
+    "keywords": "tech, notes",
+    "description": "2/12/2015 Concepts: Java Servlets Use New Dynamic Web Project Create new servlets to  Listener is designed to do setup (i.e. initializing the sessions) Session attributes act like hashMaps You can creat  2/3/2015 Concepts: Threading start..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.6">
+    <link rel="alternate" type="application/rss+xml" title="undeclared" href="../rss/index.html">
+</head>
+<body class="post-template tag-tech tag-notes nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head " style="background-image: url(http://img.covry.com/covers/cv/java.jpg)">
+    <nav class="main-nav overlay clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-tech tag-notes">
+
+        <header class="post-header">
+            <h1 class="post-title">CS108</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-01-13">13 January 2015</time>  on <a href="../tag/tech/">tech</a>, <a href="../tag/notes/">notes</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <h2 id="2122015">2/12/2015</h2>
+
+<p><strong>Concepts</strong>: Java Servlets</p>
+
+<ul>
+<li>Use New Dynamic Web Project</li>
+<li>Create new servlets to </li>
+<li>Listener is designed to do setup (i.e. initializing the sessions)</li>
+<li>Session attributes act like hashMaps</li>
+<li>You can creat </li>
+</ul>
+
+<h2 id="232015">2/3/2015</h2>
+
+<p><strong>Concepts</strong>: Threading</p>
+
+<ul>
+<li><code>start</code> vs. <code>run</code>:
+<ul><li><code>start</code> will actually fork off a new quesiton but <code>run</code> will keep the run method of the child thread running on the main thread itself  </li></ul></li>
+* 
+</ul>
+
+<h2 id="1292015">1/29/2015</h2>
+
+<p><strong>Concepts</strong>: Databases</p>
+
+<ul>
+<li>We'll be using MySQL Monitor to interact directly with MySQL</li>
+<li><p>Key characteristics of a database:</p>
+
+<ul><li>Persistent Storage</li>
+<li>Application Access (applications can acces the data)</li>
+<li>Transaction management (this is not supported by a file system): Database rolls back if either end of the transaction fails</li>
+<li>Efficient Searching (not necessarily supported by traditional file system)</li></ul></li>
+<li><p>To access the database you need:</p>
+
+<ol><li>username</li>
+<li>password</li>
+<li>database server </li>
+<li>database name</li></ol></li>
+<li><p>Java Database Connectivity (JDBC): built-in java library that works with SQL database.</p></li>
+</ul>
+
+<h2 id="1272015">1/27/2015</h2>
+
+<p><strong>Concepts</strong>: Anonymous Functions, Lambda Functions</p>
+
+<ul>
+<li>You can sort with an anonymous lamda function, you don't need to create the entire comparable class - just need to create that one function:</li>
+</ul>
+
+<pre><code>Collections.sort(ingredients, (x, y) -&gt; (return(x.getGrams()-y.getGrams()));  
+</code></pre>
+
+<p>Note that this anonymous function has the same context as the surrounding  program in JRE 8 (JRE 9 apparently has the concept of closure)</p>
+
+<h2 id="1222015">1/22/2015</h2>
+
+<p><strong>Concepts</strong>: Java Swing</p>
+
+<ul>
+<li><code>java.awt</code> abstract window types</li>
+</ul>
+
+<pre><code>JFrame theFrame = new JFrame("Swing Example");  
+theFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  
+</code></pre>
+
+<p>(this way the entire application is still running even when you close a window)</p>
+
+<ul>
+<li>You can set the "look and feel" of an application</li>
+<li>Use ActionListeners to catch changes to buttons (like a JS callback)</li>
+</ul>
+
+<h2 id="182015">1/8/2015</h2>
+
+<p><strong>Concepts</strong>: Autoboxing, Templating, Generic Types, JUnit </p>
+
+<ul>
+<li>Remember you can't create collections of primitive types in Java, (i.e. you have to use Integer objects instead of ints)</li>
+<li><strong>Autoboxing</strong>: We can autobox wrapper objects like Integers: <code>myIntList.add(5)</code> is equivalent to <code>myIntList.add(new Integer(5))</code></li>
+<li><strong>Autounboxing</strong>: <code>int x = myIntList.get(0)</code> Though this list is made of <code>Integer</code> objects, Java will auto-unbox the int value for you
+<ul><li>You do need to be explicit to unbox in this case:
+<code>a.get(0).intValue() == b.get(0).intValue()</code></li></ul></li>
+</ul>
+
+<p><strong>Generic Types</strong></p>
+
+<ul>
+<li>You can use generic type parameters to template objects in Java:</li>
+</ul>
+
+<pre><code>public class Pair&lt;T&gt; {  
+    private T a;
+    private T b;
+}
+...
+Pair&lt;Integer&gt; iPair = new Pair&lt;Integer&gt;(1,2);  
+</code></pre>
+
+<ul>
+<li>Beware! You cannot instantiate new generic types inside a class that uses a type parameter. This is because Java doesn't know what type it is at run-time (due to backwards-compability in the internal implementation of types because only the compiler knows about the type)</li>
+</ul>
+
+<p><strong>JUnit Testing Frameworks</strong></p>
+
+<ul>
+<li>test stub - sample item returned that can be used to test a program (i.e. a single word returned by the hangman initialization function)</li>
+<li>test harnesses - stands in as a potential user of the program you're writing</li>
+</ul>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/sherman/" style="background-image: url(https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg)"><span class="hidden">Sherman Leung's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/sherman/">Sherman Leung</a></h4>
+
+                    <p>Student, Teacher, Developer, Designer.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Stanford, CA</span>
+                    <span class="author-link icon-link"><a href="http://shermanleung.com">http://shermanleung.com</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=CS108&amp;url=http://localhost:2368/cs108/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/cs108/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/cs108/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../open-source-notes-project/">
+        <section class="post">
+            <h2>Open Source Notes</h2>
+            <p>I've decided to open source my notes on this Ghost blog this quarter. Two reasons why I've come to…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev " style="background-image: url(http://0v.org/content/images/2013/Sep/ghost_logo_big.png)" href="../ghost-setup/">
+        <section class="post">
+            <h2>Setting up Ghost</h2>
+            <p>My current setup of this blog is hosted for free as a static set of webpages on Github Pages.…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">undeclared</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=6c279c2a38"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=6c279c2a38"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=6c279c2a38"></script>
+
+</body>

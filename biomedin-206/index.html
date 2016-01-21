@@ -1,0 +1,476 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>BIOMEDIN 206</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=6c279c2a38">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="undeclared">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="BIOMEDIN 206">
+    <meta property="og:description" content="Informatics in Industry A repository of notes from a seminar series in the School of Medicine. Week 8 - IBM Research Dr. Jianying Hu, Distinguished Research Staff Member and Senior Manager, Health Informatics Research IBM Research IBM research has 12...">
+    <meta property="og:url" content="http://localhost:2368/biomedin-206/">
+    <meta property="article:published_time" content="2015-04-06T19:39:31.207Z">
+    <meta property="article:modified_time" content="2015-05-18T20:01:01.624Z">
+    <meta property="article:tag" content="notes">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="BIOMEDIN 206">
+    <meta name="twitter:description" content="Informatics in Industry A repository of notes from a seminar series in the School of Medicine. Week 8 - IBM Research Dr. Jianying Hu, Distinguished Research Staff Member and Senior Manager, Health Informatics Research IBM Research IBM research has 12...">
+    <meta name="twitter:url" content="http://localhost:2368/biomedin-206/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "undeclared",
+    "author": {
+        "@type": "Person",
+        "name": "Sherman Leung",
+        "image": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg",
+        "url": "http://localhost:2368/author/sherman",
+        "sameAs": "http://shermanleung.com",
+        "description": "Student, Teacher, Developer, Designer."
+    },
+    "headline": "BIOMEDIN 206",
+    "url": "http://localhost:2368/biomedin-206/",
+    "datePublished": "2015-04-06T19:39:31.207Z",
+    "dateModified": "2015-05-18T20:01:01.624Z",
+    "keywords": "notes",
+    "description": "Informatics in Industry A repository of notes from a seminar series in the School of Medicine. Week 8 - IBM Research Dr. Jianying Hu, Distinguished Research Staff Member and Senior Manager, Health Informatics Research IBM Research IBM research has 12..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.6">
+    <link rel="alternate" type="application/rss+xml" title="undeclared" href="../rss/index.html">
+</head>
+<body class="post-template tag-notes nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-notes">
+
+        <header class="post-header">
+            <h1 class="post-title">BIOMEDIN 206</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-04-06">06 April 2015</time>  on <a href="../tag/notes/">notes</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <h2 id="informaticsinindustry">Informatics in Industry</h2>
+
+<p>A repository of notes from a seminar series in the School of Medicine.</p>
+
+<h3 id="week8ibmresearch">Week 8 - IBM Research</h3>
+
+<ul>
+<li><strong>Dr. Jianying Hu</strong>, Distinguished Research Staff Member and Senior Manager, Health Informatics Research</li>
+</ul>
+
+<p><strong>IBM Research</strong></p>
+
+<ul>
+<li>IBM research has 12 labs globally</li>
+<li>8/12 labs has healthcare related research</li>
+<li>IBM Watson Healthcare is a subdivision of the Watson research team to apply Watson's NLP to real-world problems</li>
+</ul>
+
+<p><strong>Data-Driven Research vs. Knowledge-Driven Research</strong></p>
+
+<ul>
+<li>Knowledge-driven research leverages Watson's NLP abilities to draw inferences from published literature, books, and guidelines
+<ul><li>Think crowd-sourced knowledge aggregating</li></ul></li>
+<li>Personalized decisions in Healthcare. Linking patient similarities to construct predictive models from longitudinal data.</li>
+</ul>
+
+<p><strong>Patient Similarity Analysis</strong> </p>
+
+<ul>
+<li>Applying ML algorithms to automatically learn best metric from observational data and labels provided by experts. Training a <a href="http://www.research.ibm.com/healthcare/projects_patientsimilarity.shtml">similarity matrix</a> to find clinically similar patients.</li>
+<li>Use Cases: 
+<ul><li>Identifying likely patients for Acute Hypotensive Episode - pulling out patients with similar trajectories to predict what might happen to the current patient. </li>
+<li>Patient CarePathFlow - visualizes care pathways and associated outcomes. virtualizes and scales the traditional way that physicians probe their own and their colleague's knowledge of what worked and what didn't.</li>
+<li>CHF Predictive Modeling (NIH grant): Data-driven insights that found over 20k features with a novel feature selection algorithm.</li></ul></li>
+<li>Temporal Event Pattern Mining - identify frequent patterns from the treatment on a particular group of patients.</li>
+<li>Network-based approach for combining patient and drug similarity
+<ul><li>Edges between patients represent similarity of patients</li>
+<li>The patient-drug prior association to indicate how likely a drug might work on a patient.</li></ul></li>
+<li>PARAMO (Parallel Predictive Modeling Platform) </li>
+<li>Their deployment strategy is not unlike Palantir's they deploy engineers to integrate technologies into the client's database</li>
+</ul>
+
+<p><strong>How to address sparsity/bias?</strong></p>
+
+<ul>
+<li>EMR Densification uses matrix decomposition </li>
+<li>EMR includes outpatient visits and primary care physicians (more comprehensive than just the bias in the hospitalization record)</li>
+</ul>
+
+<h3 id="week7janssenresearch">Week 7 - Janssen Research</h3>
+
+<ul>
+<li><strong>Patrick Ryan</strong> - Head of the Epidemiology analytics group</li>
+<li>Cornell grad, Pfizer, Arizona Arthritis, GlaxoSmithKlin, OMOP (Operations Medical Outcome Partnership), UNC-PhD (Pharmaceutical Policy), Janssen/J&amp;J, OHDSI, Columbia Faculty (Biomedical Informatics)</li>
+</ul>
+
+<p><strong>What do we do?</strong></p>
+
+<ul>
+<li>Janssen R&amp;D is the research arm focused on pharmaceutical for Johnson &amp; Johnson</li>
+<li>We answer questions founded on observational data</li>
+</ul>
+
+<p><strong>Where do we get data?</strong></p>
+
+<ul>
+<li>Government resources (Medicare/Medicaid), insurance providers, EMR inpatient/outpatient data</li>
+<li>Healthcare is like blind men and an elephant - datasets all have their own particular biases. </li>
+<li>NO datasource is enough, we need to aggregate and distill answers from the different datasources that we have</li>
+</ul>
+
+<p><strong>Data pipeline</strong></p>
+
+<ul>
+<li>Convert and structure data into schemas</li>
+<li>ETL design, implement, OMOP CDM, ETL test</li>
+<li>...ended up skipping this slide</li>
+</ul>
+
+<p><strong>Evidence Sharing paradigms</strong>
+* Single study: write protocol, code, execute, evidence (publish paper)
+* Real-time query: develop app, design query, submit job, gather evidence 
+* Large-scale analytics: Develop app, execute, explore results  (making information more accessible to more people)</p>
+
+<p><strong>Case study: Profiling diabetes treatment utilization</strong></p>
+
+<ul>
+<li>Visualizing who is taking these treatments, what treatments they're taking to determine who these treatments will be most effective for.</li>
+</ul>
+
+<p><strong>What the future holds</strong></p>
+
+<ul>
+<li>Patrick envisions a world that no longer is driven by single studies but rather by large-scale collaborative efforts (think: a massive grid that cross-references drugs and what effect they have) </li>
+</ul>
+
+<h3 id="week6optumlabs">Week 6 - Optum Labs</h3>
+
+<ul>
+<li><strong>Paul Wallace</strong> (MD) CMO, VP of Optum Labs</li>
+<li>Started off in Kaiser and led its integration with Epic's EMR system</li>
+</ul>
+
+<p><strong>How do we create a learning healthcare system?</strong></p>
+
+<ul>
+<li>Key Tenets:
+<ol><li>Decision-making based on data</li>
+<li>Iteration/ongoing improvement of practices</li>
+<li>Shared learning across providers, patients, networks</li>
+<li>Patient-consumer centered and engaged</li>
+<li>Dynamism and Complexity is assumed</li></ol></li>
+<li>Dynamic Change</li>
+<li>We're data-gatherers (think hunter-gatherers) </li>
+</ul>
+
+<p><strong>Can we create learning in other environments?</strong></p>
+
+<ul>
+<li>Value proposition in healthcare is changing: volume -&gt; value</li>
+<li>How can we get for-profit and non-profit entities to work on the same project?
+<ul><li>e.g. Life sciences + delivery companies</li></ul></li>
+<li>Research -&gt; Clinical Translation -&gt; Innovation -&gt; Policy change</li>
+<li>Get systematic about innovation (e.g. Bell labs, Proctor &amp; Gamble): make it reproducible, reliable, flexible</li>
+<li>Architect systems that are not just technical but also social</li>
+</ul>
+
+<p><strong>UnitedHealth and Optum</strong></p>
+
+<ul>
+<li>UnitedHealth Group is the trading company</li>
+<li>60 million in the US get benefits from UnitedHealthcare</li>
+<li>Optum drives $50B+ and employes 80,000 to provide health services in addition to the benefits that UnitedHealthcare provides.</li>
+<li>Optum now has ~24 partners</li>
+</ul>
+
+<p><strong>Data today</strong></p>
+
+<ul>
+<li>Data is deidentified (common hashing + salt across different services)</li>
+<li>Aggregates data that comes from clinical records and insurance claims</li>
+</ul>
+
+<p><strong>Precision Medicine</strong></p>
+
+<ul>
+<li>Much more than just personalized genomics</li>
+<li>Started out as just trying to better understand heart disease and heart failure cases</li>
+<li>Optum provides a commons where different groups can work on a problem with the same data</li>
+<li>What about <strong>deep phenotyping</strong>
+<ul><li>Can we identify people that would benefit more from different <em>types</em> of delivery rather</li>
+<li>It's not just a medical problem, we need to include more than just the data about the body but their environments as well (i.e. improved prognosis from wife that cooks rather than living alone)</li></ul></li>
+<li>"n of 1" </li>
+<li>Decision support: when a doctor sees a patient in a population like the patient and knows what has worked well in the population or community 
+<ul><li>Can we create an amazon-like service that caters to this?</li></ul></li>
+</ul>
+
+<p><strong>How much do we waste in healthcare?</strong></p>
+
+<ul>
+<li><strong>30%</strong> is wasted (doesn't benefit the patient)</li>
+<li>Categories: Unnecessary services, inefficiently delivered services, prices that are too high, excessive administrative, fraud, missed prevention opportunities</li>
+<li>"pay-go" structure</li>
+</ul>
+
+<h3 id="week5dnanexus">Week 5 - DNAnexus</h3>
+
+<ul>
+<li><strong>George Asimenos</strong> (PhD) - Director of Science at DNAnexus, EE undergrad (from Greece), '09 PhD in CS. </li>
+<li>Joined startup started by his advisor after looking for post-docs</li>
+<li>Role model was <a href="http://www.jcvi.org/cms/about/bios/jcventer/?em_x=22">Craig Venter</a>, was interested why he was always one step of other people</li>
+<li><strong>Crazy idea:</strong> if we can get blood from a crime scene an construct a genetic profile of the suspect</li>
+<li>Powers of ten - a ten-fold magnification into the DNA</li>
+<li>Worked on ENCODE project while at Stanford</li>
+</ul>
+
+<p><strong>Genetics Background</strong></p>
+
+<ul>
+<li><strong>Mapping</strong> - comparing chunks of the genome to see what parts are identical and what bases have been mutated</li>
+<li><strong>Variation Calling</strong> - creates a file with variants that details where the current genome has deviated from a reference genome</li>
+</ul>
+
+<p><strong>DNAnexus</strong></p>
+
+<ul>
+<li>Funded by <strong>Google Ventures</strong></li>
+<li>Computation happens dynamically and elastically - computers are spun up on the spot to handle computation (sounds like AWS for genomes...)</li>
+<li>Global and collaborative - their code is also only for developers and researchers to collaborate all over the world</li>
+<li>Demo: showed us a cloud-based data analytics platform to manage DNA sequence data</li>
+<li>Their software interfaces and creates a secure network between R&amp;D departments + clinical centers</li>
+<li>Key distinguishing factors: doesn't focus on the analytical techniques (these are all open source), compliant for regulatory practices for data on the cloud</li>
+<li>They estimate that <strong>1/3</strong> of all the sequencing that has happened has touched DNAnexus. They're currently branching out to China in collaboration.</li>
+<li><strong>Do you guys have competitors?</strong>
+<ul><li>They started in 2009, early mover on the cloud and there's nobody competing with them at their scale. Smaller companies focus on filling in the niche needs of organizations with smaller needs.</li></ul></li>
+<li><strong>What does your R&amp;D focus on?</strong>
+<ul><li>Has some R&amp;D focused on developing query tools to make it easier for researchers to download only the relevant genomes they need</li></ul></li>
+<li><strong>How customizable is the pipeline?</strong>
+<ul><li>"Bring your own code" for your own customizable analyses. DNAnexus stresses that their platform is meant for large-scale data analysis. You can take their output and give to intelligent services like <a href="http://www.stationxinc.com/#introducing-genepool">StationX</a> to make predictions from the data.</li></ul></li>
+<li><strong>How are you guys secure?</strong>
+<ul><li>They use layers of security on top of AWS. Didn't elaborate the specifics of what layers these are, but he talked about how quickly they had to patch up vulnerabilities from HeartBleed</li></ul></li>
+<li><strong>Who initiates this process (chicken or the egg)?</strong>
+<ul><li>More common case is the pharma companies who ask their vendors to get onboard DNAnexus.</li></ul></li>
+</ul>
+
+<p><strong>Garvan Institute</strong> (DNAnexus client)</p>
+
+<ul>
+<li>Illumina - announced sequencing for $1000/genome for a machine for $10 million machine (HiSeq X Ten)</li>
+<li>Garvan was first purchaser of the Illumina HiSeq X Ten.</li>
+<li>Clinical Diagnostics - using the instrument to create actionable findings from DNA. Still at a very early stage, but holds potential to be very life changing.</li>
+</ul>
+
+<p><strong><a href="http://www.regeneron.com/">Regeneron</a></strong> (DNAnexus client)</p>
+
+<ul>
+<li>Pharmaceutical company from Tarrytown, NY</li>
+<li>George D. Yancopoulo, Chief Scientific Office, launched the largest sequencing effort to sequence the genomes of these people</li>
+<li>Collaborating with Geisinger - a healthcare provider from Pennsylvania with very well-curated EMR records. </li>
+<li>PCSK9 - mutation in this gene leads to low cholesterol </li>
+<li>developed a drug (clinical trial stage 3) attacking this gene to lower cholesterol. <a href="http://www.fiercebiotech.com/story/sanofi-regeneron-capture-shot-first-mover-advantage-pcsk9-market/2015-01-26">link</a></li>
+<li>On track to sequence 80,000 exomes this year. This puts them at 250,000 people sequenced in total</li>
+</ul>
+
+<h3 id="week4wearablesdataandplumbing">Week 4 - Wearables, Data, and Plumbing</h3>
+
+<ul>
+<li><strong>Rachel Kalmar</strong> (PhD) - Physics Undergrad @UCSB Neuroscience PhD @Stanford. Formally of Misfit Wearables,</li>
+<li><p>Came to Stanford interested in Neuroscience and research didn't pan out, but a project at a Hackathon did! Her team got into RockHealth incubator program and got a crash course in entrepreneurship with an open-source integration platform that started off as an Arduino on a t-shirt</p></li>
+<li><p><em>Sometimes data is too hard to clean - you need to fix the plumbing that the data comes from</em></p></li>
+<li>Big problems: Bad Data, Time is hard (hard to get time variances right - how do you sanitize input effectively</li>
+<li>Time is Hard
+<ul><li>standardized time isn't even that old - we only needed it when cities started centralizing people from towns that were on their own time</li>
+<li>this is where we are with wearables now - everything is in their own time zones</li></ul></li>
+<li>"OnStar" for the body - early detection of disease.</li>
+<li>Closing feedback loop - smart navigation for our health.</li>
+<li>What are the 3 biggest challenges in wearables:
+<ol><li><strong>Battery Life</strong>. Everything is a tradeoff with battery life.</li>
+<li><strong>Standards</strong> - none of our devices are really speaking the same language. Most are using low-level bluetooth. It's still not possible to compare stuff like "steps" across different devices or across different activities. (ActivityScore, NikeFuel, etc...)
+<ul><li>Why not? We're still prototyping and it's still too soon for standards.</li></ul></li>
+<li><strong>Data sharing</strong>- how do we make it easier to share data. Is it fear of getting scooped, inability to reproduce findings, platform differences?
+<ul><li>ResearchKit. Allowing phone to be used as a data collection tool.</li></ul></li></ol></li>
+</ul>
+
+<h3 id="week3googlexbaselinestudy">Week 3 - Google[x] Baseline study</h3>
+
+<ul>
+<li><strong>Vikram Bajaj</strong> (PhD) - initially classics @UPenn (Undergrad) + MIT (Grad)</li>
+<li>Faculty at Berkeley and then 2 startups, now at Google[x]</li>
+<li>Comes from spectroscopy background (NMR)
+<ul><li>Functional MRI: noninvasive spectroscopic techniques to see structure + dynamic view of function </li></ul></li>
+<li>Vision evolved from proton gradient as a signaling mechanism (rather than an energy-generating mechnaism)</li>
+<li>Biomimetic nanoparticle probes for imaging</li>
+<li>SkinScan: targeting cosmetic dermatology - wounding and the healing skin. 
+<ul><li>handheld device to detect types of skin filler (the part that heals)  </li></ul></li>
+<li>Chevron startup: Oil well logging - building MRI spectrometers that work from inside out to oil well drills to tell you information about the oil around the drill.</li>
+</ul>
+
+<h4 id="whatshappeningatgooglex"><strong>What's happening at Google[x]?</strong></h4>
+
+<ul>
+<li>Intersection of: 
+<ol><li>Huge Problem</li>
+<li>Radical Solution</li>
+<li>Breakthrough Technology</li></ol></li>
+<li>Not to be too afraid of failure</li>
+<li>"It's hard to think of making something 10x better" but this is <em>hard</em> in healthcare</li>
+<li>Problems:
+<ul><li>Self-driving cars - leading causes of death. Replacing drivers to make 10x improvement in solving this problem.</li>
+<li>"Medical Tri-corder" - diagnostics</li>
+<li><strong>Baseline Study</strong></li></ul></li>
+</ul>
+
+<h4 id="baselinestudy">Baseline Study</h4>
+
+<ul>
+<li>Disease pathology: traditionally HE Stain (Hematoxylin and eosin stain) but moving towards "molecular markers" and quantative analyses of biological pathways</li>
+<li>Cancer is not one disease, but hetrogeneous in profile.</li>
+<li>More data beats better algorithms - we learn from the quality of the data and the parts that we pick out to be significant</li>
+<li>Limits of big data: 
+<ul><li>1854 Soho Cholera outbreak. Big data detected the cause of the outbreak. But removing the cause doesn't tell you anything about the disease or lead to any mechanistic insights.</li></ul></li>
+</ul>
+
+<h3 id="week2gingeriobehavioralanalyticsforhealthcare">Week 2 - Ginger.io: behavioral Analytics for Healthcare</h3>
+
+<ul>
+<li><strong>Gourab De</strong> (PhD) - biostatistics + Machine Learning. Expert in Risk &amp; Outcomes modeling</li>
+<li>Health economics - somone in paying for hospitalization. If you reduce hospitalization, you're saving costs overall</li>
+</ul>
+
+<p><strong>Key Idea:</strong> Making data more granular in the time between visits:</p>
+
+<ul>
+<li>Right now doctors are only getting a glimpse (or a snapchat) of patients from visit to visit. Doctors are at a loss to learn from the time between visits</li>
+<li>Ginger.io provides: Continuous cycle for engagement, feedback and measurement: passive data, in-app surveys. Analyzing behavior, enable interventions -&gt; measuring outcomes</li>
+<li>Integrating provided data with patient data from hospitals
+<ul><li>Virtual silos are used to merge and hold information from the app and the current hospital infrastructure</li></ul></li>
+<li><strong>cannot integrate with EMR</strong> (this is a very hard problem from a privacy perspective and who owns the data)</li>
+</ul>
+
+<p><strong>Insights from ginger.io data</strong>:</p>
+
+<ul>
+<li>Helped uncover a pattern between stress at home + low mobility.
+<ul><li>A patient caring for two mentally unstable children improved from higher mobility</li></ul></li>
+</ul>
+
+<p><strong>What's next for Sensor Data + Modeling in Healthcare</strong></p>
+
+<ul>
+<li>Smartphone and wearables have gone mainstream: 58% of US population owns smartphones. 76% of clinicians think health apps would be helpful for patientswith chronic conditions</li>
+<li>Major players entering space - Apple/HealthKit/ResearchKit etc...</li>
+</ul>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/sherman/" style="background-image: url(https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg)"><span class="hidden">Sherman Leung's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/sherman/">Sherman Leung</a></h4>
+
+                    <p>Student, Teacher, Developer, Designer.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Stanford, CA</span>
+                    <span class="author-link icon-link"><a href="http://shermanleung.com">http://shermanleung.com</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=BIOMEDIN%20206&amp;url=http://localhost:2368/biomedin-206/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/biomedin-206/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/biomedin-206/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../cs-376/">
+        <section class="post">
+            <h2>CS 376</h2>
+            <p>This is a repository of thoughts and responses from the CS 376 readings: 6/2/15: * Postcolonial Computing: A…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../independent-research-proposal/">
+        <section class="post">
+            <h2>Independent Research Proposal</h2>
+            <p>This is a proposal for 4 units of independent study under Stanford's CS199 system. Motivations I've wanted to learn…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">undeclared</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=6c279c2a38"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=6c279c2a38"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=6c279c2a38"></script>
+
+</body>

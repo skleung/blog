@@ -1,0 +1,186 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Setting up Ghost</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=6c279c2a38">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    
+    <meta property="og:site_name" content="undeclared">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Setting up Ghost">
+    <meta property="og:description" content="My current setup of this blog is hosted for free as a static set of webpages on Github Pages. I'm using buster for the majority of the heavy lifting, while linking all pictures to external sites to avoid the potential...">
+    <meta property="og:url" content="http://localhost:2368/ghost-setup/">
+    <meta property="og:image" content="http://0v.org/content/images/2013/Sep/ghost_logo_big.png">
+    <meta property="article:published_time" content="2015-01-09T07:21:37.914Z">
+    <meta property="article:modified_time" content="2015-01-13T01:52:07.146Z">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Setting up Ghost">
+    <meta name="twitter:description" content="My current setup of this blog is hosted for free as a static set of webpages on Github Pages. I'm using buster for the majority of the heavy lifting, while linking all pictures to external sites to avoid the potential...">
+    <meta name="twitter:url" content="http://localhost:2368/ghost-setup/">
+    <meta name="twitter:image:src" content="http://0v.org/content/images/2013/Sep/ghost_logo_big.png">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "undeclared",
+    "author": {
+        "@type": "Person",
+        "name": "Sherman Leung",
+        "image": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg",
+        "url": "http://localhost:2368/author/sherman",
+        "sameAs": "http://shermanleung.com",
+        "description": "Student, Teacher, Developer, Designer."
+    },
+    "headline": "Setting up Ghost",
+    "url": "http://localhost:2368/ghost-setup/",
+    "datePublished": "2015-01-09T07:21:37.914Z",
+    "dateModified": "2015-01-13T01:52:07.146Z",
+    "image": "http://0v.org/content/images/2013/Sep/ghost_logo_big.png",
+    "description": "My current setup of this blog is hosted for free as a static set of webpages on Github Pages. I&#x27;m using buster for the majority of the heavy lifting, while linking all pictures to external sites to avoid the potential..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.6">
+    <link rel="alternate" type="application/rss+xml" title="undeclared" href="../rss/index.html">
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head " style="background-image: url(http://0v.org/content/images/2013/Sep/ghost_logo_big.png)">
+    <nav class="main-nav overlay clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Setting up Ghost</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2015-01-08">08 January 2015</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>My current setup of this blog is hosted for free as a static set of webpages on <a href="https://pages.github.com/">Github Pages</a>. I'm using <a href="https://github.com/axitkhurana/buster">buster</a> for the majority of the heavy lifting, while linking all pictures to external sites to avoid the potential trouble hosting dropbox or amazon space to store images.</p>
+
+<p>Step-by-step instructions that I performed are as follows: <br>
+1. <code>git clone git@github.com:TryGhost/Ghost.git my-blog</code> <br>
+2. <code>cd my-blog</code> <br>
+3. <code>npm install</code> <br>
+4. <code>npm start</code> <br>
+5. Make an account and login to your ghost backend by logging in <a href="http://localhost:2368/ghost/">here</a> <br>
+6. Write and publish a blog post</p>
+
+<p>Setup your github pages repository <br>
+7. Login or register to <a href="http://github.com">Github</a> <br>
+8. Create a new project repo for your blog by following the <a href="https://pages.github.com/">instructions here</a> to do so: I called my repo <code>blog</code> see my repo's <a href="https://github.com/skleung/blog/tree/gh-pages">gh-pages</a> branch <br>
+9. Save the git-url for this repo that you just made (e.g. <code>git@github.com:[GITHUB_USERNAME]/[BLOG_REPO_NAME].git</code></p>
+
+<p>To actually use <a href="https://github.com/axitkhurana/buster">buster</a> to generate a static site: <br>
+10. <code>pip install buster</code> <br>
+11. <code>buster setup gh-pages=&lt;REPO_URL&gt;</code> (see step #9) <br>
+12. <code>buster generate</code> <br>
+13. <code>buster deploy</code></p>
+
+<p>Now go to <code>[GITHUB_USERNAME].github.io/[BLOG_REPO_NAME]</code> to see your newly deployed blog!</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/sherman/" style="background-image: url(https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg)"><span class="hidden">Sherman Leung's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/sherman/">Sherman Leung</a></h4>
+
+                    <p>Student, Teacher, Developer, Designer.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Stanford, CA</span>
+                    <span class="author-link icon-link"><a href="http://shermanleung.com">http://shermanleung.com</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Setting%20up%20Ghost&amp;url=http://localhost:2368/ghost-setup/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/ghost-setup/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/ghost-setup/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story " style="background-image: url(http://img.covry.com/covers/cv/java.jpg)" href="../cs108/">
+        <section class="post">
+            <h2>CS108</h2>
+            <p>2/12/2015 Concepts: Java Servlets Use New Dynamic Web Project Create new servlets to  Listener is designed to…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev " style="background-image: url(http://blog.softwaremedia.com/wp-content/uploads/2013/08/apple-devices.png)" href="../cs193p/">
+        <section class="post">
+            <h2>CS193P</h2>
+            <p>1/12/2015: Concepts: Optionals Optionals are just enums Enumerate  Range: a psuedo-representation of Range: struct Range&lt;T&amp;…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">undeclared</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script src="../public/jquery.js?v=6c279c2a38"></script>
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=6c279c2a38"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=6c279c2a38"></script>
+
+</body>

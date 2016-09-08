@@ -1,0 +1,1094 @@
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CS193P</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <link rel="shortcut icon" href="../../favicon.ico">
+
+    <link rel="canonical" href="../index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="undeclared">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="CS193P">
+    <meta property="og:description" content="1/12/2015: Concepts: Optionals Optionals are just enums Enumerate  Range: a psuedo-representation of Range: struct Range&amp;lt;T&amp;gt; {       var startIndex: T     var endIndex: T } // note an array's range would be Range&amp;lt;Int&amp;gt; Special syntax for range:     let array = [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;]     let subArray1 = array[">
+    <meta property="og:url" content="http://localhost:2368/cs193p/">
+    <meta property="og:image" content="http://blog.softwaremedia.com/wp-content/uploads/2013/08/apple-devices.png">
+    <meta property="article:published_time" content="2015-01-08T01:28:51.000Z">
+    <meta property="article:modified_time" content="2015-01-15T09:35:40.000Z">
+    <meta property="article:tag" content="tech">
+    <meta property="article:tag" content="notes">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CS193P">
+    <meta name="twitter:description" content="1/12/2015: Concepts: Optionals Optionals are just enums Enumerate  Range: a psuedo-representation of Range: struct Range&amp;lt;T&amp;gt; {       var startIndex: T     var endIndex: T } // note an array's range would be Range&amp;lt;Int&amp;gt; Special syntax for range:     let array = [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;]     let subArray1 = array[">
+    <meta name="twitter:url" content="http://localhost:2368/cs193p/">
+    <meta name="twitter:image" content="http://blog.softwaremedia.com/wp-content/uploads/2013/08/apple-devices.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Sherman Leung">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="tech, notes">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "undeclared",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Sherman Leung",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg",
+            "width": 200,
+            "height": 200
+        },
+        "url": "http://localhost:2368/author/sherman/",
+        "sameAs": [
+            "http://shermanleung.com"
+        ],
+        "description": "Student, Teacher, Developer, Designer."
+    },
+    "headline": "CS193P",
+    "url": "http://localhost:2368/cs193p/",
+    "datePublished": "2015-01-08T01:28:51.000Z",
+    "dateModified": "2015-01-15T09:35:40.000Z",
+    "image": "http://blog.softwaremedia.com/wp-content/uploads/2013/08/apple-devices.png",
+    "keywords": "tech, notes",
+    "description": "1/12/2015: Concepts: Optionals Optionals are just enums Enumerate  Range: a psuedo-representation of Range: struct Range&amp;lt;T&amp;gt; {       var startIndex: T     var endIndex: T } // note an array&#x27;s range would be Range&amp;lt;Int&amp;gt; Special syntax for range:     let array &#x3D; [&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;]     let subArray1 &#x3D; array[",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.10">
+    <link rel="alternate" type="application/rss+xml" title="undeclared" href="../../rss/index.html">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,600,400">
+    <style amp-custom>
+        /* ==========================================================================
+           Table of Contents
+           ========================================================================== */
+
+        /*
+
+            0. Normalize
+            1. General
+            2. Utilities
+            3. AMP Post
+            4. Footer
+
+        */
+
+        /* ==========================================================================
+           0. normalize.css v3.0.3 | MIT License | git.io/normalize | (minified)
+           ========================================================================== */
+
+        html {
+            font-family: sans-serif;
+
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            margin: 0;
+        }
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+        audio,
+        canvas,
+        progress,
+        video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+        audio:not([controls]) {
+            display: none;
+            height: 0;
+        }
+        [hidden],
+        template {
+            display: none;
+        }
+        a {
+            background-color: transparent;
+        }
+        a:active,
+        a:hover {
+            outline: 0;
+        }
+        abbr[title] {
+            border-bottom: 1px dotted;
+        }
+        b,
+        strong {
+            font-weight: bold;
+        }
+        dfn {
+            font-style: italic;
+        }
+        h1 {
+            margin: 0.67em 0;
+            font-size: 2em;
+        }
+        mark {
+            background: #ff0;
+            color: #000;
+        }
+        small {
+            font-size: 80%;
+        }
+        sub,
+        sup {
+            position: relative;
+            vertical-align: baseline;
+            font-size: 75%;
+            line-height: 0;
+        }
+        sup {
+            top: -0.5em;
+        }
+        sub {
+            bottom: -0.25em;
+        }
+        img {
+            border: 0;
+        }
+        amp-img {
+            border: 0;
+        }
+        svg:not(:root) {
+            overflow: hidden;
+        }
+        figure {
+            margin: 1em 40px;
+        }
+        hr {
+            box-sizing: content-box;
+            height: 0;
+        }
+        pre {
+            overflow: auto;
+        }
+        code,
+        kbd,
+        pre,
+        samp {
+            font-family: monospace, monospace;
+            font-size: 1em;
+        }
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            margin: 0;
+            color: inherit;
+            font: inherit;
+        }
+        button {
+            overflow: visible;
+        }
+        button,
+        select {
+            text-transform: none;
+        }
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"] {
+            cursor: pointer;
+
+            -webkit-appearance: button;
+        }
+        button[disabled],
+        html input[disabled] {
+            cursor: default;
+        }
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            padding: 0;
+            border: 0;
+        }
+        input {
+            line-height: normal;
+        }
+        input[type="checkbox"],
+        input[type="radio"] {
+            box-sizing: border-box;
+            padding: 0;
+        }
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            height: auto;
+        }
+        input[type="search"] {
+            -webkit-appearance: textfield;
+        }
+        input[type="search"]::-webkit-search-cancel-button,
+        input[type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none;
+        }
+        fieldset {
+            margin: 0 2px;
+            padding: 0.35em 0.625em 0.75em;
+            border: 1px solid #c0c0c0;
+        }
+        legend {
+            padding: 0;
+            border: 0;
+        }
+        textarea {
+            overflow: auto;
+        }
+        optgroup {
+            font-weight: bold;
+        }
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+        td,
+        th {
+            padding: 0;
+        }
+
+
+        /* ==========================================================================
+           1. General - Setting up some base styles
+           ========================================================================== */
+
+        html {
+            max-height: 100%;
+            height: 100%;
+            font-size: 62.5%;
+
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        body {
+            max-height: 100%;
+            height: 100%;
+            color: #3a4145;
+            background: #f4f8fb;
+            letter-spacing: 0.01rem;
+            font-family: "Merriweather", serif;
+            font-size: 1.8rem;
+            line-height: 1.75em;
+            text-rendering: geometricPrecision;
+
+            -webkit-font-feature-settings: "kern" 1;
+            -moz-font-feature-settings: "kern" 1;
+            -o-font-feature-settings: "kern" 1;
+        }
+
+        ::-moz-selection {
+            background: #d6edff;
+        }
+
+        ::selection {
+            background: #d6edff;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0 0 0.3em 0;
+            color: #2e2e2e;
+            font-family: "Open Sans", sans-serif;
+            line-height: 1.15em;
+            text-rendering: geometricPrecision;
+
+            -webkit-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
+            -moz-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
+            -o-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
+        }
+
+        h1 {
+            text-indent: -2px;
+            letter-spacing: -1px;
+            font-size: 2.6rem;
+        }
+
+        h2 {
+            letter-spacing: 0;
+            font-size: 2.4rem;
+        }
+
+        h3 {
+            letter-spacing: -0.6px;
+            font-size: 2.1rem;
+        }
+
+        h4 {
+            font-size: 1.9rem;
+        }
+
+        h5 {
+            font-size: 1.8rem;
+        }
+
+        h6 {
+            font-size: 1.8rem;
+        }
+
+        a {
+            color: #4a4a4a;
+        }
+
+        a:hover {
+            color: #111;
+        }
+
+        p,
+        ul,
+        ol,
+        dl {
+            margin: 0 0 2.5rem 0;
+            font-size: 1.5rem;
+            text-rendering: geometricPrecision;
+
+            -webkit-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+            -moz-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+            -o-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+        }
+
+        ol,
+        ul {
+            padding-left: 2em;
+        }
+
+        ol ol,
+        ul ul,
+        ul ol,
+        ol ul {
+            margin: 0 0 0.4em 0;
+            padding-left: 2em;
+        }
+
+        dl dt {
+            float: left;
+            clear: left;
+            overflow: hidden;
+            margin-bottom: 1em;
+            width: 180px;
+            text-align: right;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: 700;
+        }
+
+        dl dd {
+            margin-bottom: 1em;
+            margin-left: 200px;
+        }
+
+        li {
+            margin: 0.4em 0;
+        }
+
+        li li {
+            margin: 0;
+        }
+
+        hr {
+            display: block;
+            margin: 1.75em 0;
+            padding: 0;
+            height: 1px;
+            border: 0;
+            border-top: #efefef 1px solid;
+        }
+
+        blockquote {
+            box-sizing: border-box;
+            margin: 1.75em 0 1.75em 0;
+            padding: 0 0 0 1.75em;
+            border-left: #4a4a4a 0.4em solid;
+
+            -moz-box-sizing: border-box;
+        }
+
+        blockquote p {
+            margin: 0.8em 0;
+            font-style: italic;
+        }
+
+        blockquote small {
+            display: inline-block;
+            margin: 0.8em 0 0.8em 1.5em;
+            color: #ccc;
+            font-size: 0.9em;
+        }
+
+        blockquote small:before {
+            content: "\2014 \00A0";
+        }
+
+        blockquote cite {
+            font-weight: 700;
+        }
+
+        blockquote cite a {
+            font-weight: normal;
+        }
+
+        mark {
+            background-color: #fdffb6;
+        }
+
+        code,
+        tt {
+            padding: 1px 3px;
+            border: #e3edf3 1px solid;
+            background: #f7fafb;
+            border-radius: 2px;
+            white-space: pre-wrap;
+            font-family: Inconsolata, monospace, sans-serif;
+            font-size: 0.85em;
+            font-feature-settings: "liga" 0;
+
+            -webkit-font-feature-settings: "liga" 0;
+            -moz-font-feature-settings: "liga" 0;
+        }
+
+        pre {
+            overflow: auto;
+            box-sizing: border-box;
+            margin: 0 0 1.75em 0;
+            padding: 10px;
+            width: 100%;
+            border: #e3edf3 1px solid;
+            background: #f7fafb;
+            border-radius: 3px;
+            white-space: pre;
+            font-family: Inconsolata, monospace, sans-serif;
+            font-size: 0.9em;
+
+            -moz-box-sizing: border-box;
+        }
+
+        pre code,
+        pre tt {
+            padding: 0;
+            border: none;
+            background: transparent;
+            white-space: pre-wrap;
+            font-size: inherit;
+        }
+
+        kbd {
+            display: inline-block;
+            margin-bottom: 0.4em;
+            padding: 1px 8px;
+            border: #ccc 1px solid;
+            background: #f4f4f4;
+            border-radius: 4px;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2),
+            0 1px 0 0 #fff inset;
+            color: #666;
+            text-shadow: #fff 0 1px 0;
+            font-size: 0.9em;
+            font-weight: 700;
+        }
+
+        table {
+            box-sizing: border-box;
+            margin: 1.75em 0;
+            max-width: 100%;
+            width: 100%;
+            background-color: transparent;
+
+            -moz-box-sizing: border-box;
+        }
+
+        table th,
+        table td {
+            padding: 8px;
+            border-top: #efefef 1px solid;
+            vertical-align: top;
+            text-align: left;
+            line-height: 20px;
+        }
+
+        table th {
+            color: #000;
+        }
+
+        table caption + thead tr:first-child th,
+        table caption + thead tr:first-child td,
+        table colgroup + thead tr:first-child th,
+        table colgroup + thead tr:first-child td,
+        table thead:first-child tr:first-child th,
+        table thead:first-child tr:first-child td {
+            border-top: 0;
+        }
+
+        table tbody + tbody {
+            border-top: #efefef 2px solid;
+        }
+
+        table table table {
+            background-color: #fff;
+        }
+
+        table tbody > tr:nth-child(odd) > td,
+        table tbody > tr:nth-child(odd) > th {
+            background-color: #f6f6f6;
+        }
+
+        table.plain tbody > tr:nth-child(odd) > td,
+        table.plain tbody > tr:nth-child(odd) > th {
+            background: transparent;
+        }
+
+        iframe,
+        amp-iframe,
+        .fluid-width-video-wrapper {
+            display: block;
+            margin: 1.75em 0;
+        }
+
+        /* When a video is inside the fitvids wrapper, drop the
+        margin on the iframe, cause it breaks stuff. */
+        .fluid-width-video-wrapper iframe,
+        .fluid-width-video-wrapper amp-iframe {
+            margin: 0;
+        }
+
+        textarea,
+        select,
+        input {
+            margin: 0 0 5px 0;
+            padding: 6px 9px;
+            width: 260px;
+            outline: 0;
+            border: #e7eef2 1px solid;
+            background: #fff;
+            border-radius: 4px;
+            box-shadow: none;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.6rem;
+            line-height: 1.4em;
+            font-weight: 100;
+
+            -webkit-appearance: none;
+        }
+
+        textarea {
+            min-width: 250px;
+            min-height: 80px;
+            max-width: 340px;
+            width: 100%;
+            height: auto;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="number"]:focus,
+        input[type="date"]:focus,
+        input[type="month"]:focus,
+        input[type="week"]:focus,
+        input[type="time"]:focus,
+        input[type="datetime"]:focus,
+        input[type="datetime-local"]:focus,
+        textarea:focus {
+            outline: none;
+            outline-width: 0;
+            border: #bbc7cc 1px solid;
+            background: #fff;
+        }
+
+        select {
+            width: 270px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        /* ==========================================================================
+           2. Utilities
+           ========================================================================== */
+
+        /* Clears shit */
+        .clearfix:before,
+        .clearfix:after {
+            content: " ";
+            display: table;
+        }
+        .clearfix:after {
+            clear: both;
+        }
+        .clearfix {
+            zoom: 1;
+        }
+
+        /* ==========================================================================
+           3. AMP Post
+           ========================================================================== */
+
+
+
+        .main-header {
+            position: relative;
+            display: table;
+            overflow: hidden;
+            box-sizing: border-box;
+            width: 100%;
+            height: 50px;
+            background: #5ba4e5 no-repeat center center;
+            background-size: cover;
+            text-align: left;
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+
+        .content {
+            background: #fff;
+            padding-top: 15px;
+        }
+        .blog-title,
+        .content {
+            margin: auto;
+            max-width: 600px;
+        }
+
+        .blog-title a {
+            display: block;
+            padding-right: 16px;
+            padding-left: 16px;
+            height: 50px;
+            color: #fff;
+            text-decoration: none;
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            line-height: 50px;
+            font-weight: 600;
+        }
+
+        .post {
+            position: relative;
+            margin-top: 0;
+            margin-right: 16px;
+            margin-left: 16px;
+            padding-bottom: 0;
+            max-width: 100%;
+            border-bottom: #ebf2f6 1px solid;
+            word-wrap: break-word;
+            font-size: 0.95em;
+            line-height: 1.65em;
+        }
+
+        .post-header {
+            margin-bottom: 1rem;
+        }
+
+        .post-title {
+            margin-bottom: 0;
+        }
+
+        .post-title a {
+            text-decoration: none;
+        }
+
+        .post-meta {
+            display: block;
+            margin: 3px 0 0 0;
+            color: #9eabb3;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.3rem;
+            line-height: 2.2rem;
+        }
+
+        .post-meta a {
+            color: #9eabb3;
+            text-decoration: none;
+        }
+
+        .post-meta a:hover {
+            text-decoration: underline;
+        }
+
+        .post-meta .author {
+            margin: 0;
+            font-size: 1.3rem;
+            line-height: 1.3em;
+        }
+
+        .post-date {
+            display: inline-block;
+            text-transform: uppercase;
+            white-space: nowrap;
+            font-size: 1.2rem;
+            line-height: 1.2em;
+        }
+
+        .post-image {
+            margin: 0;
+            padding-top: 3rem;
+            padding-bottom: 30px;
+            border-top: 1px #E8E8E8 solid;
+        }
+
+        /* Keep images centered, and allow images wider than the main
+           text column to break out. */
+        .post-content amp-img,
+        .post-content amp-anim {
+            /* Centers an image by (1) pushing its left edge to the
+               center of its container and (2) shifting the entire image
+               in the opposite direction by half its own width.
+               Works for images that are larger than their containers. */
+            position: relative;
+            left: 50%;
+            display: block;
+            padding: 0;
+            min-width: 0;
+            max-width: 112%; /* fallback when calc doesn't work */
+            width: calc(100% + 32px); /* expand with to image + margins */
+            height: auto;
+            transform: translateX(-50%);
+
+            -webkit-transform: translateX(-50%); /* for Safari and iOS */
+            -ms-transform: translateX(-50%); /* for IE9 */
+        }
+
+        .footnotes {
+            font-size: 1.3rem;
+            line-height: 1.6em;
+            font-style: italic;
+        }
+
+        .footnotes li {
+            margin: 0.6rem 0;
+        }
+
+        .footnotes p {
+            margin: 0;
+        }
+
+        .footnotes p a:last-child {
+            text-decoration: none;
+        }
+
+        /* ==========================================================================
+           4. Footer - The bottom the AMP Post
+           ========================================================================== */
+
+        .site-footer {
+            position: relative;
+            margin: 0 auto 20px auto;
+            padding: 1rem 15px;
+            max-width: 600px;
+            color: rgba(0,0,0,0.5);
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.75em;
+        }
+
+        .site-footer a {
+            color: rgba(0,0,0,0.5);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .site-footer a:hover {
+            border-bottom: #bbc7cc 1px solid;
+        }
+
+        .poweredby {
+            display: block;
+            float: right;
+            width: 45%;
+            text-align: right;
+        }
+
+        .copyright {
+            display: block;
+            float: left;
+            width: 45%;
+        }
+    </style>
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    
+
+</head>
+
+<body class="amp-template">
+    <header class="main-header">
+        <nav class="blog-title">
+            <a href="../../">undeclared</a>
+        </nav>
+    </header>
+
+    <main class="content" role="main">
+        <article class="post">
+
+            <header class="post-header">
+                <h1 class="post-title">CS193P</h1>
+                <section class="post-meta">
+                    <p class="author">by <a href="../../author/sherman/">Sherman Leung</a></p>
+                    <time class="post-date" datetime="2015-01-07">2015-01-07</time>
+                </section>
+            </header>
+            <figure class="post-image">
+                <amp-img src="http://blog.softwaremedia.com/wp-content/uploads/2013/08/apple-devices.png" width="600" height="400" layout="responsive"></amp-img>
+            </figure>
+            <section class="post-content">
+
+                <h2 id="1122015">1/12/2015:</h2>
+
+<p><strong>Concepts</strong>: Optionals</p>
+
+<ul>
+<li>Optionals are just enums</li>
+<li>Enumerate </li>
+<li>Range: a psuedo-representation of Range:</li>
+</ul>
+
+<pre><code>struct Range&lt;T&gt; {  
+    var startIndex: T
+    var endIndex: T
+} // note an array's range would be Range&lt;Int&gt;
+</code></pre>
+
+<ul>
+<li>Special syntax for range:</li>
+</ul>
+
+<pre><code>    let array = ["a","b","c","d","e"]
+    let subArray1 = array[2...3] // ["c", "d"]
+    let subArray1 = array[2...3] // ["c"]
+    for i in [27...104] { } //range is enumerable
+</code></pre>
+
+<ul>
+<li>NSobject is the base class for all Objective-C classes (what about best practices in Swift?)
+<ul><li>It seems that Swift classes are inherently linked to these NSObject classes.</li></ul></li>
+<li>NSNumber - generic number-holding class</li>
+<li>NSDate - used to find out date and time; be sure to check localization ramifications here...</li>
+<li>NSData - a "bag o' bits" used to save/restore/transmit raw data</li>
+</ul>
+
+<p><strong>Classes, Structures and Enumerations</strong></p>
+
+<ul>
+<li>Similarities: declaration syntaxes, properties and functions, initliazers.</li>
+<li>Only classes have inheritance</li>
+<li>Introspection and casting are classes only</li>
+<li>Structs and Enums are passed by <em>value</em> but Classes are passed by <em>reference</em></li>
+<li>Mark a function that can mutate a struct/enum with the keyword <strong>mutating</strong></li>
+<li>Reference (stored in the heap). Note that you can still use <code>let</code> to mutate class properties with methods</li>
+<li>You can override methods/properties in superclass with keyword <code>override</code></li>
+<li>Both types and instances can have methods/properties:</li>
+</ul>
+
+<pre><code>var d: Double = ...  
+if d.isSignMinus {  
+    d = Double.abs(d)
+}
+</code></pre>
+
+<ul>
+<li>See above:
+<ul><li>here, isSignMinus is an instance property of a Double (you send it to particular Double)</li>
+<li>abs is a type method of a Double (sent to the type itself not a particular Double).</li>
+<li>You have to declare a type method/roerty with a <code>static</code> prefix or with <code>class</code> in a class: <code>static func abs(d: Double) -&gt; Double</code></li></ul></li>
+<li>Paramters to all functions have an internal and external name
+<ul><li>internal name : name of local variable used inside method</li>
+<li>external name is what callers use to call the method</li>
+<li>Use <code>_</code> if no callers should use external name for given parameter</li></ul></li>
+<li>Property Observers: <code>willSet</code> and <code>didSet</code> will be called before and after setting a property with <code>newValue</code> and <code>oldValue</code> as their respective parmaters</li>
+<li><p>Lazy initialization: initialized only when someone acceses it</p>
+
+<ul><li>can be used when there are cyclized dependencies between parent and child classes</li></ul></li>
+<li><p>When is <code>init</code> method needed?</p></li>
+<li>You can set any property's value
+...few asleep for 10 minutes</li>
+<li>Casting works with the <code>as</code> keyword.</li>
+</ul>
+
+<h2 id="1122015">1/12/2015:</h2>
+
+<p>Continuation of Calculator Demo - Assignment #2 will be based on the demo today <br>
+<strong>Concepts</strong>: Operand/operator stack</p>
+
+<ul>
+<li>Conventions: camelcase convention for names of files (e.g. <code>CalculatorBrain.swift</code>)</li>
+<li>We're defining an Op object to refer to an operand or an operator: should it be a class or function or an <strong>enum</strong></li>
+<li>We can create an empty array of objects with: <code>var opStack = Array&lt;Op&gt;()</code>, but the preferred syntax is <code>var opStack = [Op]()</code></li>
+<li>Functions are just types in Swift (no different from strings)</li>
+<li>Creating an enum (used to enumerate different possibilities):
+In swift, we can associate data with any of the cases in this enum  </li>
+</ul>
+
+<pre><code>enum Op {  
+    case Operand(Double)
+    case UnaryOperation(String, Double -&gt; Double)
+    case BinaryOperation(String, (Double, Double) -&gt; Double)
+}
+</code></pre>
+
+<ul>
+<li>An initializer is called by invoking a class with parentheses: (e.g. <code>var knownOps = [String:Op]()</code>).</li>
+<li>We can also intiialize it with the <code>init()</code> method </li>
+<li>Looking up something in a dictionary will always return an optional</li>
+<li>To make variables private to a class, add <code>private</code></li>
+<li>Sometimes you can't return an actual return value, you can make it an optional return value:</li>
+</ul>
+
+<pre><code>func evaluate() -&gt; Double? {
+
+}
+</code></pre>
+
+<ul>
+<li>Swift passes structs by value and clases by references: Arrays, Dictionaries are <strong>structs</strong></li>
+<li>There's an implicit <code>let</code> in from of all structs as parameters (read-only!) so the struct in this case is immutable</li>
+<li>Hacky way of making a mutable copy for use inside a function (see the var that replaces the implicit let in the parameter):</li>
+</ul>
+
+<pre><code>func evaluate(var ops: [Op]) {
+
+}
+</code></pre>
+
+<ul>
+<li>Swift is actually smart enough to not actually copy a struct until a change is made. Swift might even make just a partial copy or just kept track of the actual changes made.</li>
+<li>We use <code>switch</code> to pull associated values out of enums</li>
+<li>Underbars <code>_</code> are used when we don't care about the variable and don't intend on using it</li>
+</ul>
+
+<h2 id="172015">1/7/2015:</h2>
+
+<p>Continuation of Calculator Demo <br>
+<strong>Concepts</strong>: Typed Functions, Arrays, Sets</p>
+
+<p><strong>Review</strong></p>
+
+<ul>
+<li>Optionals are automatically assigned to be nil (not set)</li>
+<li>Note it's not necessary to declare the type of a variable: <code>var operandStack: Array&lt;Double&gt; = Array&lt;Double&gt;()</code> is equivalent to <code>var operandStack = Array&lt;Double&gt;()</code></li>
+<li>Creating arrays are just like:</li>
+<li>Computed properties : you can define properties that are computed and updated anywhere it is used</li>
+<li>Switch statement is much more powerful in Swift. You have to cover every possibility (make sure to include a Default case)</li>
+<li>Closures allow you to define functions as parameters:
+<ul><li><code>performOperation({(op1,op2) in op1 * op2)</code> is equivalent to <code>performOperation {$0 * $1}</code></li></ul></li>
+</ul>
+
+<p><strong>MVC - 3 camps</strong></p>
+
+<ul>
+<li><strong>Model</strong> - what your application (i.e. what is a program?)
+<ul><li>The model is completely UI independent, should never talk to the view</li></ul></li>
+<li><strong>Controller</strong> - how your model is presented to the user
+<ul><li>Controllers can always talk directly to their Model</li>
+<li>Controllers can also talk directly to the view (outlet)</li></ul></li>
+<li><strong>View</strong> - what the user sees
+<ul><li>Comunicates with the contorller through actions</li>
+<li>Sometimes the view needs to be synchronized with the controller (i.e. should I allow the user to scroll? <code>shouldScroll</code> <code>willScroll</code> <code>didScroll</code>
+<ul><li>we solve this with delegations</li>
+<li><em>delegate</em> is set via a protocol ("blind" to class)</li></ul></li>
+<li>controllers provide a data source to the view</li></ul></li>
+</ul>
+
+<h2 id="152015introductiontoswift">1/5/2015: Introduction to Swift</h2>
+
+<p>Introduction to the course and the start of the calculator demo to build basic intuition about programming in Swift <br>
+<strong>Concepts</strong>: Creating a project, Tying/connecting button components to their corresponding methods in the controller, Swift basics, Types in Swift (Optional types)</p>
+
+<p><strong>Logistics:</strong></p>
+
+<ul>
+<li>Each class will feature a Demo</li>
+<li>Enrollment survey deadline is Tuesday</li>
+<li>Paul will likely have a "second start" to the class for the iTunesU taping (2 week delay)</li>
+</ul>
+
+<p><strong>Overview + Prerequisites:</strong></p>
+
+<ul>
+<li>Real life object-oriented programming</li>
+<li>Databases, graphics, multimedia, animation in a real-world application</li>
+<li>Prior coursework assumes object-oriented programming</li>
+</ul>
+
+<p><strong>Four Layers</strong></p>
+
+<ol>
+<li>Core OS: <br>
+<ul><li>UNIX-based system</li>
+<li>Sockets, Kernel, Permissions, near hardware level</li></ul></li>
+<li>Core Services <br>
+<ul><li>Accessing lower level services through object-oriented interfaces</li></ul></li>
+<li>Media (little time spent in this area) <br>
+<ul><li>Capturing, editing media</li>
+<li>Audio mixing, recording</li></ul></li>
+<li>Cocoa Touch (Vast majority of time spent here, 70%+) <br>
+<ul><li>Buttons, sliders, multi-touch</li>
+<li>Build the interactivity with the application here</li></ul></li>
+</ol>
+
+<p><strong>Platform Components:</strong></p>
+
+<ul>
+<li>Xcode 6 is the code editor, compiler, debugger </li>
+<li>Language(s): We'll learn Swift in this class</li>
+<li>Frameworks - core motion, map kit, gyroscope</li>
+<li>Design Strategy - MVC </li>
+</ul>
+
+<p><strong>Demo:</strong></p>
+
+<ul>
+<li>We're building a calculator from scratch</li>
+<li>Topics include:
+<ul><li>Creating a project in Xcode</li>
+<li>Building a UI</li>
+<li>iOS Simulator</li>
+<li>println</li>
+<li>defining a class in Swift</li>
+<li>Connecting method interactions to their components (CTRL + Drag method dots to their corresponding components in the view)</li></ul></li>
+</ul>
+
+            </section>
+
+        </article>
+    </main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="../../">undeclared</a> © 2016</section>
+        <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+    </footer>
+</body>

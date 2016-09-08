@@ -11,49 +11,74 @@
 
     <link rel="shortcut icon" href="../favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=a43de9ce44">
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=f4d97f3b4b">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
 
     <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
     
     <meta property="og:site_name" content="undeclared">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Setting up Ghost">
-    <meta property="og:description" content="My current setup of this blog is hosted for free as a static set of webpages on Github Pages. I'm using buster for the majority of the heavy lifting, while linking all pictures to external sites to avoid the potential...">
+    <meta property="og:description" content="My current setup of this blog is hosted for free as a static set of webpages on Github Pages. I'm using buster for the majority of the heavy lifting, while linking all pictures to external sites to avoid the potential trouble hosting dropbox or amazon space to store images. Step-by-step">
     <meta property="og:url" content="http://localhost:2368/ghost-setup/">
     <meta property="og:image" content="http://0v.org/content/images/2013/Sep/ghost_logo_big.png">
-    <meta property="article:published_time" content="2015-01-09T07:21:37.914Z">
-    <meta property="article:modified_time" content="2015-01-13T01:52:07.146Z">
-    
+    <meta property="article:published_time" content="2015-01-09T07:21:37.000Z">
+    <meta property="article:modified_time" content="2015-01-13T01:52:07.000Z">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Setting up Ghost">
-    <meta name="twitter:description" content="My current setup of this blog is hosted for free as a static set of webpages on Github Pages. I'm using buster for the majority of the heavy lifting, while linking all pictures to external sites to avoid the potential...">
+    <meta name="twitter:description" content="My current setup of this blog is hosted for free as a static set of webpages on Github Pages. I'm using buster for the majority of the heavy lifting, while linking all pictures to external sites to avoid the potential trouble hosting dropbox or amazon space to store images. Step-by-step">
     <meta name="twitter:url" content="http://localhost:2368/ghost-setup/">
-    <meta name="twitter:image:src" content="http://0v.org/content/images/2013/Sep/ghost_logo_big.png">
+    <meta name="twitter:image" content="http://0v.org/content/images/2013/Sep/ghost_logo_big.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Sherman Leung">
+    <meta property="og:image:width" content="960">
+    <meta property="og:image:height" content="576">
     
     <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Article",
-    "publisher": "undeclared",
+    "publisher": {
+        "@type": "Organization",
+        "name": "undeclared",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
     "author": {
         "@type": "Person",
         "name": "Sherman Leung",
-        "image": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg",
-        "url": "http://localhost:2368/author/sherman",
-        "sameAs": "http://shermanleung.com",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg",
+            "width": 200,
+            "height": 200
+        },
+        "url": "http://localhost:2368/author/sherman/",
+        "sameAs": [
+            "http://shermanleung.com"
+        ],
         "description": "Student, Teacher, Developer, Designer."
     },
     "headline": "Setting up Ghost",
     "url": "http://localhost:2368/ghost-setup/",
-    "datePublished": "2015-01-09T07:21:37.914Z",
-    "dateModified": "2015-01-13T01:52:07.146Z",
-    "image": "http://0v.org/content/images/2013/Sep/ghost_logo_big.png",
-    "description": "My current setup of this blog is hosted for free as a static set of webpages on Github Pages. I&#x27;m using buster for the majority of the heavy lifting, while linking all pictures to external sites to avoid the potential..."
+    "datePublished": "2015-01-09T07:21:37.000Z",
+    "dateModified": "2015-01-13T01:52:07.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://0v.org/content/images/2013/Sep/ghost_logo_big.png",
+        "width": 960,
+        "height": 576
+    },
+    "description": "My current setup of this blog is hosted for free as a static set of webpages on Github Pages. I&#x27;m using buster for the majority of the heavy lifting, while linking all pictures to external sites to avoid the potential trouble hosting dropbox or amazon space to store images. Step-by-step",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
 }
     </script>
 
-    <meta name="generator" content="Ghost 0.6">
+    <meta name="generator" content="Ghost 0.10">
     <link rel="alternate" type="application/rss+xml" title="undeclared" href="../rss/index.html">
 </head>
 <body class="post-template nav-closed">
@@ -89,7 +114,7 @@
         <header class="post-header">
             <h1 class="post-title">Setting up Ghost</h1>
             <section class="post-meta">
-                <time class="post-date" datetime="2015-01-08">08 January 2015</time> 
+                <time class="post-date" datetime="2015-01-09">09 January 2015</time> 
             </section>
         </header>
 
@@ -178,9 +203,10 @@
 
     </div>
 
-    <script src="../public/jquery.js?v=a43de9ce44"></script>
+    <!-- You can safely delete this line if your theme does not require jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=a43de9ce44"></script>
-    <script type="text/javascript" src="../assets/js/index.js?v=a43de9ce44"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=f4d97f3b4b"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=f4d97f3b4b"></script>
 
 </body>

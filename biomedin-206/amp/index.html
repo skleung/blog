@@ -1,0 +1,1186 @@
+
+<head>
+    <meta charset="utf-8">
+
+    <title>BIOMEDIN 206</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <link rel="shortcut icon" href="../../favicon.ico">
+
+    <link rel="canonical" href="../index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="undeclared">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="BIOMEDIN 206">
+    <meta property="og:description" content="Informatics in Industry A repository of notes from a seminar series in the School of Medicine. Week 8 - IBM Research Dr. Jianying Hu, Distinguished Research Staff Member and Senior Manager, Health Informatics Research IBM Research IBM research has 12 labs globally 8/12 labs has healthcare related research IBM">
+    <meta property="og:url" content="http://localhost:2368/biomedin-206/">
+    <meta property="article:published_time" content="2015-04-06T19:39:31.000Z">
+    <meta property="article:modified_time" content="2015-05-18T20:01:01.000Z">
+    <meta property="article:tag" content="notes">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="BIOMEDIN 206">
+    <meta name="twitter:description" content="Informatics in Industry A repository of notes from a seminar series in the School of Medicine. Week 8 - IBM Research Dr. Jianying Hu, Distinguished Research Staff Member and Senior Manager, Health Informatics Research IBM Research IBM research has 12 labs globally 8/12 labs has healthcare related research IBM">
+    <meta name="twitter:url" content="http://localhost:2368/biomedin-206/">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Sherman Leung">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="notes">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "undeclared",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Sherman Leung",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/5/005/037/286/216e0e4.jpg",
+            "width": 200,
+            "height": 200
+        },
+        "url": "http://localhost:2368/author/sherman/",
+        "sameAs": [
+            "http://shermanleung.com"
+        ],
+        "description": "Student, Teacher, Developer, Designer."
+    },
+    "headline": "BIOMEDIN 206",
+    "url": "http://localhost:2368/biomedin-206/",
+    "datePublished": "2015-04-06T19:39:31.000Z",
+    "dateModified": "2015-05-18T20:01:01.000Z",
+    "keywords": "notes",
+    "description": "Informatics in Industry A repository of notes from a seminar series in the School of Medicine. Week 8 - IBM Research Dr. Jianying Hu, Distinguished Research Staff Member and Senior Manager, Health Informatics Research IBM Research IBM research has 12 labs globally 8/12 labs has healthcare related research IBM",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.10">
+    <link rel="alternate" type="application/rss+xml" title="undeclared" href="../../rss/index.html">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,600,400">
+    <style amp-custom>
+        /* ==========================================================================
+           Table of Contents
+           ========================================================================== */
+
+        /*
+
+            0. Normalize
+            1. General
+            2. Utilities
+            3. AMP Post
+            4. Footer
+
+        */
+
+        /* ==========================================================================
+           0. normalize.css v3.0.3 | MIT License | git.io/normalize | (minified)
+           ========================================================================== */
+
+        html {
+            font-family: sans-serif;
+
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            margin: 0;
+        }
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+        audio,
+        canvas,
+        progress,
+        video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+        audio:not([controls]) {
+            display: none;
+            height: 0;
+        }
+        [hidden],
+        template {
+            display: none;
+        }
+        a {
+            background-color: transparent;
+        }
+        a:active,
+        a:hover {
+            outline: 0;
+        }
+        abbr[title] {
+            border-bottom: 1px dotted;
+        }
+        b,
+        strong {
+            font-weight: bold;
+        }
+        dfn {
+            font-style: italic;
+        }
+        h1 {
+            margin: 0.67em 0;
+            font-size: 2em;
+        }
+        mark {
+            background: #ff0;
+            color: #000;
+        }
+        small {
+            font-size: 80%;
+        }
+        sub,
+        sup {
+            position: relative;
+            vertical-align: baseline;
+            font-size: 75%;
+            line-height: 0;
+        }
+        sup {
+            top: -0.5em;
+        }
+        sub {
+            bottom: -0.25em;
+        }
+        img {
+            border: 0;
+        }
+        amp-img {
+            border: 0;
+        }
+        svg:not(:root) {
+            overflow: hidden;
+        }
+        figure {
+            margin: 1em 40px;
+        }
+        hr {
+            box-sizing: content-box;
+            height: 0;
+        }
+        pre {
+            overflow: auto;
+        }
+        code,
+        kbd,
+        pre,
+        samp {
+            font-family: monospace, monospace;
+            font-size: 1em;
+        }
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            margin: 0;
+            color: inherit;
+            font: inherit;
+        }
+        button {
+            overflow: visible;
+        }
+        button,
+        select {
+            text-transform: none;
+        }
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"] {
+            cursor: pointer;
+
+            -webkit-appearance: button;
+        }
+        button[disabled],
+        html input[disabled] {
+            cursor: default;
+        }
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            padding: 0;
+            border: 0;
+        }
+        input {
+            line-height: normal;
+        }
+        input[type="checkbox"],
+        input[type="radio"] {
+            box-sizing: border-box;
+            padding: 0;
+        }
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            height: auto;
+        }
+        input[type="search"] {
+            -webkit-appearance: textfield;
+        }
+        input[type="search"]::-webkit-search-cancel-button,
+        input[type="search"]::-webkit-search-decoration {
+            -webkit-appearance: none;
+        }
+        fieldset {
+            margin: 0 2px;
+            padding: 0.35em 0.625em 0.75em;
+            border: 1px solid #c0c0c0;
+        }
+        legend {
+            padding: 0;
+            border: 0;
+        }
+        textarea {
+            overflow: auto;
+        }
+        optgroup {
+            font-weight: bold;
+        }
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+        td,
+        th {
+            padding: 0;
+        }
+
+
+        /* ==========================================================================
+           1. General - Setting up some base styles
+           ========================================================================== */
+
+        html {
+            max-height: 100%;
+            height: 100%;
+            font-size: 62.5%;
+
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        body {
+            max-height: 100%;
+            height: 100%;
+            color: #3a4145;
+            background: #f4f8fb;
+            letter-spacing: 0.01rem;
+            font-family: "Merriweather", serif;
+            font-size: 1.8rem;
+            line-height: 1.75em;
+            text-rendering: geometricPrecision;
+
+            -webkit-font-feature-settings: "kern" 1;
+            -moz-font-feature-settings: "kern" 1;
+            -o-font-feature-settings: "kern" 1;
+        }
+
+        ::-moz-selection {
+            background: #d6edff;
+        }
+
+        ::selection {
+            background: #d6edff;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0 0 0.3em 0;
+            color: #2e2e2e;
+            font-family: "Open Sans", sans-serif;
+            line-height: 1.15em;
+            text-rendering: geometricPrecision;
+
+            -webkit-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
+            -moz-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
+            -o-font-feature-settings: "dlig" 1, "liga" 1, "lnum" 1, "kern" 1;
+        }
+
+        h1 {
+            text-indent: -2px;
+            letter-spacing: -1px;
+            font-size: 2.6rem;
+        }
+
+        h2 {
+            letter-spacing: 0;
+            font-size: 2.4rem;
+        }
+
+        h3 {
+            letter-spacing: -0.6px;
+            font-size: 2.1rem;
+        }
+
+        h4 {
+            font-size: 1.9rem;
+        }
+
+        h5 {
+            font-size: 1.8rem;
+        }
+
+        h6 {
+            font-size: 1.8rem;
+        }
+
+        a {
+            color: #4a4a4a;
+        }
+
+        a:hover {
+            color: #111;
+        }
+
+        p,
+        ul,
+        ol,
+        dl {
+            margin: 0 0 2.5rem 0;
+            font-size: 1.5rem;
+            text-rendering: geometricPrecision;
+
+            -webkit-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+            -moz-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+            -o-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+        }
+
+        ol,
+        ul {
+            padding-left: 2em;
+        }
+
+        ol ol,
+        ul ul,
+        ul ol,
+        ol ul {
+            margin: 0 0 0.4em 0;
+            padding-left: 2em;
+        }
+
+        dl dt {
+            float: left;
+            clear: left;
+            overflow: hidden;
+            margin-bottom: 1em;
+            width: 180px;
+            text-align: right;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: 700;
+        }
+
+        dl dd {
+            margin-bottom: 1em;
+            margin-left: 200px;
+        }
+
+        li {
+            margin: 0.4em 0;
+        }
+
+        li li {
+            margin: 0;
+        }
+
+        hr {
+            display: block;
+            margin: 1.75em 0;
+            padding: 0;
+            height: 1px;
+            border: 0;
+            border-top: #efefef 1px solid;
+        }
+
+        blockquote {
+            box-sizing: border-box;
+            margin: 1.75em 0 1.75em 0;
+            padding: 0 0 0 1.75em;
+            border-left: #4a4a4a 0.4em solid;
+
+            -moz-box-sizing: border-box;
+        }
+
+        blockquote p {
+            margin: 0.8em 0;
+            font-style: italic;
+        }
+
+        blockquote small {
+            display: inline-block;
+            margin: 0.8em 0 0.8em 1.5em;
+            color: #ccc;
+            font-size: 0.9em;
+        }
+
+        blockquote small:before {
+            content: "\2014 \00A0";
+        }
+
+        blockquote cite {
+            font-weight: 700;
+        }
+
+        blockquote cite a {
+            font-weight: normal;
+        }
+
+        mark {
+            background-color: #fdffb6;
+        }
+
+        code,
+        tt {
+            padding: 1px 3px;
+            border: #e3edf3 1px solid;
+            background: #f7fafb;
+            border-radius: 2px;
+            white-space: pre-wrap;
+            font-family: Inconsolata, monospace, sans-serif;
+            font-size: 0.85em;
+            font-feature-settings: "liga" 0;
+
+            -webkit-font-feature-settings: "liga" 0;
+            -moz-font-feature-settings: "liga" 0;
+        }
+
+        pre {
+            overflow: auto;
+            box-sizing: border-box;
+            margin: 0 0 1.75em 0;
+            padding: 10px;
+            width: 100%;
+            border: #e3edf3 1px solid;
+            background: #f7fafb;
+            border-radius: 3px;
+            white-space: pre;
+            font-family: Inconsolata, monospace, sans-serif;
+            font-size: 0.9em;
+
+            -moz-box-sizing: border-box;
+        }
+
+        pre code,
+        pre tt {
+            padding: 0;
+            border: none;
+            background: transparent;
+            white-space: pre-wrap;
+            font-size: inherit;
+        }
+
+        kbd {
+            display: inline-block;
+            margin-bottom: 0.4em;
+            padding: 1px 8px;
+            border: #ccc 1px solid;
+            background: #f4f4f4;
+            border-radius: 4px;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2),
+            0 1px 0 0 #fff inset;
+            color: #666;
+            text-shadow: #fff 0 1px 0;
+            font-size: 0.9em;
+            font-weight: 700;
+        }
+
+        table {
+            box-sizing: border-box;
+            margin: 1.75em 0;
+            max-width: 100%;
+            width: 100%;
+            background-color: transparent;
+
+            -moz-box-sizing: border-box;
+        }
+
+        table th,
+        table td {
+            padding: 8px;
+            border-top: #efefef 1px solid;
+            vertical-align: top;
+            text-align: left;
+            line-height: 20px;
+        }
+
+        table th {
+            color: #000;
+        }
+
+        table caption + thead tr:first-child th,
+        table caption + thead tr:first-child td,
+        table colgroup + thead tr:first-child th,
+        table colgroup + thead tr:first-child td,
+        table thead:first-child tr:first-child th,
+        table thead:first-child tr:first-child td {
+            border-top: 0;
+        }
+
+        table tbody + tbody {
+            border-top: #efefef 2px solid;
+        }
+
+        table table table {
+            background-color: #fff;
+        }
+
+        table tbody > tr:nth-child(odd) > td,
+        table tbody > tr:nth-child(odd) > th {
+            background-color: #f6f6f6;
+        }
+
+        table.plain tbody > tr:nth-child(odd) > td,
+        table.plain tbody > tr:nth-child(odd) > th {
+            background: transparent;
+        }
+
+        iframe,
+        amp-iframe,
+        .fluid-width-video-wrapper {
+            display: block;
+            margin: 1.75em 0;
+        }
+
+        /* When a video is inside the fitvids wrapper, drop the
+        margin on the iframe, cause it breaks stuff. */
+        .fluid-width-video-wrapper iframe,
+        .fluid-width-video-wrapper amp-iframe {
+            margin: 0;
+        }
+
+        textarea,
+        select,
+        input {
+            margin: 0 0 5px 0;
+            padding: 6px 9px;
+            width: 260px;
+            outline: 0;
+            border: #e7eef2 1px solid;
+            background: #fff;
+            border-radius: 4px;
+            box-shadow: none;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.6rem;
+            line-height: 1.4em;
+            font-weight: 100;
+
+            -webkit-appearance: none;
+        }
+
+        textarea {
+            min-width: 250px;
+            min-height: 80px;
+            max-width: 340px;
+            width: 100%;
+            height: auto;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="number"]:focus,
+        input[type="date"]:focus,
+        input[type="month"]:focus,
+        input[type="week"]:focus,
+        input[type="time"]:focus,
+        input[type="datetime"]:focus,
+        input[type="datetime-local"]:focus,
+        textarea:focus {
+            outline: none;
+            outline-width: 0;
+            border: #bbc7cc 1px solid;
+            background: #fff;
+        }
+
+        select {
+            width: 270px;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        /* ==========================================================================
+           2. Utilities
+           ========================================================================== */
+
+        /* Clears shit */
+        .clearfix:before,
+        .clearfix:after {
+            content: " ";
+            display: table;
+        }
+        .clearfix:after {
+            clear: both;
+        }
+        .clearfix {
+            zoom: 1;
+        }
+
+        /* ==========================================================================
+           3. AMP Post
+           ========================================================================== */
+
+
+
+        .main-header {
+            position: relative;
+            display: table;
+            overflow: hidden;
+            box-sizing: border-box;
+            width: 100%;
+            height: 50px;
+            background: #5ba4e5 no-repeat center center;
+            background-size: cover;
+            text-align: left;
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+
+        .content {
+            background: #fff;
+            padding-top: 15px;
+        }
+        .blog-title,
+        .content {
+            margin: auto;
+            max-width: 600px;
+        }
+
+        .blog-title a {
+            display: block;
+            padding-right: 16px;
+            padding-left: 16px;
+            height: 50px;
+            color: #fff;
+            text-decoration: none;
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            line-height: 50px;
+            font-weight: 600;
+        }
+
+        .post {
+            position: relative;
+            margin-top: 0;
+            margin-right: 16px;
+            margin-left: 16px;
+            padding-bottom: 0;
+            max-width: 100%;
+            border-bottom: #ebf2f6 1px solid;
+            word-wrap: break-word;
+            font-size: 0.95em;
+            line-height: 1.65em;
+        }
+
+        .post-header {
+            margin-bottom: 1rem;
+        }
+
+        .post-title {
+            margin-bottom: 0;
+        }
+
+        .post-title a {
+            text-decoration: none;
+        }
+
+        .post-meta {
+            display: block;
+            margin: 3px 0 0 0;
+            color: #9eabb3;
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.3rem;
+            line-height: 2.2rem;
+        }
+
+        .post-meta a {
+            color: #9eabb3;
+            text-decoration: none;
+        }
+
+        .post-meta a:hover {
+            text-decoration: underline;
+        }
+
+        .post-meta .author {
+            margin: 0;
+            font-size: 1.3rem;
+            line-height: 1.3em;
+        }
+
+        .post-date {
+            display: inline-block;
+            text-transform: uppercase;
+            white-space: nowrap;
+            font-size: 1.2rem;
+            line-height: 1.2em;
+        }
+
+        .post-image {
+            margin: 0;
+            padding-top: 3rem;
+            padding-bottom: 30px;
+            border-top: 1px #E8E8E8 solid;
+        }
+
+        /* Keep images centered, and allow images wider than the main
+           text column to break out. */
+        .post-content amp-img,
+        .post-content amp-anim {
+            /* Centers an image by (1) pushing its left edge to the
+               center of its container and (2) shifting the entire image
+               in the opposite direction by half its own width.
+               Works for images that are larger than their containers. */
+            position: relative;
+            left: 50%;
+            display: block;
+            padding: 0;
+            min-width: 0;
+            max-width: 112%; /* fallback when calc doesn't work */
+            width: calc(100% + 32px); /* expand with to image + margins */
+            height: auto;
+            transform: translateX(-50%);
+
+            -webkit-transform: translateX(-50%); /* for Safari and iOS */
+            -ms-transform: translateX(-50%); /* for IE9 */
+        }
+
+        .footnotes {
+            font-size: 1.3rem;
+            line-height: 1.6em;
+            font-style: italic;
+        }
+
+        .footnotes li {
+            margin: 0.6rem 0;
+        }
+
+        .footnotes p {
+            margin: 0;
+        }
+
+        .footnotes p a:last-child {
+            text-decoration: none;
+        }
+
+        /* ==========================================================================
+           4. Footer - The bottom the AMP Post
+           ========================================================================== */
+
+        .site-footer {
+            position: relative;
+            margin: 0 auto 20px auto;
+            padding: 1rem 15px;
+            max-width: 600px;
+            color: rgba(0,0,0,0.5);
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.75em;
+        }
+
+        .site-footer a {
+            color: rgba(0,0,0,0.5);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .site-footer a:hover {
+            border-bottom: #bbc7cc 1px solid;
+        }
+
+        .poweredby {
+            display: block;
+            float: right;
+            width: 45%;
+            text-align: right;
+        }
+
+        .copyright {
+            display: block;
+            float: left;
+            width: 45%;
+        }
+    </style>
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+    
+
+</head>
+
+<body class="amp-template">
+    <header class="main-header">
+        <nav class="blog-title">
+            <a href="../../">undeclared</a>
+        </nav>
+    </header>
+
+    <main class="content" role="main">
+        <article class="post">
+
+            <header class="post-header">
+                <h1 class="post-title">BIOMEDIN 206</h1>
+                <section class="post-meta">
+                    <p class="author">by <a href="../../author/sherman/">Sherman Leung</a></p>
+                    <time class="post-date" datetime="2015-04-06">2015-04-06</time>
+                </section>
+            </header>
+            <section class="post-content">
+
+                <h2 id="informaticsinindustry">Informatics in Industry</h2>
+
+<p>A repository of notes from a seminar series in the School of Medicine.</p>
+
+<h3 id="week8ibmresearch">Week 8 - IBM Research</h3>
+
+<ul>
+<li><strong>Dr. Jianying Hu</strong>, Distinguished Research Staff Member and Senior Manager, Health Informatics Research</li>
+</ul>
+
+<p><strong>IBM Research</strong></p>
+
+<ul>
+<li>IBM research has 12 labs globally</li>
+<li>8/12 labs has healthcare related research</li>
+<li>IBM Watson Healthcare is a subdivision of the Watson research team to apply Watson's NLP to real-world problems</li>
+</ul>
+
+<p><strong>Data-Driven Research vs. Knowledge-Driven Research</strong></p>
+
+<ul>
+<li>Knowledge-driven research leverages Watson's NLP abilities to draw inferences from published literature, books, and guidelines
+<ul><li>Think crowd-sourced knowledge aggregating</li></ul></li>
+<li>Personalized decisions in Healthcare. Linking patient similarities to construct predictive models from longitudinal data.</li>
+</ul>
+
+<p><strong>Patient Similarity Analysis</strong> </p>
+
+<ul>
+<li>Applying ML algorithms to automatically learn best metric from observational data and labels provided by experts. Training a <a href="http://www.research.ibm.com/healthcare/projects_patientsimilarity.shtml">similarity matrix</a> to find clinically similar patients.</li>
+<li>Use Cases: 
+<ul><li>Identifying likely patients for Acute Hypotensive Episode - pulling out patients with similar trajectories to predict what might happen to the current patient. </li>
+<li>Patient CarePathFlow - visualizes care pathways and associated outcomes. virtualizes and scales the traditional way that physicians probe their own and their colleague's knowledge of what worked and what didn't.</li>
+<li>CHF Predictive Modeling (NIH grant): Data-driven insights that found over 20k features with a novel feature selection algorithm.</li></ul></li>
+<li>Temporal Event Pattern Mining - identify frequent patterns from the treatment on a particular group of patients.</li>
+<li>Network-based approach for combining patient and drug similarity
+<ul><li>Edges between patients represent similarity of patients</li>
+<li>The patient-drug prior association to indicate how likely a drug might work on a patient.</li></ul></li>
+<li>PARAMO (Parallel Predictive Modeling Platform) </li>
+<li>Their deployment strategy is not unlike Palantir's they deploy engineers to integrate technologies into the client's database</li>
+</ul>
+
+<p><strong>How to address sparsity/bias?</strong></p>
+
+<ul>
+<li>EMR Densification uses matrix decomposition </li>
+<li>EMR includes outpatient visits and primary care physicians (more comprehensive than just the bias in the hospitalization record)</li>
+</ul>
+
+<h3 id="week7janssenresearch">Week 7 - Janssen Research</h3>
+
+<ul>
+<li><strong>Patrick Ryan</strong> - Head of the Epidemiology analytics group</li>
+<li>Cornell grad, Pfizer, Arizona Arthritis, GlaxoSmithKlin, OMOP (Operations Medical Outcome Partnership), UNC-PhD (Pharmaceutical Policy), Janssen/J&amp;J, OHDSI, Columbia Faculty (Biomedical Informatics)</li>
+</ul>
+
+<p><strong>What do we do?</strong></p>
+
+<ul>
+<li>Janssen R&amp;D is the research arm focused on pharmaceutical for Johnson &amp; Johnson</li>
+<li>We answer questions founded on observational data</li>
+</ul>
+
+<p><strong>Where do we get data?</strong></p>
+
+<ul>
+<li>Government resources (Medicare/Medicaid), insurance providers, EMR inpatient/outpatient data</li>
+<li>Healthcare is like blind men and an elephant - datasets all have their own particular biases. </li>
+<li>NO datasource is enough, we need to aggregate and distill answers from the different datasources that we have</li>
+</ul>
+
+<p><strong>Data pipeline</strong></p>
+
+<ul>
+<li>Convert and structure data into schemas</li>
+<li>ETL design, implement, OMOP CDM, ETL test</li>
+<li>...ended up skipping this slide</li>
+</ul>
+
+<p><strong>Evidence Sharing paradigms</strong>
+* Single study: write protocol, code, execute, evidence (publish paper)
+* Real-time query: develop app, design query, submit job, gather evidence 
+* Large-scale analytics: Develop app, execute, explore results  (making information more accessible to more people)</p>
+
+<p><strong>Case study: Profiling diabetes treatment utilization</strong></p>
+
+<ul>
+<li>Visualizing who is taking these treatments, what treatments they're taking to determine who these treatments will be most effective for.</li>
+</ul>
+
+<p><strong>What the future holds</strong></p>
+
+<ul>
+<li>Patrick envisions a world that no longer is driven by single studies but rather by large-scale collaborative efforts (think: a massive grid that cross-references drugs and what effect they have) </li>
+</ul>
+
+<h3 id="week6optumlabs">Week 6 - Optum Labs</h3>
+
+<ul>
+<li><strong>Paul Wallace</strong> (MD) CMO, VP of Optum Labs</li>
+<li>Started off in Kaiser and led its integration with Epic's EMR system</li>
+</ul>
+
+<p><strong>How do we create a learning healthcare system?</strong></p>
+
+<ul>
+<li>Key Tenets:
+<ol><li>Decision-making based on data</li>
+<li>Iteration/ongoing improvement of practices</li>
+<li>Shared learning across providers, patients, networks</li>
+<li>Patient-consumer centered and engaged</li>
+<li>Dynamism and Complexity is assumed</li></ol></li>
+<li>Dynamic Change</li>
+<li>We're data-gatherers (think hunter-gatherers) </li>
+</ul>
+
+<p><strong>Can we create learning in other environments?</strong></p>
+
+<ul>
+<li>Value proposition in healthcare is changing: volume -&gt; value</li>
+<li>How can we get for-profit and non-profit entities to work on the same project?
+<ul><li>e.g. Life sciences + delivery companies</li></ul></li>
+<li>Research -&gt; Clinical Translation -&gt; Innovation -&gt; Policy change</li>
+<li>Get systematic about innovation (e.g. Bell labs, Proctor &amp; Gamble): make it reproducible, reliable, flexible</li>
+<li>Architect systems that are not just technical but also social</li>
+</ul>
+
+<p><strong>UnitedHealth and Optum</strong></p>
+
+<ul>
+<li>UnitedHealth Group is the trading company</li>
+<li>60 million in the US get benefits from UnitedHealthcare</li>
+<li>Optum drives $50B+ and employes 80,000 to provide health services in addition to the benefits that UnitedHealthcare provides.</li>
+<li>Optum now has ~24 partners</li>
+</ul>
+
+<p><strong>Data today</strong></p>
+
+<ul>
+<li>Data is deidentified (common hashing + salt across different services)</li>
+<li>Aggregates data that comes from clinical records and insurance claims</li>
+</ul>
+
+<p><strong>Precision Medicine</strong></p>
+
+<ul>
+<li>Much more than just personalized genomics</li>
+<li>Started out as just trying to better understand heart disease and heart failure cases</li>
+<li>Optum provides a commons where different groups can work on a problem with the same data</li>
+<li>What about <strong>deep phenotyping</strong>
+<ul><li>Can we identify people that would benefit more from different <em>types</em> of delivery rather</li>
+<li>It's not just a medical problem, we need to include more than just the data about the body but their environments as well (i.e. improved prognosis from wife that cooks rather than living alone)</li></ul></li>
+<li>"n of 1" </li>
+<li>Decision support: when a doctor sees a patient in a population like the patient and knows what has worked well in the population or community 
+<ul><li>Can we create an amazon-like service that caters to this?</li></ul></li>
+</ul>
+
+<p><strong>How much do we waste in healthcare?</strong></p>
+
+<ul>
+<li><strong>30%</strong> is wasted (doesn't benefit the patient)</li>
+<li>Categories: Unnecessary services, inefficiently delivered services, prices that are too high, excessive administrative, fraud, missed prevention opportunities</li>
+<li>"pay-go" structure</li>
+</ul>
+
+<h3 id="week5dnanexus">Week 5 - DNAnexus</h3>
+
+<ul>
+<li><strong>George Asimenos</strong> (PhD) - Director of Science at DNAnexus, EE undergrad (from Greece), '09 PhD in CS. </li>
+<li>Joined startup started by his advisor after looking for post-docs</li>
+<li>Role model was <a href="http://www.jcvi.org/cms/about/bios/jcventer/?em_x=22">Craig Venter</a>, was interested why he was always one step of other people</li>
+<li><strong>Crazy idea:</strong> if we can get blood from a crime scene an construct a genetic profile of the suspect</li>
+<li>Powers of ten - a ten-fold magnification into the DNA</li>
+<li>Worked on ENCODE project while at Stanford</li>
+</ul>
+
+<p><strong>Genetics Background</strong></p>
+
+<ul>
+<li><strong>Mapping</strong> - comparing chunks of the genome to see what parts are identical and what bases have been mutated</li>
+<li><strong>Variation Calling</strong> - creates a file with variants that details where the current genome has deviated from a reference genome</li>
+</ul>
+
+<p><strong>DNAnexus</strong></p>
+
+<ul>
+<li>Funded by <strong>Google Ventures</strong></li>
+<li>Computation happens dynamically and elastically - computers are spun up on the spot to handle computation (sounds like AWS for genomes...)</li>
+<li>Global and collaborative - their code is also only for developers and researchers to collaborate all over the world</li>
+<li>Demo: showed us a cloud-based data analytics platform to manage DNA sequence data</li>
+<li>Their software interfaces and creates a secure network between R&amp;D departments + clinical centers</li>
+<li>Key distinguishing factors: doesn't focus on the analytical techniques (these are all open source), compliant for regulatory practices for data on the cloud</li>
+<li>They estimate that <strong>1/3</strong> of all the sequencing that has happened has touched DNAnexus. They're currently branching out to China in collaboration.</li>
+<li><strong>Do you guys have competitors?</strong>
+<ul><li>They started in 2009, early mover on the cloud and there's nobody competing with them at their scale. Smaller companies focus on filling in the niche needs of organizations with smaller needs.</li></ul></li>
+<li><strong>What does your R&amp;D focus on?</strong>
+<ul><li>Has some R&amp;D focused on developing query tools to make it easier for researchers to download only the relevant genomes they need</li></ul></li>
+<li><strong>How customizable is the pipeline?</strong>
+<ul><li>"Bring your own code" for your own customizable analyses. DNAnexus stresses that their platform is meant for large-scale data analysis. You can take their output and give to intelligent services like <a href="http://www.stationxinc.com/#introducing-genepool">StationX</a> to make predictions from the data.</li></ul></li>
+<li><strong>How are you guys secure?</strong>
+<ul><li>They use layers of security on top of AWS. Didn't elaborate the specifics of what layers these are, but he talked about how quickly they had to patch up vulnerabilities from HeartBleed</li></ul></li>
+<li><strong>Who initiates this process (chicken or the egg)?</strong>
+<ul><li>More common case is the pharma companies who ask their vendors to get onboard DNAnexus.</li></ul></li>
+</ul>
+
+<p><strong>Garvan Institute</strong> (DNAnexus client)</p>
+
+<ul>
+<li>Illumina - announced sequencing for $1000/genome for a machine for $10 million machine (HiSeq X Ten)</li>
+<li>Garvan was first purchaser of the Illumina HiSeq X Ten.</li>
+<li>Clinical Diagnostics - using the instrument to create actionable findings from DNA. Still at a very early stage, but holds potential to be very life changing.</li>
+</ul>
+
+<p><strong><a href="http://www.regeneron.com/">Regeneron</a></strong> (DNAnexus client)</p>
+
+<ul>
+<li>Pharmaceutical company from Tarrytown, NY</li>
+<li>George D. Yancopoulo, Chief Scientific Office, launched the largest sequencing effort to sequence the genomes of these people</li>
+<li>Collaborating with Geisinger - a healthcare provider from Pennsylvania with very well-curated EMR records. </li>
+<li>PCSK9 - mutation in this gene leads to low cholesterol </li>
+<li>developed a drug (clinical trial stage 3) attacking this gene to lower cholesterol. <a href="http://www.fiercebiotech.com/story/sanofi-regeneron-capture-shot-first-mover-advantage-pcsk9-market/2015-01-26">link</a></li>
+<li>On track to sequence 80,000 exomes this year. This puts them at 250,000 people sequenced in total</li>
+</ul>
+
+<h3 id="week4wearablesdataandplumbing">Week 4 - Wearables, Data, and Plumbing</h3>
+
+<ul>
+<li><strong>Rachel Kalmar</strong> (PhD) - Physics Undergrad @UCSB Neuroscience PhD @Stanford. Formally of Misfit Wearables,</li>
+<li><p>Came to Stanford interested in Neuroscience and research didn't pan out, but a project at a Hackathon did! Her team got into RockHealth incubator program and got a crash course in entrepreneurship with an open-source integration platform that started off as an Arduino on a t-shirt</p></li>
+<li><p><em>Sometimes data is too hard to clean - you need to fix the plumbing that the data comes from</em></p></li>
+<li>Big problems: Bad Data, Time is hard (hard to get time variances right - how do you sanitize input effectively</li>
+<li>Time is Hard
+<ul><li>standardized time isn't even that old - we only needed it when cities started centralizing people from towns that were on their own time</li>
+<li>this is where we are with wearables now - everything is in their own time zones</li></ul></li>
+<li>"OnStar" for the body - early detection of disease.</li>
+<li>Closing feedback loop - smart navigation for our health.</li>
+<li>What are the 3 biggest challenges in wearables:
+<ol><li><strong>Battery Life</strong>. Everything is a tradeoff with battery life.</li>
+<li><strong>Standards</strong> - none of our devices are really speaking the same language. Most are using low-level bluetooth. It's still not possible to compare stuff like "steps" across different devices or across different activities. (ActivityScore, NikeFuel, etc...)
+<ul><li>Why not? We're still prototyping and it's still too soon for standards.</li></ul></li>
+<li><strong>Data sharing</strong>- how do we make it easier to share data. Is it fear of getting scooped, inability to reproduce findings, platform differences?
+<ul><li>ResearchKit. Allowing phone to be used as a data collection tool.</li></ul></li></ol></li>
+</ul>
+
+<h3 id="week3googlexbaselinestudy">Week 3 - Google[x] Baseline study</h3>
+
+<ul>
+<li><strong>Vikram Bajaj</strong> (PhD) - initially classics @UPenn (Undergrad) + MIT (Grad)</li>
+<li>Faculty at Berkeley and then 2 startups, now at Google[x]</li>
+<li>Comes from spectroscopy background (NMR)
+<ul><li>Functional MRI: noninvasive spectroscopic techniques to see structure + dynamic view of function </li></ul></li>
+<li>Vision evolved from proton gradient as a signaling mechanism (rather than an energy-generating mechnaism)</li>
+<li>Biomimetic nanoparticle probes for imaging</li>
+<li>SkinScan: targeting cosmetic dermatology - wounding and the healing skin. 
+<ul><li>handheld device to detect types of skin filler (the part that heals)  </li></ul></li>
+<li>Chevron startup: Oil well logging - building MRI spectrometers that work from inside out to oil well drills to tell you information about the oil around the drill.</li>
+</ul>
+
+<h4 id="whatshappeningatgooglex"><strong>What's happening at Google[x]?</strong></h4>
+
+<ul>
+<li>Intersection of: 
+<ol><li>Huge Problem</li>
+<li>Radical Solution</li>
+<li>Breakthrough Technology</li></ol></li>
+<li>Not to be too afraid of failure</li>
+<li>"It's hard to think of making something 10x better" but this is <em>hard</em> in healthcare</li>
+<li>Problems:
+<ul><li>Self-driving cars - leading causes of death. Replacing drivers to make 10x improvement in solving this problem.</li>
+<li>"Medical Tri-corder" - diagnostics</li>
+<li><strong>Baseline Study</strong></li></ul></li>
+</ul>
+
+<h4 id="baselinestudy">Baseline Study</h4>
+
+<ul>
+<li>Disease pathology: traditionally HE Stain (Hematoxylin and eosin stain) but moving towards "molecular markers" and quantative analyses of biological pathways</li>
+<li>Cancer is not one disease, but hetrogeneous in profile.</li>
+<li>More data beats better algorithms - we learn from the quality of the data and the parts that we pick out to be significant</li>
+<li>Limits of big data: 
+<ul><li>1854 Soho Cholera outbreak. Big data detected the cause of the outbreak. But removing the cause doesn't tell you anything about the disease or lead to any mechanistic insights.</li></ul></li>
+</ul>
+
+<h3 id="week2gingeriobehavioralanalyticsforhealthcare">Week 2 - Ginger.io: behavioral Analytics for Healthcare</h3>
+
+<ul>
+<li><strong>Gourab De</strong> (PhD) - biostatistics + Machine Learning. Expert in Risk &amp; Outcomes modeling</li>
+<li>Health economics - somone in paying for hospitalization. If you reduce hospitalization, you're saving costs overall</li>
+</ul>
+
+<p><strong>Key Idea:</strong> Making data more granular in the time between visits:</p>
+
+<ul>
+<li>Right now doctors are only getting a glimpse (or a snapchat) of patients from visit to visit. Doctors are at a loss to learn from the time between visits</li>
+<li>Ginger.io provides: Continuous cycle for engagement, feedback and measurement: passive data, in-app surveys. Analyzing behavior, enable interventions -&gt; measuring outcomes</li>
+<li>Integrating provided data with patient data from hospitals
+<ul><li>Virtual silos are used to merge and hold information from the app and the current hospital infrastructure</li></ul></li>
+<li><strong>cannot integrate with EMR</strong> (this is a very hard problem from a privacy perspective and who owns the data)</li>
+</ul>
+
+<p><strong>Insights from ginger.io data</strong>:</p>
+
+<ul>
+<li>Helped uncover a pattern between stress at home + low mobility.
+<ul><li>A patient caring for two mentally unstable children improved from higher mobility</li></ul></li>
+</ul>
+
+<p><strong>What's next for Sensor Data + Modeling in Healthcare</strong></p>
+
+<ul>
+<li>Smartphone and wearables have gone mainstream: 58% of US population owns smartphones. 76% of clinicians think health apps would be helpful for patientswith chronic conditions</li>
+<li>Major players entering space - Apple/HealthKit/ResearchKit etc...</li>
+</ul>
+
+            </section>
+
+        </article>
+    </main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="../../">undeclared</a> © 2016</section>
+        <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+    </footer>
+</body>

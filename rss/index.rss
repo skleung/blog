@@ -1,4 +1,108 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>undeclared</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.6</generator><lastBuildDate>Mon, 07 Mar 2016 23:03:07 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Why Mango Health?</title><description>&lt;p&gt;The past few months have truly been a whirlwind of decisions for the upcoming year and beyond. Since starting the search for full-time opportunities last September, deciding instead to &lt;a href="http://shermanleung.com/blog/mse-masters"&gt;finish a master's degree&lt;/a&gt;, and restarting the search for internships, I've decided to join &lt;a href="https://www.mangohealth.com"&gt;Mango Health&lt;/a&gt; as a KPCB fellow this&lt;/p&gt;</description><link>http://localhost:2368/why-mango/</link><guid isPermaLink="false">f43697e7-e8ea-49d9-82dc-b3e96073fbfb</guid><category>tech</category><category>internship</category><category>mango health</category><dc:creator>Sherman Leung</dc:creator><pubDate>Mon, 07 Mar 2016 21:27:21 GMT</pubDate><media:content url="https://i.vimeocdn.com/video/432704804_1280x720.jpg" medium="image"/><content:encoded>&lt;img src="https://i.vimeocdn.com/video/432704804_1280x720.jpg" alt="Why Mango Health?"&gt;&lt;p&gt;The past few months have truly been a whirlwind of decisions for the upcoming year and beyond. Since starting the search for full-time opportunities last September, deciding instead to &lt;a href="http://shermanleung.com/blog/mse-masters"&gt;finish a master's degree&lt;/a&gt;, and restarting the search for internships, I've decided to join &lt;a href="https://www.mangohealth.com"&gt;Mango Health&lt;/a&gt; as a KPCB fellow this coming summer!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>undeclared</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.10</generator><lastBuildDate>Thu, 08 Sep 2016 06:25:01 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>A Year in Review</title><description>&lt;p&gt;About a year ago, I posted this personal set of &lt;a href="http://shermanleung.com/blog/5-year-plan/"&gt;1-year/5-year goals&lt;/a&gt;. Looking back on the past year, I wanted to take the time to reflect where I am now along with some self-analysis with why that is.&lt;/p&gt;
+
+&lt;p&gt;In general, I've come to realize that this is honestly not&lt;/p&gt;</description><link>http://localhost:2368/a-year-in-review/</link><guid isPermaLink="false">d0e41683-9d2b-457b-8a3a-9fb4d145e923</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Thu, 08 Sep 2016 06:22:06 GMT</pubDate><content:encoded>&lt;p&gt;About a year ago, I posted this personal set of &lt;a href="http://shermanleung.com/blog/5-year-plan/"&gt;1-year/5-year goals&lt;/a&gt;. Looking back on the past year, I wanted to take the time to reflect where I am now along with some self-analysis with why that is.&lt;/p&gt;
+
+&lt;p&gt;In general, I've come to realize that this is honestly not too unlike the &lt;a href="https://en.wikipedia.org/wiki/OKR"&gt;OKR framework&lt;/a&gt; that I've come to know after working at Mango. Shared attributes definitely include keeping these public (though I don't think publicly held goals necessarily need to be correlated with accountability) and leveraging a qualitative "objective" to provide direction. One important distinction, however, is an de-emphasis on the quantitative and "measurable" nature around these personal goals that allow room for me to take different ways of exploring a particular "objective."&lt;/p&gt;
+
+&lt;p&gt;After taking the time to complete this 1-year exercise, there's things I liked and disliked about this particular framework. Moving forwards, I definitely hope to do some more research in this area of personal development and take some of the learnings from this process to present a new set of personal goals for the coming year(s) - a topic for a future blog post to come!&lt;/p&gt;
+
+&lt;h4 id="1yearplanfromlastyear"&gt;1 year Plan (from last year)&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Decide on a track of CS to specialize in if I am accepted into a coterminal degree.
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;This happened!&lt;/em&gt; However, I decided to add on a &lt;a href="http://shermanleung.com/blog/mse-masters/"&gt;second MS degree&lt;/a&gt; in Management Science &amp;amp; Engineering with the intention of coming back to finish a MS in CS if I need it in the future. The track that I ultimately decided that would be most interesting given my current interests is &lt;a href="https://cs.stanford.edu/degrees/mscs/specializations/#MIC"&gt;"mobile &amp;amp; internet computing"&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Work in the healthtech sector, hopefully in some role as a data scientist
+&lt;ul&gt;&lt;li&gt;This ultimately happened through a series of project-based explorations in MED275B and BIOE391 where &lt;a href="http://davideng.me"&gt;David&lt;/a&gt; and I built a prototype to tackle denied medical claims using claims data and ML techniques.&lt;/li&gt;
+&lt;li&gt;I would say, however, I'm grown more interested in influencing healthcare through the intersection of product + engineering rather than data + engineering.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Build a substantial mobile app
+&lt;ul&gt;&lt;li&gt;I would qualify the contributions I made to &lt;a href="https://play.google.com/store/apps/details?id=org.khanacademy.android&amp;amp;hl=en"&gt;Khan Academy&lt;/a&gt; and &lt;a href="https://itunes.apple.com/us/app/mango-health-medication-manager/id560657279?mt=8"&gt;Mango Health&lt;/a&gt; to be significant. I've also worked in close collaboration on mobile applications with 1-2 people ranging from an intelligent heart failure intervention agent to a bluetooth-enabled range of motion tracker for reconstructive knee sugery patients.&lt;/li&gt;
+&lt;li&gt;The only app I've built end-to-end independently is &lt;a href="https://github.com/skleung/mobidx"&gt;MobiDX&lt;/a&gt;, a project spun out of work done in CS193P, which I've been meaning to polish up before publishing to the app store. In general though, I've found that I do my best work in teams with complementary skill-sets and don't feel like I necessarily need to independently build a standalone application to validate my skills as an engineer.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Learn Android over the summer
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;This totally happened!&lt;/em&gt; And it came into great use during my short three weeks on the Android team at Mango. Some RxJava knowledge that I had from working from my time at Khan Academy even carried over to some of the API work I did with Mango.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Exercise my fledging muscles in hard data analytics with a side project.
+&lt;ul&gt;&lt;li&gt;This was not explored after moving away from a demonstrated interest in data analytics - there's definitely still an interest to be more analytically minded especially as I grow a more product-oriented skillset (plenty of analytics + event logging working in product development)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Really enjoy my senior year of college and immerse myself in the communities I'm a part of&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;em&gt;This was a resounding success.&lt;/em&gt; Two things I think contributed my sentiments here: &lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Switching from undergraduate -&gt; graduate status&lt;/strong&gt; to begin a &lt;a href="http://www-cs.stanford.edu/admissions/current-stanford-students/coterminal-program"&gt;coterminal degree&lt;/a&gt; actually reallocated up a significant amount of time away from class because of the 10-unit graduate tuition cap. I was able to then invest my time and energy into relationships, and the communities that I chose to continue being a part of. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intentionally not choosing more than 3 communities to focus on&lt;/strong&gt; (&lt;a href="http://www.ivstanford.org/"&gt;InterVarsity&lt;/a&gt; aka IV, &lt;a href="http://shift.stanford.edu"&gt;SHIFT&lt;/a&gt;, &lt;a href="http://casa.stanford.edu"&gt;Casa&lt;/a&gt;) provided a lot of freedom to freely enjoy senior year. Living in and staffing a Row House also provided a natural and refreshing opportunity to branch out beyond the foundation of friends I had built up over the years. I had the incredible blessing of being part of a dynamic and well-balanced row staff that not only put on consistently strong house programming but also became an invitation and outlet to engage more broadly with the larger senior year class.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Thinking about this more, I think it's interesting to see how my senior year took a deliberate shift in priorities towards investing time specifically into the futures of the communities/organizations I was a part of. As an outgoing worship leader and a generally engaged senior year member of IV, part of my senior year was working with the existing and upcoming leaders of IV to prepare the incoming class of seniors and leaders to lead the community. The time I spent with our senior class in IV has had a rebound effect as well - a shared experience of leaving of a legacy brought our own class together to actively stay in touch and challenge one another in our growth as Christians. As for SHIFT, we entered the year with almost the entire leadership core in the same senior year class. So my co-founder, &lt;a href="https://www.linkedin.com/in/shannonxue"&gt;Shannon&lt;/a&gt;, and I spent a good chunk of our senior years fleshing out a roadmap and onboarding timeline and process to smoothly transition in the next generation of leaders in the group. I'm optimistic the group will continue to make important progress towards our goal of supporting healthcare innovation through an interdiscplinary perspective.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Build health++ (now &lt;a href="http://shift.stanford.edu"&gt;SHIFT&lt;/a&gt;) into something sustainable that will continue after I graduate
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;Huge success here!&lt;/em&gt; I touched on this point in my last response, but I do think we're growing to be a formidable force and hub for healthcare innovation on campus and more broadly in the Bay Area as we bring together more thought leaders and resources &lt;a href="http://hackinghealth.stanford.edu"&gt;behind&lt;/a&gt; &lt;a href="http://treehacks.com/health"&gt;our&lt;/a&gt; &lt;a href="http://shift.stanford.edu"&gt;initiatives&lt;/a&gt;. I do think there's plenty of work to still be done as we continue to broaden the interdisciplinary lens of looking at healthcare beyond just tech + healthcare, but I hope to help the existing/future leaders flesh out that part of our vision as I continue to advise the growing group!&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Exercise more regularly and eat more healthily
+&lt;ul&gt;&lt;li&gt;I think I have plenty of room to grow in the exercising domain. Though cooking regularly over the summer (in contrast to an on-campus meal plan) has definitely shifted my eating habits to be more healthy - having full control of the supply chain by buying a well-balanced set of ingredients has a strong trickle-down effect due to aligning financial incentives with eating habits.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="5yearplan"&gt;5 year plan&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Build something substantial with my skills and hopefully with a team that are more than just coworkers (whether it starting a company or a product within a small team @ a company)
+&lt;ul&gt;&lt;li&gt;Thinking back, I think this goal stemmed from a personal desire to start a company with close friends. I think I'm leaving that as an option open to accomplish this goal but I do want to broaden the general sentiment here to include many paths to be "building something substantial" that doesn't necessarily involve building a company, per se, but includes building organizations or a network/community. Hopefully I'll have to time to flesh out what this goal is getting at in a follow-up blog post.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Work in a high-impact startup environment for at least a year
+&lt;ul&gt;&lt;li&gt;This is starting to come true as I continue to stay involved at Mango Health. I will say looking back that a year was sort of an arbitrary amount of time and characterizing what exactly constitutes a "startup" is also sort of undefined. I've realized that there are many different flavors of startups that come with different sizes, industries, and cultures. And though it's virtually impossible to experience all these flavors fully, it's my personal belief that the same amount of time leads to greater amounts of responsibility/impact at a company as the size decreases. Though the lifecycle for a return on investment (in terms of time) seems to decay the earlier/smaller a company is.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Have a well-balanced lifestyle that incorporates physical exercise, personal reflection, and learning from a diverse set of people
+&lt;ul&gt;&lt;li&gt;An ongoing goal :) Though this subtle but now acutely important note of "diversity" in perspective is playing a huge factor in the location/community I want to invest in after graduation.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Start or finish a transition into another career (teacher, musician, executive, consultant, etc...)
+&lt;ul&gt;&lt;li&gt;This mainly stems from a lifestyle perspective that I've been interested in adopting inspired by a &lt;a href="http://web.stanford.edu/class/me104b/cgi-bin/"&gt;Designing Your Life&lt;/a&gt; lecture (given by &lt;a href="https://findinggodinsiliconvalley.com/dave-evans-silicon-valley-businessman-and-educator-finding-meaning-and-purpose/"&gt;Dave Evans&lt;/a&gt;) and &lt;a href="http://shermanleung.com/cs106a/tangents/tangent5.html"&gt;this 5-10 min talk&lt;/a&gt; that I used to give as a section leader (wish I kept the set of notes when presenting that thought...)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Keep close ties with family (maybe convince my brothers to come out to the west coast :)
+&lt;ul&gt;&lt;li&gt;working on this with my younger brother who's a current high school senior - though the college application is really an indeterministic process&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>What I learned from Mango Health</title><description>&lt;p&gt;As I wrap up the summer before my last quarter of school, I wanted to take the opportunity to reflect my first summer in San Francisco as a &lt;a href="http://kpcbfellows.com"&gt;KPCB Fellow&lt;/a&gt; at &lt;a href="http://mangohealth.com"&gt;Mango Health&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When I &lt;a href="http://shermanleung.com/blog/why-mango"&gt;decided to join Mango this summer&lt;/a&gt;, I intentionally decided to join a smaller team to&lt;/p&gt;</description><link>http://localhost:2368/what-i-learned-from-mango-health/</link><guid isPermaLink="false">73721900-b82e-43b6-92e5-be37a3aecde1</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Thu, 08 Sep 2016 05:17:25 GMT</pubDate><media:content url="https://s3.amazonaws.com/images.mangohealth.com/website/mango-health-home.jpg" medium="image"/><content:encoded>&lt;img src="https://s3.amazonaws.com/images.mangohealth.com/website/mango-health-home.jpg" alt="What I learned from Mango Health"&gt;&lt;p&gt;As I wrap up the summer before my last quarter of school, I wanted to take the opportunity to reflect my first summer in San Francisco as a &lt;a href="http://kpcbfellows.com"&gt;KPCB Fellow&lt;/a&gt; at &lt;a href="http://mangohealth.com"&gt;Mango Health&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When I &lt;a href="http://shermanleung.com/blog/why-mango"&gt;decided to join Mango this summer&lt;/a&gt;, I intentionally decided to join a smaller team to take more responsibility and deliver more impact on the company and the users that ultimately used our product.&lt;/p&gt;
+
+&lt;h3 id="whatidid"&gt;What I did&lt;/h3&gt;
+
+&lt;p&gt;To give an overview of the work I did at Mango:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;A redesign + reimplementation of Mango's core search feature to add new medications (the first action a user takes after downloading the app) that ultimately increased the success of finding complicated medication names by 12%.  &lt;/li&gt;
+&lt;li&gt;Worked closely with two other iOS engineers to implement an end-to-end feature for building healthy habits and refactored a large part of the existing code base to support the advent of both habits and medications.  &lt;/li&gt;
+&lt;li&gt;Spearheaded Mango's foray into an entire set of product features that would support new enterprise partnerships and lay the foundation for a deeper and fuller user experience.  &lt;/li&gt;
+&lt;li&gt;Generated market research and literature reviews to assess Mango's aptitude to move into two new adjacent spaces to complement the core user experience.  &lt;/li&gt;
+&lt;li&gt;Contributed to the re-architected 2.0 version of Mango's Android app by redesigning data model hierarchies and fleshing out a good chunk of UI elements following consistent Android paradigms.  &lt;/li&gt;
+&lt;li&gt;Conducted user interviews and fielded calls with clinical partners to build context for potential partnerships.  &lt;/li&gt;
+&lt;li&gt;Pushed forward a potential enterprise relationship that I'll continue to work on over the course of my fall quarter.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id="responsibilitiesandimpact"&gt;Responsibilities and Impact&lt;/h3&gt;
+
+&lt;p&gt;Looking back, I deeply appreciate the flexibility and freedom the team offered in filling the responsibilities of a role that didn't really exist when I joined. The feedback and guidance I received from the leadership in crafting and approaching new product features and partnership proposals provided the right balance between pointing me in the right direction and leaving me to figure out how to get there for myself. On the engineering side, working with an incredible &lt;a href="https://www.khanacademy.org/careers/interns/mobile-dev"&gt;Mobile! team&lt;/a&gt; at Khan Academy, set me up well for a smooth and natural integration into the iOS (and later the Android) team. I remember pushing production code by the end of my first day and contributing to feature development by Day Two.&lt;/p&gt;
+
+&lt;p&gt;More than anything else, the most inspiring part of working at Mango Health was being able to see the impact that my work had on actual patients. Sitting in on user interviews and hearing personal anecdotes of how our work was changing the very livelihoods and health of the people who use our product were invaluable parts of my time at Mango.&lt;/p&gt;
+
+&lt;h3 id="learnings"&gt;Learnings&lt;/h3&gt;
+
+&lt;p&gt;What I'm taking away from the internship experience as a whole is a fuller understanding of the spectrum of skills that a product-oriented role at a company needs to have. Being able to actively work at the intersection of product + engineering was a unique opportunity that I had the responsibility of defining for myself in ways that added value to the company while giving me the chance to grow into unexplored areas of product management and product strategy.&lt;/p&gt;
+
+&lt;p&gt;Specifically at a company that has both consumer + enterprise angles, there's a myriad of internal and external pressures that drive the feature development and a product roadmap. In healthcare it's not always a straightforward process to align enterprise incentives with patient/user value. Conversations with enterprise partners requires a firm understanding of how Mango would fit into the ecosystem of patient care and ultimately meet the enterprise partner's core competencies and resources to create value for users.&lt;/p&gt;
+
+&lt;p&gt;For a user-centered technology company that scales through enterprise relationships, like Mango, product features that move forward need to answer the following questions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Is it aligned with the overall company strategy?  &lt;/li&gt;
+&lt;li&gt;Does it lead to enterprise partnerships down the road? (This is perhaps a subset of #1, but this answer should touch on the potential for scaling to further enterprise relationships and the nature of those relationships.)  &lt;/li&gt;
+&lt;li&gt;Does it add value to users?  &lt;/li&gt;
+&lt;li&gt;How does it fit into the existing user experience and paradigms of user behavior?  &lt;/li&gt;
+&lt;li&gt;What does it take to build it? (Answering this question should also consider whether features should necessarily be built in-house vs. in partnership with another team)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Perhaps the most important lesson, however, is one I'm still learning: how to ask for more ownership + responsibility in areas where opportunity for growth may not be clearly defined. Especially in a smaller organization where bandwidth for mentorship may be limited, I found that I had to often create opportunities to explore directions that Mango was interested in but not currently working on. This involved:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;finding an intersection of personal and company interest  &lt;/li&gt;
+&lt;li&gt;defining a role that developed skillsets and areas of personal growth and  &lt;/li&gt;
+&lt;li&gt;outlining a course of action that indicated momentum while being open and ready for course adjustment. Ultimately, the set of responsibilities and tasks that I came to were refined over iterations of feedback and additional context of the space that Mango was working in. However, this self-driven process kicked off the most multi-faceted learning experience I've had to date outside of school itself, honing an ability to learn quickly in a broad and deep manner.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id="kpcbfellowsprogram"&gt;KPCB Fellows Program&lt;/h3&gt;
+
+&lt;p&gt;I have the KPCB Fellows program to thank for opening up the opportunity to work and learn at Mango Health this summer. I would have no idea of Mango's existence if I hadn't applied to the program intentionally seeking a smaller team to work on. But the program was much more than an internship - it provided a network of equally driven and inspiring peers, opportunities + access to leaders in the industry, but most importantly, a community. Over our bus rides to South Bay, circuitous sailing around Angel Island, spontaneous hangouts, and planned programming, cursory conversations around work and school turned into discussions that defined what impact personally meant to each one of us. These conversations made me sure that my fellow Fellows will be the founders, leaders, and visionaries behind mission-oriented organizations of the future. Though the fellowship has ended, I’ve joined a family that is driven to make a meaningful difference on the world and feel simultaneously fortunate and responsible to be part of building and growing this shared vision.&lt;/p&gt;
+
+&lt;p&gt;A huge thank you goes out to the folks at Mango and Natalie/Justin/Andy for running the KPCB Fellows program - I'm excited to be returning back to Mango for a part-time basis in the fall and playing a part in growing the KPCB family for the next generation of fellows. &lt;br&gt;
+Big thanks to Jonah, Alex, and Caitlin for reading over drafts of this blog post!&lt;/p&gt;</content:encoded></item><item><title>Why Mango Health?</title><description>&lt;p&gt;The past few months have truly been a whirlwind of decisions for the upcoming year and beyond. Since starting the search for full-time opportunities last September, deciding instead to &lt;a href="http://shermanleung.com/blog/mse-masters"&gt;finish a master's degree&lt;/a&gt;, and restarting the search for internships, I've decided to join &lt;a href="https://www.mangohealth.com"&gt;Mango Health&lt;/a&gt; as a KPCB fellow this&lt;/p&gt;</description><link>http://localhost:2368/why-mango/</link><guid isPermaLink="false">f43697e7-e8ea-49d9-82dc-b3e96073fbfb</guid><category>tech</category><category>internship</category><category>mango health</category><dc:creator>Sherman Leung</dc:creator><pubDate>Mon, 07 Mar 2016 21:27:21 GMT</pubDate><media:content url="https://i.vimeocdn.com/video/432704804_1280x720.jpg" medium="image"/><content:encoded>&lt;img src="https://i.vimeocdn.com/video/432704804_1280x720.jpg" alt="Why Mango Health?"&gt;&lt;p&gt;The past few months have truly been a whirlwind of decisions for the upcoming year and beyond. Since starting the search for full-time opportunities last September, deciding instead to &lt;a href="http://shermanleung.com/blog/mse-masters"&gt;finish a master's degree&lt;/a&gt;, and restarting the search for internships, I've decided to join &lt;a href="https://www.mangohealth.com"&gt;Mango Health&lt;/a&gt; as a KPCB fellow this coming summer!&lt;/p&gt;
 
 &lt;p&gt;As I've come to a decision, I've had some time to think about what I value in a career opportunity at this point in my life. I wanted to take this time to reflect and share what I've learned about myself and offer some reasons for choosing Mango that parallel a &lt;a href="http://shermanleung.com/blog/why-ka/"&gt;similar decision&lt;/a&gt; I came to last year.&lt;/p&gt;
 
@@ -976,67 +1080,4 @@ If you're wondering what I actually did at Khan Academy, stay tuned for a featur
 
 &lt;p&gt;In &lt;a href="http://explorecourses.stanford.edu/search?view=catalog&amp;amp;filter-coursestatus-Active=on&amp;amp;q=%E2%98%85+CS181W"&gt;CS181W&lt;/a&gt;, this was the topic of our final project + presentation, a case study that combines perspectives from ethics and policy to better understand the ambigious space of internet vigilantism.&lt;/p&gt;
 
-&lt;p&gt;Check out our final project website + presentation &lt;a href="http://shermanleung.com/cs181w"&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title>Learning Swift + React</title><description>&lt;p&gt;With my free time that I've had this past week, I've taken the opportunity to learn two new things: &lt;br&gt;
-1. Swift + iOS with CodePath's videos. &lt;br&gt;
-2. Learning React with &lt;a href="http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/"&gt;this tutorial&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Check out what I've been up to with &lt;a href="https://github.com/skleung/CodePath-0"&gt;iOS&lt;/a&gt; and &lt;a href="https://github.com/skleung/learning-react"&gt;React&lt;/a&gt;.&lt;/p&gt;</description><link>http://localhost:2368/learning/</link><guid isPermaLink="false">7e4ee656-b382-4914-a6bf-c01f2a83c23b</guid><dc:creator>Sherman Leung</dc:creator><pubDate>Tue, 17 Mar 2015 09:22:27 GMT</pubDate><content:encoded>&lt;p&gt;With my free time that I've had this past week, I've taken the opportunity to learn two new things: &lt;br&gt;
-1. Swift + iOS with CodePath's videos. &lt;br&gt;
-2. Learning React with &lt;a href="http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/"&gt;this tutorial&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Check out what I've been up to with &lt;a href="https://github.com/skleung/CodePath-0"&gt;iOS&lt;/a&gt; and &lt;a href="https://github.com/skleung/learning-react"&gt;React&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title>Statement of Purpose (CS)</title><description>&lt;p&gt;My reasons for continuing my studies at Stanford through a coterminal Computer Science degree can be summarized into one overarching mission statement, two main learning objectives, applied towards three main goals.&lt;/p&gt;
-
-&lt;h3 id="missionstatement"&gt;Mission Statement&lt;/h3&gt;
-
-&lt;p&gt;To apply insights from data and design towards high-impact problems in fields like education and healthcare.&lt;/p&gt;
-
-&lt;h3 id="learningobjectives"&gt;Learning&lt;/h3&gt;</description><link>http://localhost:2368/sop/</link><guid isPermaLink="false">bfc2fc1d-7d85-41e8-91d1-57a0208eceba</guid><category>cs</category><dc:creator>Sherman Leung</dc:creator><pubDate>Wed, 04 Mar 2015 11:12:38 GMT</pubDate><content:encoded>&lt;p&gt;My reasons for continuing my studies at Stanford through a coterminal Computer Science degree can be summarized into one overarching mission statement, two main learning objectives, applied towards three main goals.&lt;/p&gt;
-
-&lt;h3 id="missionstatement"&gt;Mission Statement&lt;/h3&gt;
-
-&lt;p&gt;To apply insights from data and design towards high-impact problems in fields like education and healthcare.&lt;/p&gt;
-
-&lt;h3 id="learningobjectives"&gt;Learning Objectives&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Data Science:&lt;/strong&gt; To learn how to process and make meaning of large datasets.  &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interface Design:&lt;/strong&gt; To learn how to design and build effective and user-friendly mobile and web interfaces.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id="datascience"&gt;Data Science&lt;/h4&gt;
-
-&lt;p&gt;From oncogenomic trials to deeply connected social graphs, our world today is being rapidly transformed by data-driven insights. My work with the Visual Genome Project under the direction of Dr. Fei-Fei Li and Dr. Michael Bernstein has shown me the power of data-driven insights. Working closely with PhD student Ranjay Krishna, we made efforts to build and curate a knowledge base for visual learning. Last quarter, we took data generated by the crowd and began applying machine learning techniques to generate relationships between objects, adjectives, and the pictures that hold them. My work has inspired me to take further steps in the field of data science and better understand the essence of learning from large data sets. Towards this direction, I want to take:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CS 124 - To understand how deeper understanding and interesting data points can be drawn from text&lt;/li&gt;
-&lt;li&gt;CS 246 - To scale more effective approaches to large datasets&lt;/li&gt;
-&lt;li&gt;CS 229 - To recognize patterns and build insights from data itself&lt;/li&gt;
-&lt;li&gt;CS 262 - To apply computational approaches to genomic data&lt;/li&gt;
-&lt;li&gt;CS 145 - To learn how data is stored and organized in modern systems today&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id="interfacedesign"&gt;Interface Design&lt;/h4&gt;
-
-&lt;p&gt;In a modern world where interfaces race to catch up to dizzying increases of use cases, design has become paramount in the worlds of web and mobile. Industry and personal experiences have given me direct lessons in building web interfaces - learning by doing. &lt;/p&gt;
-
-&lt;p&gt;From CS147, I learned what it means to design intuitive interfaces with the user in mind. In CS142, I learned how to implement those interfaces and design fuller and more substantive applications. In CS 210A, I've learned tremendously from the hands-on experience of learning from and designing for the end user.&lt;/p&gt;
-
-&lt;p&gt;I hope to continue an education in design through the courses:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CS 247 - To apply human-centered design to build interactive interfaces.&lt;/li&gt;
-&lt;li&gt;BIOE 273 - To prototype and design mobile-focused applications towards Mobile Health.&lt;/li&gt;
-&lt;li&gt;CS 193P - To learn how to effectively program iOS applications for the mobile user.&lt;/li&gt;
-&lt;li&gt;CS 144 - To learn how the internet is structured and how modern interfaces use it effectively to connect machines and people.&lt;/li&gt;
-&lt;li&gt;CS 376 - To apply teachings towards substantive projects.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="goalsapplications"&gt;Goals + Applications&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Education&lt;/strong&gt;:I wholeheartedly subscribe to the concept of a growth mindset and believe in fostering it as a student and a teacher. My experiences as a CS106 Section Leader, a CS42 Course Assistant, and a CS1C Course Instructor, has allowed me to discover amazing ideas and build an appreciation for knowledge and curiosity that drives my own learning. &lt;br&gt;
-As a master's student, I hope to continue my love of teaching and collaborating with students to discover and explore our intellectual boundaries. I've had the great fortune of receiving support and mentorship from many great teachers so far in my career, and I hope to reciprocate that exchange as a master's student. &lt;br&gt;
-I'm currently exploring an independent project to build a better knowledge map for learning. We're working closely with Chemistry professors as a starting point but hope to scale and generalize to other subjects over the course of next quarter. I'll also be joining forces with Khan Academy as a Summer 2015 Intern to continue building tools to foster learning and the growth mindset.  &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Healthcare&lt;/strong&gt;: I strongly believe that healthcare needs more attention and that resources, talent, and interest is being diverted from a field where the barrier for entry is high and prove too challenging for many. With &lt;a href="http://healthpluspl.us"&gt;health++&lt;/a&gt;, I’m building a forum at the intersection of different perspectives to equip students to more fully explore healthcare and better understand it as a space for innovation.  &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Making&lt;/strong&gt;: I consider "learning by doing" as one of the primary avenues that I've taken to reinforce and further my understanding from classes. In this vein, I've worked closely with groups like &lt;a href="http://bases.stanford.edu"&gt;BASES&lt;/a&gt; and &lt;a href="http://treehacks.com"&gt;TreeHacks&lt;/a&gt; here on campus to provide opportunities to learn and build on campus. I've thoroughly enjoyed project-based opportunities to tailor my Stanford experience within a bias towards action. And I hope to continue experiences that I've enjoyed in CS 147 and CS 210 to extend my education into applications and projects.&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Check out our final project website + presentation &lt;a href="http://shermanleung.com/cs181w"&gt;here&lt;/a&gt;.&lt;/p&gt;</content:encoded></item></channel></rss>
